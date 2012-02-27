@@ -1,0 +1,103 @@
+#+TITLE:   Shiwali Mohan
+#+AUTHOR:    Shiwali Mohan
+#+EMAIL:     shiwali.mohan@gmail.com
+#+DESCRIPTION: Shiwali's personal website
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:t ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+STYLE: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+#+STYLE: <link  href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic" rel="stylesheet" type="text/css" >
+#+STYLE: <LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
+#+STYLE: <script src="javascripts/jquery.js" type="text/javascript"></script>
+#+STYLE: <script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
+#+STYLE: <script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
+#+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
+# End:
+
+#+BEGIN_HTML
+<div id="tab-container">
+  <ul>
+    <li><a href="#outline-container-1"><img src="images/about.png"
+  alt="About" border=0 width="44" height="68" /></a></li>
+    <li><a href="#outline-container-2"><img src="images/contact.png"
+  alt="Contact" border=0 width="61" height="55" /></a></li>
+    <li><a href="#outline-container-3"><img src="images/research.png"
+  alt="Research" border=0 width="72" height="71" /></a></li>
+     <li><a href="#outline-container-4"><img src="images/interests.png"
+  alt="Interests" border=0 width="79" height="53" /></a></li>
+     <li><a href="#outline-container-5"><img src="images/links.png"
+  alt="Links" border=0 width="47" height="54" /></a></li>
+     <li><a href="#outline-container-6"><img src="images/resume.png"
+  alt="Resume" border=0 width="61" height="51" /></a></li>
+  </ul>
+#+END_HTML
+
+
+* About
+I am a doctoral candidate in [[http://www.cse.umich.edu/][Computer Science and Engineering]] at [[http://www.umich.edu/][The
+University of Michigan]] Ann Arbor. I have been working with Professor [[http://ai.eecs.umich.edu/people/laird/][John Laird]]
+on the [[http://sitemaker.umich.edu/soar/home][Soar Cognitive Architecture]] in the [[http://www.eecs.umich.edu/ai/][Michigan AI Lab]] for past two
+years. My work has focussed on symbolic agents and how they can learn to navigate new, complex environments. We have looked at agents that start with minimal background knowledge about an environment and build relevant, relational structures using reinforcement learning in the [[http://2009.rl-competition.org/mario.php][Infinite Mario]] RL domain. Currently, I am looking at how an agent can learn new, abstract actions when instructied by a human expert. I am also interested in agents that can explain their actions, thus giving a human instructor a deeper understanding of the agents' knowledge and its reasoning process.
+
+I am from India, where I recieved an undergraduate degree in
+[[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of Delhi]]. After four years of
+struggling with control equations and diffrential calculus, I ended up loving programming
+and other geeky, Computer Science-y things. I worked with [[http://in.careers.yahoo.com/][Yahoo! India]]
+as a software engineer on their Strategic Data Solutions team for some
+time, before deciding to denounce the real world, and the money that
+comes with it and became a graduate student.
+* Contact
+I can be contacted by emailing at shiwali[at]umich[dot]edu or
+shiwali[dot]mohan[at]gmail.com. My office is located in 
+  The CSE building, 
+  2600 Hayward Street #3844, 
+  Ann Arbor, MI 48109. 
+We do have a phone in the office that rarely gets answered, 734-763-0150. 
+
+#+BEGIN_HTML
+<a href="http://www.linkedin.com/in/shiwalimohan" >
+          <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Shiwali Mohan's profile on LinkedIn">
+    </a>
+#+END_HTML
+
+* Research 
+** Publications
+1. Shiwali Mohan, John E. Laird: Relational Reinforcement Learning in Infinite Mario ([[http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/download/1657/2318][link]]), AAAI conference on Artificial Intelligence, Student Abstract, 2010.
+2. Niladri Chatterjee, Shiwali Mohan: Discovering Word Senses from Text Using Random Indexing ([[http://www.springerlink.com/content/xp70kw14w0054541/][link]]), CICLing 2008: 299-310 (Best Paper Award)
+3. Niladri Chatterjee, Shiwali Mohan: Extraction-Based Single-Document Summarization Using Random Indexing ([[http://www.computer.org/portal/web/csdl/doi/10.1109/ICTAI.2007.28][link]]), ICTAI 2007: 448-455
+
+** Talks and Presentations
+1. July 2010: Relational Reinforcement Learning in Infinite Mario ([[file:images/document.pdf][link]]),
+   AAAI 2010 Poster Session, Atlanta, Georgia.
+1. May 2010: Learning Background Knowledge through Instruction ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+2. May 2010: Reinforcement Learning in Infinite Mario ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+3. July 2009: Learning to Play Mario ([[http://sitemaker.umich.edu/soar/files/mohan.pdf][link]]), at the 29th Soar
+   Workshop, Ann Arbor.
+** Class Projects
+1. April 2011: On Grounded Language Generation in Intelligent Agents,
+   /EECS 595, Natural Language Processing/. ([[file:images/presentation.pdf][talk]]) ([[file:images/finalreport.pdf][paper]])
+2. September 2010: Relational Reinforcement Learning in
+   Infinite Mario, /Preliminary Examination/. ([[file:images/prelim-paper.pdf][paper]])
+3. December 2009: Classification of Executed and Imagined Motor
+   Movement EEG Signals, /EECS 545, Machine Learning/. ([[file:images/MohanPillaiSleight.pdf][paper]])
+4. December 2009: Towards a Resource Aware Scheduler in Hadoop, /EECS
+   589, Advanced Computer Networks/. ([[file:images/hadoop.pdf][paper]])
+* Interests
+* Links
+1. [[http://code.google.com/p/soar/][Soar @ google code]]
+2. [[http://sitemaker.umich.edu/soar/home][Soar at Michigan]]
+3. [[http://2009.rl-competition.org/][RL Competition 2009 ]]
+* Resume
+
+#+BEGIN_HTML
+</div>
+</div>
+#+END_HTML
+
+
+
