@@ -19,7 +19,6 @@ body ul{margin:0 0 0 0;padding:0;list-style-type:circle}
   font-style: normal;
   font-weight: 400;
   text-align:center;
-  padding:-10px 0 0 0;
 }
 
 h1 {
@@ -57,11 +56,13 @@ a:hover {color:#800000; text-decoration: underline;}
 a:visited {color:#800000;text-decoration: none;}
 
 #tab-container { border: none; margin: 0 0 0 0;}
-#tab-container ul { list-style: none; background: #fff; border-right: none; text-align:center; font-family: 'Gentium Book Basic', serif; font-size: 20px; color:#808080;}
-#tab-container ul li { width: 100px; margin-top: 0; padding: 0 0 50px 0; display:inline}
+#tab-container ul { list-style: none; background: #fff; text-align:center; font-family: 'Gentium Book Basic', serif; font-size: 20px; color:#808080;}
+#tab-container ul li { width: 100px; margin-top: 0; padding: 30px 0 0 0; display:inline}
 #tab-container ul li a { display: inline; padding: 0 15px 0 0; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative; left: 70px; border-style: solid; border-width: 5px 0; }
 #tab-container ul li:first-child.selected-tab { border-top: none; }
 #tab-container ul li a.selected-tab { font-weight: bold; text-decoration: underline; }
 #tab-container .panel-container { padding-top: 0px; padding-left: 20px; }
+#tab-container a.active { font-weight: bold; }
+#tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
