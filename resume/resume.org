@@ -1,0 +1,200 @@
+#+TITLE:  
+#+AUTHOR:    
+#+EMAIL:     
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+
+#+latex_header: \documentclass[letterpaper,10pt]{article}
+#+latex_header: \usepackage{fontspec} 
+#+latex_header: \usepackage{bbding}					%for loading fonts
+#+latex_header: \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+#+latex_header: \RequirePackage{color,graphicx}
+#+latex_header: \usepackage[usenames,dvipsnames]{xcolor}
+#+latex_header: \usepackage{fullpage}
+#+latex_header: \usepackage{titlesec}					%custom \section
+#+latex_header: \usepackage{hyperref}
+#+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.2,0}
+#+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+#+latex_header: \defaultfontfeatures{Mapping=tex-text}
+#+latex_header: \setmainfont[SmallCapsFont = Linux Libertine O C]{Gentium}
+#+latex_header: \usepackage{natbib}
+#+latex_header: \usepackage{bibentry}
+#+latex_header: \newcommand{\bibverse}[1]{\begin{verse} \bibentry{#1}. \end{verse}}
+#+latex_header: \nobibliography*
+
+#+begin_latex
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+\hyphenation{im-pre-se}
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+
+\par{
+		{\Huge  \textsc{Shiwali Mohan}\\
+\normalsize{
+ \hfill{\Envelope} 	2260 Hayward Street \#3844, Computer Science and Engineering Building, Ann Arbor MI 48109 \\
+ {\Phone} 734-757-0354    {\Envelope} \href{mailto:shiwali@umich.edu}{shiwali@umich.edu}  {\HandRight} \href{www.shiwali.me}{www.shiwali.me}
+	}
+}\bigskip\par}
+#+end_latex
+
+* Education
+Doctor of Philosophy in \textsc{Computer Science}  \hfill /August
+2009 - Present/ \\
+\textsc{University of Michigan}, Ann Arbor\\
+Areas of Interest: Cognitive Architecture, Grounded Natural Language,
+Human-Agent Interaction, Machine Learning 
+
+Master of Science and Engineering in \textsc{Computer Science} \hfill
+/August 2008 - December 2009/\\
+\textsc{University of Michigan}, Ann Arbor\\
+Relevant Coursework: Introductory/Advanced Artificial Intelligence,
+Machine Learning, Natural Language Processing, Models of Cognition,
+Cognitive Functioning, Algorithms, Parallel Computing
+
+Bachelor of Engineering in \textsc{Instrumentation and Control
+Engineering} \hfill /August 2003 - May 2007/\\
+\textsc{Netaji Subhas Institute of Technology}, Delhi University, New Delhi, India\\
+* Research Experience
+ Graduate Student Research Assistant to Professor John E. Laird \hfill
+ /August 2010 - Present/\\
+\textsc{University of Michigan}, Ann Arbor\\
+/Learning with Human-Agent Interaction/  \\
+Designed and implemented an interaction model for agents instantiated in Soar
+cognitive architecture that allows  limited mixed-initiative
+interaction with an instructor. The agents can derived generally
+applicable procedural knowledge from a history of interactions
+(available in episodic/semantic memory of the agent) using situated explanation.
+
+
+ Graduate Student Research Assistant to Professor John E. Laird \hfill
+ /May 2009 - August 2010/\\
+\textsc{University of Michigan}, Ann Arbor\\
+/Reinforcement Learning in Soar Cognitive Architecture/\\
+Designed, implemented and analyzed reinforcement learning agents for
+ Infinite Mario. Implemented modular reinforcement learning for Soar cognitive
+ architecture that allows the agent to learn multiple MDPs. 
+
+Research Assistant to Professor Niladri Chatterjee \hfill /May
+2007 - May 2007/ \\
+\textsc{Indian Institute of Technology}, New Delhi, India\\
+/Sense Disambiguation, Word-Space Models for Language/\\
+Designed, implemented and analyzed algorithm for sense disambiguation
+of homonyms using K-Means clustering and Random Indexing.
+
+Undergraduate Thesis with Professor Niladri Chatterjee \hfill /December
+2006 - May 2007/ \\
+\textsc{Indian Institute of Technology}, New Delhi, India\\
+/Single Document Summarization, Word-Space Models for Language/\\
+Designed, implemented and analyzed algorithm for single-document
+summarization using PageRank and Random Indexing.
+
+* Publications
+** Conference Proceedings:
+\bibentry{Mohan2011a}
+
+\bibentry{Mohan2011b}
+
+\bibentry{Mohan2008}
+
+\bibentry{Mohan2007}
+** Short Papers and Extended Abstracts:
+\bibentry{Mohan2010}
+** Unrefereed publications:
+\bibentry{MohanML}
+* Teaching Experience
+Graduate Student Instructor \hfill /January 2012 - Present/\\
+EECS 492: Introduction to Artificial Intelligence \\
+\textsc{University of Michigan}
+
+Student\hfill /September 2011 - December 2011/\\
+CHE 580: Teaching Engineering \\
+\textsc{University of Michigan}
+* Service
+
+#+ATTR_LaTeX: align=rp{14cm}
+| 2011 | /Vice-President/, Computer Science and Engineering Graduate Organization, University of Michigan                                       |
+|      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
+|      | /Pioneer/, EduMentoring - an community to promote collaborative research between graduate students and undergraduate students in India |
+|      | /Mentor/, EduMentoring                                                                                                                 |
+| 2010 | /DCO Representative/, Computer Science and Engineering Graduate Organization, University of Michigan                                   |
+|      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
+| 2007 | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
+| 2006 | /Volunteer/, The Neighborhood Project, Netaji Subhas Institute of Technology, Delhi                                                    |
+|      | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
+
+* Professional Experience
+Software Engineer with Strategic Data Services \hfill /July 2007 -
+July 2008/\\
+\textsc{Yahoo! Research and Development}, India\\
+Worked on distributed memory clusters owned by Media
+Analytics. Implemented feed aggregation (to generate analytic numbers
+such as page views and click-through rate) for many Yahoo!
+websites. Implemented better scheduling of I/O and CPU bound processes
+leading to performance improvement of Media Analytics processes.
+
+Software Intern \hfill /May 2006 -
+July 2006/\\
+\textsc{Bharat Electronics Limited}, India
+
+Software Intern \hfill /May 2005 -
+July 2005/\\
+\textsc{Central Research Laboratory}, India
+* Technical Skills
+#+ATTR_LaTeX: align=rp{13cm}
+| Operating Systems:        | Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) |
+| Programming Languages:    | \textsc{C/C++}, \textsc{Java}, Perl, Soar  |
+| Programming IDEs/Editors: | Eclipse, Emacs                             |
+| Document Markup Language: | \LaTeX                                     |
+* Interests and Activities
+Technology, Science Trivia\\
+Dance and Choreography, Design, Typography
+* Miscellaneous
+#+ATTR_LaTeX: align=rp{13cm}
+| Date of Birth | December 24, 1985                                                |
+| Home Address  | 1923 Point Lane, Apartment 102, Ann Arbor, Michigan - 48105, USA |
+| Citizenship:  | Republic of India                                                |
+| Languages:    | Hindi (mother tongue), English (fluent)                          |
+| Email:        | [[mailto:shiwali.mohan@gmail.com][shiwali.mohan@gmail.com]]                                          |
+
+
+
+* Random
+#+ATTR_LaTeX: longtable, align=rp{14cm}
+| /August 2008-/ | Graduate Student at                                                                                                                                 |
+| /April 2011/   | \textsc{University of Michigan}, Ann Arbor                                                                                                          |
+|                | /Natural Language Processing/                                                                                                                       |
+|                | - Interfaced Soar Cognitive Architecture with SimpleNLG to facilitate English language generation in Soar Agents                                    |
+|                | - Designed, developed and evaluated Soar agents that could describe their perceptions and generate a commentary of their actions                    |
+|                | /Machine Learning/                                                                                                                                  |
+|                | - Developed an algorithm to classify EEG waveforms as arising from motor imagery or actual movement                                                 |
+|                | /Parallel and Distributed Computing/                                                                                                                |
+|                | - Modified, implemented, and analyzed Dijkstra's algorithm for a distributed computing setting using MPI framework                                  |
+|                | - Analyzed scheduling algorithms implemented for Yahoo! Hadoop-0.20.1 on a experimental cluster, proposed better scheduling of heterogeneous tasks. |
+|                | - Modified and analyzed ATPG ATALANTA to work with pthreads on a shared memory system                                                               |
+|                | \vspace{0.03em}                                                                                                                                     |
+* Talks and Presentations
+- June 2011: Modular Reinforcement Learning in Soar ([[https://www.eecs.umich.edu/~soar/workshop/files/27_mohan1_modular.pdf][talk]]), 31st Soar Workshop, Ann Arbor, MI
+- June 2011: Towards An Architecture for Learning with Instruction ([[https://www.eecs.umich.edu/~soar/workshop/files/35_mohan2_architecture.pdf][talk]]), 31st Soar Workshop, Ann Arbor, MI
+- July 2010: Relational Reinforcement Learning in Infinite Mario ([[file:images/document.pdf][poster]]),
+  AAAI 2010 Poster Session, Atlanta, Georgia.
+- May 2010: Learning Background Knowledge through Instruction (poster),
+  Computer Science and Engineering, University of Michigan, Ann Arbor.
+- May 2010: Learning Background Knowledge through Instruction ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+- May 2010: Reinforcement Learning in Infinite Mario ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+- July 2009: Learning to Play Mario ([[http://sitemaker.umich.edu/soar/files/mohan.pdf][link]]), at the 29th Soar
+  Workshop, Ann Arbor.                                                                                                                                  
+#+begin_latex
+\bibliographystyle{plain}
+\nobibliography{/home/shiwali/Misc/shiwali.me/bib/my_library}
+#+end_latex

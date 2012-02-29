@@ -1,3 +1,10 @@
 ### emacs
 *~
-#*
+\#*
+\.*
+*.aux
+*.html
+*.tex
+*.blg
+*.log
+*.bbl
