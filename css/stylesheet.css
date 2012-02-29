@@ -32,12 +32,7 @@ h1 {
 
 h2 {
   font-family: 'Gentium Book Basic', serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  text-shadow: none;
-  color:#5D5050;
-  list-style:none  
+  display:none;
 }
 
 h3 {
