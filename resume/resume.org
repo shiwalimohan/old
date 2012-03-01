@@ -21,7 +21,7 @@
 #+latex_header: \usepackage{fullpage}
 #+latex_header: \usepackage{titlesec}					%custom \section
 #+latex_header: \usepackage{hyperref}
-#+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.2,0}
+#+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.1,0.1}
 #+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 #+latex_header: \defaultfontfeatures{Mapping=tex-text}
 #+latex_header: \setmainfont[SmallCapsFont = Linux Libertine O C]{Gentium}
@@ -196,5 +196,5 @@ Dance and Choreography, Design, Typography
   Workshop, Ann Arbor.                                                                                                                                  
 #+begin_latex
 \bibliographystyle{plain}
-\nobibliography{/home/shiwali/Misc/shiwali.me/bib/my_library}
+\nobibliography{/home/shiwali/Misc/shiwali.me/my_library}
 #+end_latex
