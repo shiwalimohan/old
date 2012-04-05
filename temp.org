@@ -1,0 +1,42 @@
+#+BEGIN_HTML
+<div id="tab-container">
+  <ul>
+    <li><a href="#outline-container-1">About</a></li>
+    <li><a href="#outline-container-2">Research</a></li>
+    <li><a href="#bibliography">Publications</a></li>
+    <li><a href="#outline-container-3">Teaching</a></li>
+    <li><a href="#outline-container-4">Service</a></li>
+    <li><a href="#outline-container-5">Software</a></li>
+  </ul>
+#+END_HTML
+* Research
+** Soar Cognitive Architecture 
+*** Grounded Langugage
+*** Reinforcement Learning
+** Statistical Natural Language Processing
+** Talks and Presentations
+1. July 2010: Relational Reinforcement Learning in Infinite Mario ([[file:images/document.pdf][link]]),
+   AAAI 2010 Poster Session, Atlanta, Georgia.
+1. May 2010: Learning Background Knowledge through Instruction ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+2. May 2010: Reinforcement Learning in Infinite Mario ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][link]]), 30th Soar Workshop, Ann Arbor.
+3. July 2009: Learning to Play Mario ([[http://sitemaker.umich.edu/soar/files/mohan.pdf][link]]), at the 29th Soar
+   Workshop, Ann Arbor.
+** Misc
+1. April 2011: On Grounded Language Generation in Intelligent Agents,
+   /EECS 595, Natural Language Processing/. ([[file:images/presentation.pdf][talk]]) ([[file:images/finalreport.pdf][paper]])
+2. September 2010: Relational Reinforcement Learning in
+   Infinite Mario, /Preliminary Examination/. ([[file:images/prelim-paper.pdf][paper]])
+3. December 2009: Classification of Executed and Imagined Motor
+   Movement EEG Signals, /EECS 545, Machine Learning/. ([[file:images/MohanPillaiSleight.pdf][paper]])
+4. December 2009: Towards a Resource Aware Scheduler in Hadoop, /EECS
+   589, Advanced Computer
+   Networks/. ([[file:images/hadoop.pdf][paper]])
+* Teaching
+* Service
+* Software
+1. [[http://code.google.com/p/soar/][Soar @ google code]]
+2. [[http://sitemaker.umich.edu/soar/home][Soar at Michigan]]
+3. [[http://2009.rl-competition.org/][RL Competition 2009 ]]
+
+
+

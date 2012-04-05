@@ -109,9 +109,11 @@ summarization using PageRank and Random Indexing.
 
 \bibentry{Mohan2007}
 ** Short Papers and Extended Abstracts:
+\bibentry{Mohan2012a}
+
+\bibentry{Mohan2012b}
+
 \bibentry{Mohan2010}
-** Unrefereed publications:
-\bibentry{MohanML}
 * Teaching Experience
 Graduate Student Instructor \hfill /January 2012 - Present/\\
 EECS 492: Introduction to Artificial Intelligence \\
@@ -167,34 +169,10 @@ Dance and Choreography, Design, Typography
 | Languages:    | Hindi (mother tongue), English (fluent)                          |
 | Email:        | [[mailto:shiwali.mohan@gmail.com][shiwali.mohan@gmail.com]]                                          |
 
-
-
-* Random
-#+ATTR_LaTeX: longtable, align=rp{14cm}
-| /August 2008-/ | Graduate Student at                                                                                                                                 |
-| /April 2011/   | \textsc{University of Michigan}, Ann Arbor                                                                                                          |
-|                | /Natural Language Processing/                                                                                                                       |
-|                | - Interfaced Soar Cognitive Architecture with SimpleNLG to facilitate English language generation in Soar Agents                                    |
-|                | - Designed, developed and evaluated Soar agents that could describe their perceptions and generate a commentary of their actions                    |
-|                | /Machine Learning/                                                                                                                                  |
-|                | - Developed an algorithm to classify EEG waveforms as arising from motor imagery or actual movement                                                 |
-|                | /Parallel and Distributed Computing/                                                                                                                |
-|                | - Modified, implemented, and analyzed Dijkstra's algorithm for a distributed computing setting using MPI framework                                  |
-|                | - Analyzed scheduling algorithms implemented for Yahoo! Hadoop-0.20.1 on a experimental cluster, proposed better scheduling of heterogeneous tasks. |
-|                | - Modified and analyzed ATPG ATALANTA to work with pthreads on a shared memory system                                                               |
-|                | \vspace{0.03em}                                                                                                                                     |
-* Talks and Presentations
-- June 2011: Modular Reinforcement Learning in Soar ([[https://www.eecs.umich.edu/~soar/workshop/files/27_mohan1_modular.pdf][talk]]), 31st Soar Workshop, Ann Arbor, MI
-- June 2011: Towards An Architecture for Learning with Instruction ([[https://www.eecs.umich.edu/~soar/workshop/files/35_mohan2_architecture.pdf][talk]]), 31st Soar Workshop, Ann Arbor, MI
-- July 2010: Relational Reinforcement Learning in Infinite Mario ([[file:images/document.pdf][poster]]),
-  AAAI 2010 Poster Session, Atlanta, Georgia.
-- May 2010: Learning Background Knowledge through Instruction (poster),
-  Computer Science and Engineering, University of Michigan, Ann Arbor.
-- May 2010: Learning Background Knowledge through Instruction ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][link]]), 30th Soar Workshop, Ann Arbor.
-- May 2010: Reinforcement Learning in Infinite Mario ([[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][link]]), 30th Soar Workshop, Ann Arbor.
-- July 2009: Learning to Play Mario ([[http://sitemaker.umich.edu/soar/files/mohan.pdf][link]]), at the 29th Soar
-  Workshop, Ann Arbor.                                                                                                                                  
 #+begin_latex
+\nobibliography{../my_library}
 \bibliographystyle{plain}
-\nobibliography{/home/shiwali/Misc/shiwali.me/my_library}
 #+end_latex
+
+
+

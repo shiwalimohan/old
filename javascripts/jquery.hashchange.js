@@ -1,4 +1,5 @@
-/*!
+
+*!
  * jQuery hashchange event - v1.3 - 7/21/2010
  * http://benalman.com/projects/jquery-hashchange-plugin/
  * 
