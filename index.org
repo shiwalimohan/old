@@ -22,11 +22,13 @@
 <div id="tab-container">
   <ul>
     <li><a href="#outline-container-1">About</a></li>
+    <li><a href="#outline-container-2">Research</a></li>
     <li><a href="#bibliography">Publications</a></li>
   </ul>
 #+END_HTML
 
 * About
+
 I am a doctoral candidate in [[http://www.cse.umich.edu/][Computer Science and Engineering]] at [[http://www.umich.edu/][The
 University of Michigan]] Ann Arbor. I have been working with Professor [[http://ai.eecs.umich.edu/people/laird/][John Laird]]
 on the [[http://sitemaker.umich.edu/soar/home][Soar Cognitive Architecture]] in the [[http://www.eecs.umich.edu/ai/][Michigan AI Lab]] since 2009.
@@ -55,3 +57,55 @@ and became a graduate student.
 I am available at shiwali.at.umich.dot.edu,
 shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated <04-04-2012 Wed> is [[file:resume/resume.pdf][here]]. 
 
+* Research
+** Projects
+*** Grounded Natural Language
+I am involved with the grounded language acquisition project
+at Michigan. Apart from the Soar group at University of Michigan, the
+team also includes [[http://april.eecs.umich.edu/][APRIL at Michigan]] and [[http://www.soartech.com/][SoarTech]].
+
+I am currently studying comprehension of sentences by exploiting
+non-linguistic context such as perceptual information, procedural
+knowledge and semantic information.
+
+I have designed and implemented an interaction model for agents
+instantiated in Soar cognitive architecture that allows limited
+mixed-initiative interaction with an instructor. The
+agents can then derive generally applicable procedural knowledge from
+a history of interactions (available in episodic/semantic memory of
+the agent) using situated explanation. 
+
+Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://github.com/shiwalimohan/bolt-agents][Soar Agents]], [[http://code.google.com/p/soar/][Soar]]
+
+*** Reinforcement Learning
+In the past, I was investigating the capabilities of Soar-RL in
+complex environments. I designed, implemented and analyzed
+reinforcement learning agents for Infinite Mario. I also implemented modular
+reinforcement learning for Soar cognitive architecture that allows the
+agent to learn multiple MDPs at the same time.
+
+Related Software:
+[[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
+-------
+** Talks
+[[https://web.eecs.umich.edu/~soar/workshop/files/27_mohan1_modular.pdf][Modular Reinforcement Learning In Soar]], 
+31st Soar Workshop, June 2011, Ann Arbor Michigan \\
+[[https://web.eecs.umich.edu/~soar/workshop/files/35_mohan2_architecture.pdf][Towards an Architecture for Learning with Instruction]], 
+31st Soar Workshop, June 2011, Ann Arbor Michigan \\
+[[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][Reinforcement Learning in Infinite Mario]], 
+30th Soar Workshop, June 2010, Ann Arbor Michigan \\
+[[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][Learning Background Knowledge thorugh Instruction]], 
+30th Soar Workshop, June 2010, Ann Arbor Michigan \\
+[[http://sitemaker.umich.edu/soar/files/mohan.pdf][Learning to Play Mario]], 
+29th Soar Workshop, June 2009, Ann Arbor, Michigan \\
+-------
+** Miscellaneous
+[[file:content/mohan_EECS545.pdf][On Generating Grounded Language in Cognitive Architecture]], 
+EECS 590, Natural Language Processing, April 2011, University of Michigan\\
+[[file:content/prelim-paper.pdf][Relational Reinforcement Learning in Infinite Mario]], 
+Preliminary Examination, September 2010, University of Michigan \\
+[[file:content/MohanPillaiSleight.pdf][Classification of Executed and Imagined Motor Movement EEG Signals]],
+EECS 545, Machine Learning, December 2009, University of Michigan\\
+[[file:content/hadoop.pdf][Towards a Resource Aware Scheduler in Hadoop]],
+EECS 589, Advanced Computer Networks, December 2009, University of
+Michigan
