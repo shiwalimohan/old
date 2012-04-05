@@ -58,7 +58,6 @@ I am available at shiwali.at.umich.dot.edu,
 shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated <04-04-2012 Wed> is [[file:resume/resume.pdf][here]]. 
 
 * Research
-** Projects
 *** Grounded Natural Language
 I am involved with the grounded language acquisition project
 at Michigan. Apart from the Soar group at University of Michigan, the
@@ -87,7 +86,8 @@ agent to learn multiple MDPs at the same time.
 Related Software:
 [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
 -------
-** Talks
+
+*Talks*\\
 [[https://web.eecs.umich.edu/~soar/workshop/files/27_mohan1_modular.pdf][Modular Reinforcement Learning In Soar]], 
 31st Soar Workshop, June 2011, Ann Arbor Michigan \\
 [[https://web.eecs.umich.edu/~soar/workshop/files/35_mohan2_architecture.pdf][Towards an Architecture for Learning with Instruction]], 
@@ -99,7 +99,8 @@ Related Software:
 [[http://sitemaker.umich.edu/soar/files/mohan.pdf][Learning to Play Mario]], 
 29th Soar Workshop, June 2009, Ann Arbor, Michigan \\
 -------
-** Miscellaneous
+
+*Miscellaneous*\\
 [[file:content/mohan_EECS545.pdf][On Generating Grounded Language in Cognitive Architecture]], 
 EECS 590, Natural Language Processing, April 2011, University of Michigan\\
 [[file:content/prelim-paper.pdf][Relational Reinforcement Learning in Infinite Mario]], 
