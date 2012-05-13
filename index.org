@@ -9,7 +9,7 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   
 #+LINK_HOME: 
-#+BIBLIOGRAPHY: my_library dsgplain option:--both option:-nokeys option:-linebreak option:-nofooter
+#+BIBLIOGRAPHY: my_library dgsplain option:--both option:-nokeys option:-linebreak option:-nofooter
 #+STYLE:<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
 #+STYLE: <LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
 #+STYLE: <script src="javascripts/jquery.js" type="text/javascript"></script>
