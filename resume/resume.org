@@ -24,7 +24,7 @@
 #+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.1,0.1}
 #+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 #+latex_header: \defaultfontfeatures{Mapping=tex-text}
-#+latex_header: \setmainfont[SmallCapsFont = Linux Libertine O C]{Gentium}
+#+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Gentium}
 #+latex_header: \usepackage{natbib}
 #+latex_header: \usepackage{bibentry}
 #+latex_header: \newcommand{\bibverse}[1]{\begin{verse} \bibentry{#1}. \end{verse}}
@@ -100,7 +100,11 @@ Designed, implemented and analyzed algorithm for single-document
 summarization using PageRank and Random Indexing.
 
 * Publications
-** Conference Proceedings:
+** _Conference Proceedings_:
+\bibentry{Mohan2012d}
+
+\bibentry{Mohan2012c}
+
 \bibentry{Mohan2011a}
 
 \bibentry{Mohan2011b}
@@ -108,7 +112,7 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2008}
 
 \bibentry{Mohan2007}
-** Short Papers and Extended Abstracts:
+** _Short Papers and Extended Abstracts_:
 \bibentry{Mohan2012a}
 
 \bibentry{Mohan2012b}
