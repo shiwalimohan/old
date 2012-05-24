@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Esteban', serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     background-color:#FFFFFF;
     margin-top:50px;
@@ -48,9 +48,9 @@ a:hover {color:#800000; text-decoration: underline;}
 a:visited {color:#800000;text-decoration: none;}
 
 #tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:58em;}
-#tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Vollkorn', serif; font-size: 24px; margin-top: -45px; margin-bottom: -3px}
+#tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Gentium Book Basic', serif; font-size: 24px; margin-top: -40px; margin-bottom: -3px}
 #tab-container ul li { width: 100px; display:inline;}
-#tab-container ul li a { display: inline; padding: 0 12px; outline: none; }
+#tab-container ul li a { display: inline; padding: 5px 20px; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative;  border-style: solid; border-width: 0 0; }
 #tab-container ul li:first-child.selected-tab { border-top: none; }
@@ -61,4 +61,5 @@ a:visited {color:#800000;text-decoration: none;}
 
 hr {
     margin-top: 0px;
+    margin-bottom: 0px;
 }

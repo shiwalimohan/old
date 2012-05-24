@@ -20,17 +20,16 @@
 # End:
 
 
+
 #+BEGIN_HTML
+<hr \>
+<hr \>
 <div id="tab-container">
-<hr \>
-<hr \>
   <ul>
     <li><a href="#outline-container-1">About</a></li>
     <li><a href="#outline-container-2">Research</a></li>
     <li><a href="#bibliography">Publications</a></li>
-   <li><a href="#bibliography">Academia</a></li>
   </ul>
-<hr \>
 #+END_HTML
 
 * About
@@ -61,8 +60,7 @@ and became a graduate student.
 
 -----
 I am available at shiwali.at.umich.dot.edu and
-shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated May
-17, 2012 is [[file:resume/resume.pdf][here]]. 
+shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated 17-05-2012 is [[file:resume/resume.pdf][here]]. 
 
 * Research
 *** Grounded Natural Language
