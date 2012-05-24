@@ -22,10 +22,8 @@
 
 
 #+BEGIN_HTML
-<hr \>
-<hr \>
 <div id="tab-container">
-  <ul>
+<ul>
     <li><a href="#outline-container-1">About</a></li>
     <li><a href="#outline-container-2">Research</a></li>
     <li><a href="#bibliography">Publications</a></li>
