@@ -50,7 +50,7 @@ a:visited {color:#800000;text-decoration: none;}
 #tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:58em;}
 #tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Vollkorn', serif; font-size: 24px; margin-top: -45px; margin-bottom: -3px}
 #tab-container ul li { width: 100px; display:inline;}
-#tab-container ul li a { display: inline; padding: 0 25px 0 0; outline: none; }
+#tab-container ul li a { display: inline; padding: 0 12px; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative;  border-style: solid; border-width: 0 0; }
 #tab-container ul li:first-child.selected-tab { border-top: none; }
