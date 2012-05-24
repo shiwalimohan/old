@@ -11,6 +11,7 @@
 #+LINK_HOME: 
 #+BIBLIOGRAPHY: my_library dsgplain option:--both option:-nokeys option:-linebreak option:-nofooter
 #+STYLE:<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+#+STYLE:<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 #+STYLE: <LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
 #+STYLE: <script src="javascripts/jquery.js" type="text/javascript"></script>
 #+STYLE: <script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
@@ -18,13 +19,18 @@
 #+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
 # End:
 
+
 #+BEGIN_HTML
 <div id="tab-container">
+<hr \>
+<hr \>
   <ul>
     <li><a href="#outline-container-1">About</a></li>
     <li><a href="#outline-container-2">Research</a></li>
     <li><a href="#bibliography">Publications</a></li>
+   <li><a href="#bibliography">Academia</a></li>
   </ul>
+<hr \>
 #+END_HTML
 
 * About
@@ -53,9 +59,10 @@ engineer on their Strategic Data Solutions team for  time, before
 deciding to denounce the real world, and the money that comes with it
 and became a graduate student.
 
--------
+-----
 I am available at shiwali.at.umich.dot.edu and
-shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated 2012-05-17 is [[file:resume/resume.pdf][here]]. 
+shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated May
+17, 2012 is [[file:resume/resume.pdf][here]]. 
 
 * Research
 *** Grounded Natural Language
