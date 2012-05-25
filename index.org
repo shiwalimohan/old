@@ -24,9 +24,10 @@
 #+BEGIN_HTML
 <div id="tab-container">
 <ul>
-    <li><a href="#outline-container-1">About</a></li>
-    <li><a href="#outline-container-2">Research</a></li>
-    <li><a href="#bibliography">Publications</a></li>
+    <li><a href="#outline-container-1">» about «</a></li>
+    <li><a href="#outline-container-2">» research  «</a></li>
+    <li><a href="#bibliography">» publications  «</a></li>
+    <li><a href="#bibliography">» academia «</a></li>
   </ul>
 #+END_HTML
 
