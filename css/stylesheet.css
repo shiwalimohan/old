@@ -1,10 +1,10 @@
 body
 {
     font-family: 'Esteban', serif;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     background-color:#FFFFFF;
-    margin-top:50px;
+    margin-top:100px;
     color:#000000;
     width: 58em;
     margin-left:auto;
@@ -12,7 +12,7 @@ body
     text-align:justify;
 }
 
-body ul{margin:0 0 0 0;padding:0;list-style-type:circle}
+body ul{margin:0 0 0 0;padding:0;list-style-type:none}
 
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
     text-decoration: none;
     letter-spacing: 0em;
     word-spacing: 0em;
-    line-height: 1.4;
+    line-height: 0.6;
   color:#5D5050;
 }
 
@@ -48,9 +48,9 @@ a:hover {color:#800000; text-decoration: underline;}
 a:visited {color:#800000;text-decoration: none;}
 
 #tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:58em;}
-#tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Vollkorn', serif; font-size: 24px; margin-top: -45px; margin-bottom: -3px}
+#tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Esteban', serif; font-size: 20px; margin-top: -20px; margin-bottom: -3px}
 #tab-container ul li { width: 100px; display:inline;}
-#tab-container ul li a { display: inline; padding: 0 12px; outline: none; }
+#tab-container ul li a { display: inline; padding: 5px 14px; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative;  border-style: solid; border-width: 0 0; }
 #tab-container ul li:first-child.selected-tab { border-top: none; }
@@ -61,4 +61,5 @@ a:visited {color:#800000;text-decoration: none;}
 
 hr {
     margin-top: 0px;
+    margin-bottom: 0px;
 }
