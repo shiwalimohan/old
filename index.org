@@ -118,14 +118,20 @@ Social Chair, Indian Students Association ([[umisa.org][ISA]]) at University of
 Michigan. 2010\\
 -------
 *** Talks
-[[https://web.eecs.umich.edu/~soar/workshop/files/27_mohan1_modular.pdf][Modular Reinforcement Learning In Soar]], 
-31st Soar Workshop, June 2011, Ann Arbor Michigan \\
-[[https://web.eecs.umich.edu/~soar/workshop/files/35_mohan2_architecture.pdf][Towards an Architecture for Learning with Instruction]], 
+[[http://shiwali.me/content/interaction.pdf][Mixed-Initiative Interaction for Learning with Instruction]],
+32nd Soar Worksohp, June 2012, Ann Arbor, Michigan\\
+[[http://shiwali.me/content/comprehension.pdf][Situated Comprehension of Action Commands]],
+32nd Soar Worksohp, June 2012, Ann Arbor, Michigan\\
+[[http://shiwali.me/content/verb-learning.pdf][Learning New Verbs with Retrospective Projection]],
+32nd Soar Worksohp, June 2012, Ann Arbor, Michigan\\
+[[http://ai.eecs.umich.edu/soar/sitemaker/workshop/31/files/27_mohan1_modular.pdf][Modular Reinforcement Learning In Soar]], 
+31st Soar Workshop, June 2011, Ann Arbor, Michigan \\
+[[http://ai.eecs.umich.edu/soar/sitemaker/workshop/31/files/35_mohan2_architecture.pdf][Towards an Architecture for Learning with Instruction]], 
 31st Soar Workshop, June 2011, Ann Arbor Michigan \\
 [[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf][Reinforcement Learning in Infinite Mario]], 
-30th Soar Workshop, June 2010, Ann Arbor Michigan \\
+30th Soar Workshop, June 2010, Ann Arbor, Michigan \\
 [[http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf][Learning Background Knowledge thorugh Instruction]], 
-30th Soar Workshop, June 2010, Ann Arbor Michigan \\
+30th Soar Workshop, June 2010, Ann Arbor, Michigan \\
 [[http://sitemaker.umich.edu/soar/files/mohan.pdf][Learning to Play Mario]], 
 29th Soar Workshop, June 2009, Ann Arbor, Michigan \\
 -------
