@@ -100,7 +100,7 @@ Designed, implemented and analyzed algorithm for single-document
 summarization using PageRank and Random Indexing.
 
 * Publications
-** _Conference Proceedings_:
+** _Conference/Workshop Proceedings_:
 \bibentry{Mohan2012d}
 
 \bibentry{Mohan2012c}
@@ -113,19 +113,26 @@ summarization using PageRank and Random Indexing.
 
 \bibentry{Mohan2007}
 ** _Short Papers and Extended Abstracts_:
+\bibentry{Joshi2012}
+
 \bibentry{Mohan2012a}
 
 \bibentry{Mohan2012b}
 
 \bibentry{Mohan2010}
 * Teaching Experience
-Graduate Student Instructor \hfill /January 2012 - Present/\\
+Graduate Student Instructor \hfill /January 2012 - April 2012/\\
 EECS 492: Introduction to Artificial Intelligence \\
 \textsc{University of Michigan}
 
 Student\hfill /September 2011 - December 2011/\\
 CHE 580: Teaching Engineering \\
 \textsc{University of Michigan}
+* Advising Experience
+Undergraduate Student Advising \hfill /September 2011 - May 2012/\\
+Mandar Joshi, Rakesh Khobragade, Saurabh Sarda\\
+\emph{Reinforcement Learning agents for Infinite Mario}\\
+\textsc{Visvesvaraya National Institute of Techonology}, Nagpur, India\\
 * Service
 
 #+ATTR_LaTeX: align=rp{14cm}
@@ -156,6 +163,10 @@ July 2006/\\
 Software Intern \hfill /May 2005 -
 July 2005/\\
 \textsc{Central Research Laboratory}, India
+\\
+\\
+\\
+\\
 * Technical Skills
 #+ATTR_LaTeX: align=rp{13cm}
 | Operating Systems:        | Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) |
