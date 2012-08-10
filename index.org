@@ -279,6 +279,8 @@ pdf ={./content/mohan_ictai.pdf},
        author = {Shiwali Mohan and John E. Laird},
        title = {Learning to Play Mario},
        NUMBER =        {CCA-TR-2009-03},
+       booktitle = {Technical Report CCA-TR-2009-03 Center for
+       Cognitive Architecture, University of Michigan, Ann Arbor, Michigan},
        INSTITUTION =   {Center for Cognitive Architecture, University of Michigan},
        ADDRESS =       {Ann Arbor, Michigan},
        ABSTRACT =      {Computer Games are interesting test beds for research in Artificial Intelligence and Machine Learning. Games usually have continuous state spaces, large action spaces and  are characterized by complex relationships between components. Without applying abstraction and generalizations, learning in computer games domain becomes infeasible. Through this work, we investigate some designs that facilitate tractable reinforcement learning in symbolic agents developed using Soar architecture operating in a complex domain, Infinite Mario. Object oriented representations of the environment greatly simplify otherwise complex state spaces. We also demonstrate that imposing hierarchy in problem structure greatly reduces the complexity of the tasks and aids in learning generalized policies that can be transferred across similar tasks.},
