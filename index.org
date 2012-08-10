@@ -9,7 +9,6 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   
 #+LINK_HOME: 
-#+BIBLIOGRAPHY: my_library dsgplain option:--both option:-nokeys option:-linebreak option:-nofooter
 #+STYLE:<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
 #+STYLE:<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 #+STYLE: <LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
@@ -17,16 +16,17 @@
 #+STYLE: <script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
 #+STYLE: <script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
 #+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
-# End:
-
-
+#+STYLE:   <script src ="javascripts/BibTex-0.1.2.js" type="text/javascript"></script>
+#+STYLE:    <script type="text/javascript" src="javascripts/displayBibTex.js"></script>
+#+STYLE: <script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
 
 #+BEGIN_HTML
+
 <div id="tab-container">
 <ul>
     <li><a href="#outline-container-1">» about «</a></li>
     <li><a href="#outline-container-2">» research  «</a></li>
-    <li><a href="#bibliography">» publications  «</a></li>
+    <li><a href="#outline-container-4">» publications  «</a></li>
     <li><a href="#outline-container-3">» academia «</a></li>
   </ul>
 #+END_HTML
@@ -145,3 +145,149 @@ EECS 545, Machine Learning, December 2009, University of Michigan\\
 [[file:content/hadoop.pdf][Towards a Resource Aware Scheduler in Hadoop]],
 EECS 589, Advanced Computer Networks, December 2009, University of
 Michigan
+* Publications
+#+begin_html
+    <div class ="bib" id = "bib_publi">
+@inproceedings{Mohan2012e,
+        author = {Shiwali Mohan* and Aaron Mininger* and James Kirk* and John Laird},
+        title = {Learning Grounded Language through Situated Interactive Instruction},
+	booktitle = {In Papers from Robots Learning Interactively from Human Teachers (AAAI Fall Symposium Series)},
+        pdf = {./content/mohan_AAAIFS_2012.pdf},
+	year = {2012},
+        type_publi = {symposium},
+}
+
+@inproceedings{Joshi2012,
+        author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
+        title = {Hierarchical Action Selection for Reinforcement Learning in Infinite Mario},
+	  booktitle = {Proceedings of the 6th Starting Artificial Intelligence Research Symposium (ECAI)},
+	  year = {2012},
+pdf = {./content/joshi_STAIRS_2012.pdf},
+        type_publi = {workshop},
+}
+
+@inproceedings{Mohan2012d,
+        author = {John Laird and Keegan Kinkade and Shiwali Mohan and Joseph Xu},
+        title = {Cognitive Robotics Using the Soar Cognitive Architecture},
+	booktitle = {Proceedings of the 8th International Cognitive Robotics Workshop},
+	year = {2012},
+        pdf = {./content/laird_AAAICogRob_2012.pdf},
+        url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5221},
+        type_publi = {workshop},
+}
+
+@inproceedings{Mohan2012c,
+        author = {Shiwali Mohan and John Laird},
+        title = {Situated Comprehension of Imperative Sentences in Embodied, Cognitive Agents},
+	booktitle = {Grounding Language for Physical Systems, AAAI
+        Technical Report WS-12-07},
+	year = {2012},
+        pdf = {./content/mohan_AAAIGPS_2012.pdf},
+       url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5245},
+        type_publi = {workshop},
+}
+
+@inproceedings{Mohan2012b,
+        author = {Shiwali Mohan and John Laird},
+        title = {Exploring Mixed-Initiative Interaction for Learning with Situated Instruction in Cognitive Agents},
+	booktitle = {Proceedings of the 26th AAAI Conference on Artificial Intelligence},
+	year = {2012},
+        pdf = {./content/mohan_AAAISA_2012.pdf},
+        type_publi = {conference},
+        note = {\textit{(Extended Abstract)}},        
+}
+
+@inproceedings{Mohan2012a,
+        author = {Shiwali Mohan and John Laird},
+        title = {Learning Actions and Action Verbs from Human-Agent Interaction},
+	booktitle = {17th AAAI/SIGART Doctoral Consortium},
+	year = {2012},
+        keywords = {cognition; Soar; learning with instruction; human agent collaboration, lanugage acquisiton, situated learning},
+        pdf = {./content/mohan_AAAIDC_2012.pdf},
+        type_publi = {conference},
+        url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/4856/5288},
+        note = {\textit{(Extended Abstract)}},        
+}
+
+
+@inproceedings{Mohan2011a,
+	author = {Shiwali Mohan and John Laird},
+	title = {Towards Situated, Interactive, Instructable Agents in a Cognitive Architecture},
+	booktitle = {Papers from the 2011 AAAI Fall Symposium Series},
+	year = {2011},
+        keywords = {cognition; Soar; learning with instruction; human agent collaboration; rule-based systems},
+	abstract = {This paper discusses the challenge of designing instructable agents that can learn through interaction with a human expert. Learning through instruction is a powerful paradigm for acquiring knowledge because it limits the complexity of the learning task in a variety of ways. To support learning through instruction, the agent must be able to effectively communicate its lack of knowledge to the human, comprehend instructions, and apply them to the ongoing task. Weidentify some problems of concern when designing instructable agents. We propose an agent design that addresses some of these problems. We instantiate this design in the Soar cognitive architecture and analyze its capabilities on a learning task.},
+	url = {http://www.aaai.org/ocs/index.php/FSS/FSS11/paper/view/4165},
+        pdf = {./content/mohan_fss_2011.pdf},
+        type_publi = {conference},
+}
+
+@inproceedings{Mohan2011b,
+	author = {Shiwali Mohan and John Laird},
+	title = {An Object-Oriented Approach to Reinforcement Learning in an Action Game},
+	booktitle = {Proceedings of 7th the Artificial Intelligence for Interactive Digital Entertainment Conference},
+        keywords = {decision making; reinforcement learning; action games},
+        abstract = {In this work, we look at the challenge of learning in an action game,Infinite Mario. Learning to play an action game can be divided intotwo distinct but related problems, learning an object-relatedbehavior and selecting a primitive action. We propose a framework that allows for the use of reinforcement learning for both ofthese problems. We present promising results in some instances of thegame and identify some problems that might affect learning.},
+	url = {http://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/view/4069},
+        series = {AIIDE},
+	year = {2011},
+        pdf = {./content/mohan_aiide_2011.pdf},
+        type_publi = {conference},
+}
+
+@inproceedings{Mohan2010,
+	author = {Shiwali Mohan and John Laird},
+	title = {Relational Reinforcement Learning in Infinite Mario},
+	booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence},
+        abstract = {Relational representations in reinforcement learning allow for the use of structural information like the presence of objects and relationships between them in the description of value functions. Through this paper, we show that such representations allow for the inclusion of background knowledge that qualitatively describes a state and can be used to design agents that demonstrate learning behavior in domains with large state and actions spaces such as computer games.`},
+        series = {AAAI},
+	year = {2010},
+	url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/view/1657},
+        pdf = {./content/mohan.pdf},
+        note = {\textit{(Extended Abstract)}},
+        type_publi = {conference},
+}
+
+
+@inproceedings{Mohan2008,
+ author = {Niladri Chatterjee and Shiwali Mohan},
+ title = {Discovering Word Senses from Text using Random Indexing},
+ booktitle = {Proceedings of the 9th International Conference on Computational linguistics and Intelligent Text Processing},
+ abstract = {Random Indexing is a novel technique for dimensionality reduction while creating Word Space model from a given text. This paper explores the possible application of Random Indexing in discovering word senses from the text. The words appearing in the text are plotted onto a multi-dimensional Word Space using Random Indexing. The geometric distance between words is used as an indicative of their semantic similarity. Soft Clustering by Committee algorithm (CBC) has been used to constellate similar words. The present work shows that the Word Space model can be used effectively to determine the similarity index required for clustering. The approach does not require parsers, lexicons or any other resources which are traditionally used in sense disambiguation of words. The proposed approach has been applied to TASA corpus and encouraging results have been obtained.},
+ series = {CICLing},
+ year = {2008},
+ note = {\textbf{Best Paper Award}},
+ url = {http://www.springerlink.com/content/xp70kw14w0054541/},
+ pdf = {./content/mohan_cicling_2008.pdf},
+        type_publi = {conference},
+} 
+
+@inproceedings{Mohan2007,
+author = {Niladri Chatterjee and Shiwali Mohan},
+title = {Extraction-Based Single-Document Summarization Using Random Indexing},
+booktitle ={Proceeding of the 19th IEEE International Conference on Tools with Artificial Intelligence},
+abstract = {This paper presents a summarization technique for text documents exploiting the semantic similarity between sentences to remove the redundancy from the text. Semantic similarity scores are computed by mapping the sentences on a semantic space using Random Indexing. Random Indexing, in comparison with other semantic space algorithms, presents a computationally efficient way of implicit dimensionality reduction. It involves inexpensive vector computations such as addition. It thus provides an efficient way to compute similarities between words, sentences and documents. Random Indexing has been used to compute the semantic similarity scores of sentences and graph-based ranking algorithms have been employed to produce an extract of the given text.},
+series = {ICTAI},
+year = {2007},
+url ={http://www.computer.org.proxy.lib.umich.edu/portal/web/csdl/doi/10.1109/ICTAI.2007.28},
+pdf ={./content/mohan_ictai.pdf},
+ type_publi = {conference},
+}
+
+
+@techreport{Mohan2009,
+       author = {Shiwali Mohan and John E. Laird},
+       title = {Learning to Play Mario},
+       NUMBER =        {CCA-TR-2009-03},
+       INSTITUTION =   {Center for Cognitive Architecture, University of Michigan},
+       ADDRESS =       {Ann Arbor, Michigan},
+       ABSTRACT =      {Computer Games are interesting test beds for research in Artificial Intelligence and Machine Learning. Games usually have continuous state spaces, large action spaces and  are characterized by complex relationships between components. Without applying abstraction and generalizations, learning in computer games domain becomes infeasible. Through this work, we investigate some designs that facilitate tractable reinforcement learning in symbolic agents developed using Soar architecture operating in a complex domain, Infinite Mario. Object oriented representations of the environment greatly simplify otherwise complex state spaces. We also demonstrate that imposing hierarchy in problem structure greatly reduces the complexity of the tasks and aids in learning generalized policies that can be transferred across similar tasks.},
+       year = {2009},
+       url = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
+       type_publi = {techreport},
+       pdf = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
+       type_publi = {techreport},
+}
+</div>
+#+end_html
+ 
