@@ -6,7 +6,7 @@ body
     background-color:#FFFFFF;
     margin-top:100px;
     color:#000000;
-    width: 58em;
+    width: 50em;
     margin-left:auto;
     margin-right:auto; 
     text-align:justify;
@@ -47,7 +47,7 @@ a:link {color:#800000; text-decoration: none;}
 a:hover {color:#800000; text-decoration: underline;}
 a:visited {color:#800000;text-decoration: none;}
 
-#tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:58em;}
+#tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:50em;}
 #tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Esteban', serif; font-size: 20px; margin-top: -20px; margin-bottom: -3px}
 #tab-container ul li { width: 100px; display:inline;}
 #tab-container ul li a { display: inline; padding: 5px 14px; outline: none; }
