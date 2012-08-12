@@ -206,7 +206,8 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
         pdf = {./content/mohan_AAAIDC_2012.pdf},
         type_publi = {conference},
         url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/4856/5288},
-        note = {\textit{(Extended Abstract)}},        
+        note = {\textit{(Extended Abstract)}},    
+        talk = {./content/dc-r.pdf},
 }
 
 

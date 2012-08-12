@@ -54,7 +54,10 @@ function displayBibTex(element,id)
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['url']+"\">http</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['abstract']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\">Abstract</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\">abstract</a>&nbsp;";
+	            }
+		    if(bibtex.data[i]['talk']){
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\">talk</a>&nbsp;";
 	            }
 		    citation = citation + "]";
 		    // write to html
