@@ -55,7 +55,7 @@ I am from India, where I received an undergraduate degree in
 Delhi]]. After four years of struggling with control equations and
 differential calculus, I ended up loving programming and other geeky,
 Computer Science-y things. I worked with [[http://in.careers.yahoo.com/][Yahoo! India]] as a software
-engineer on their Strategic Data Solutions team for  time, before
+engineer on their Strategic Data Solutions team for some time, before
 deciding to denounce the real world, and the money that comes with it
 and became a graduate student.
 
