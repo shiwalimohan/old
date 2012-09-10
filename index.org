@@ -40,7 +40,7 @@ University of Michigan]], Ann Arbor. I have been working with Professor [[http:/
 on the [[http://sitemaker.umich.edu/soar/home][Soar Cognitive Architecture]] in the [[http://www.eecs.umich.edu/ai/][Michigan AI Lab]] since 2009.
 
 I am interested in situated language for intelligent agents and the
-relationship of language processing (comprehension, acquisiton,
+relationship of language processing (comprehension, acquisition,
 generation and interaction) with other cognitive capabilities such as
 perception, procedural and declarative knowledge, and learning. 
 
