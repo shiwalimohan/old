@@ -103,10 +103,15 @@ I am a founding member of the [[http://www.edulix.com/forum/forumdisplay.php?fid
 graduate students who volunteer as undergraduate research mentors to
 students in India.\\
 \\
+Fall 2012, Winter 2013: Advising [[mittal.anant@gmail.com][Anant Mittal]], [[anmol.gupta91@gmail.com][Anmol Gupta]] on
+designing Soar AI agents for Google AI Challenge - Planet Wars. The
+work is to be submitted as a minor project to the CS department,
+[[http://www.bvcoend.ac.in//][BVCOE]], New Delhi, India.\\
+\\
 Fall 2011, Winter 2012: Advised [[mandarjoshi.90@gmail.com][Mandar Joshi]], [[khobragade.rakesh@gmail.com][Rakesh Khobragade]],
 [[sonusaurabhsarda@gmail.com][Saurabh Sarda]] on designing Reinforcement Learning agents for Infinite
 Mario. The work was submitted as final year thesis project to the CS
-department, [[http://www.vnit.ac.in/][VNIT]], Pune, India.
+department, [[http://www.vnit.ac.in/][VNIT]], Nagpur, India.
 
 -------
 *** Service
@@ -151,6 +156,14 @@ Michigan
 * Publications
 #+begin_html
     <div class ="bib" id = "bib_publi">
+@inproceedings{Joshi2012a,
+        author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
+        title = {Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario},
+	  booktitle = {In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)},
+	  year = {2012},
+        pdf = {./content/joshi_STAIRS_2012.pdf},
+        type_publi = {workshop},
+}
 @inproceedings{Mohan2012e,
         author = {Shiwali Mohan* and Aaron Mininger* and James Kirk* and John Laird},
         title = {Learning Grounded Language through Situated Interactive Instruction},
@@ -163,7 +176,7 @@ Michigan
 @inproceedings{Joshi2012,
         author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
         title = {Hierarchical Action Selection for Reinforcement Learning in Infinite Mario},
-	  booktitle = {Proceedings of the 6th Starting Artificial Intelligence Research Symposium (ECAI)},
+	  booktitle = {In Proceedings of the 6th Starting Artificial Intelligence Research Symposium (ECAI)},
 	  year = {2012},
 pdf = {./content/joshi_STAIRS_2012.pdf},
         type_publi = {workshop},
@@ -172,7 +185,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
 @inproceedings{Mohan2012d,
         author = {John Laird and Keegan Kinkade and Shiwali Mohan and Joseph Xu},
         title = {Cognitive Robotics Using the Soar Cognitive Architecture},
-	booktitle = {Proceedings of the 8th International Cognitive Robotics Workshop},
+	booktitle = {In Proceedings of the 8th International Cognitive Robotics Workshop},
 	year = {2012},
         pdf = {./content/laird_AAAICogRob_2012.pdf},
         url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5221},
