@@ -155,7 +155,16 @@ EECS 589, Advanced Computer Networks, December 2009, University of
 Michigan
 * Publications
 #+begin_html
+
     <div class ="bib" id = "bib_publi">
+@inproceedings{Mohan2012f,
+        author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
+        title = {Acquiring Grounded Representations of Words with Situated Interactive Instruction},
+	  booktitle = {(accepted for oral presentation) The First Annual Conference on Advances in Cognitive Systems},
+	  year = {2012},
+        pdf = {./content/mohan_ACS_2012.pdf},
+        type_publi = {journal},
+}
 @inproceedings{Joshi2012a,
         author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
         title = {Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario},
