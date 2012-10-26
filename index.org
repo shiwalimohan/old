@@ -82,6 +82,13 @@ a history of interactions (available in episodic/semantic memory of
 the agent) using situated explanation. 
 
 Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://github.com/shiwalimohan/bolt-agents][Soar Agents]], [[http://code.google.com/p/soar/][Soar]]
+
+#+begin_html
+<iframe width="390" height="220" src="http://www.youtube.com/embed/9M-rpdXFbgs" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="390" height="220" src="http://www.youtube.com/embed/_ktny-h0KX4" frameborder="0" allowfullscreen></iframe>
+#+end_html
+
 -------
 *** Reinforcement Learning
 In the past, I was investigating the capabilities of Soar-RL in
