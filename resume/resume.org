@@ -24,7 +24,7 @@
 #+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.1,0.1}
 #+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 #+latex_header: \defaultfontfeatures{Mapping=tex-text}
-#+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Gentium}
+#+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Linux Libertine O}
 #+latex_header: \usepackage{natbib}
 #+latex_header: \usepackage{bibentry}
 #+latex_header: \newcommand{\bibverse}[1]{\begin{verse} \bibentry{#1}. \end{verse}}
@@ -49,29 +49,31 @@
 #+end_latex
 
 * Education
-Doctor of Philosophy in \textsc{Computer Science}  \hfill /August
+Doctor of Philosophy in /Computer Science and Engineering/  \hfill /August
 2009 - Present/ \\
-\textsc{University of Michigan}, Ann Arbor\\
-Areas of Interest: Cognitive Architecture, Grounded Natural Language,
-Human-Agent Interaction, Machine Learning 
+*University of Michigan*, Ann Arbor\\
+Areas of Interest: cognitive agents and architectures, embodied
+language processing, learning with human-agent interaction
 
-Master of Science and Engineering in \textsc{Computer Science} \hfill
+
+Master of Science and Engineering in /Computer Science/ \hfill
 /August 2008 - December 2009/\\
-\textsc{University of Michigan}, Ann Arbor\\
+*University of Michigan*, Ann Arbor\\
 Relevant Coursework: Introductory/Advanced Artificial Intelligence,
 Machine Learning, Natural Language Processing, Models of Cognition,
-Cognitive Functioning, Algorithms, Parallel Computing
+Cognitive Functioning, Algorithms, Parallel Computing, Psychology of
+Language
 
-Bachelor of Engineering in \textsc{Instrumentation and Control
-Engineering} \hfill /August 2003 - May 2007/\\
-\textsc{Netaji Subhas Institute of Technology}, Delhi University, New Delhi, India\\
+Bachelor of Engineering in /Instrumentation and Control
+Engineering/ \hfill /August 2003 - May 2007/\\
+Netaji Subhas Institute of Technology, *Delhi University*, New Delhi, India\\
 * Research Experience
  Graduate Student Research Assistant to Professor John E. Laird \hfill
  /August 2010 - Present/\\
-\textsc{University of Michigan}, Ann Arbor\\
+*University of Michigan*, Ann Arbor\\
 /Learning with Human-Agent Interaction/  \\
-Designed and implemented an interaction model for agents instantiated in Soar
-cognitive architecture that allows  limited mixed-initiative
+Designed, implemented, and analyzed an interaction model for agents instantiated in Soar
+cognitive architecture that allows limited mixed-initiative
 interaction with an instructor. The agents can derived generally
 applicable procedural knowledge from a history of interactions
 (available in episodic/semantic memory of the agent) using situated explanation.
@@ -79,7 +81,7 @@ applicable procedural knowledge from a history of interactions
 
  Graduate Student Research Assistant to Professor John E. Laird \hfill
  /May 2009 - August 2010/\\
-\textsc{University of Michigan}, Ann Arbor\\
+*University of Michigan*, Ann Arbor\\
 /Reinforcement Learning in Soar Cognitive Architecture/\\
 Designed, implemented and analyzed reinforcement learning agents for
  Infinite Mario. Implemented modular reinforcement learning for Soar cognitive
@@ -87,20 +89,27 @@ Designed, implemented and analyzed reinforcement learning agents for
 
 Research Assistant to Professor Niladri Chatterjee \hfill /May
 2007 - May 2007/ \\
-\textsc{Indian Institute of Technology}, New Delhi, India\\
+*Indian Institute of Technology*, New Delhi, India\\
 /Sense Disambiguation, Word-Space Models for Language/\\
 Designed, implemented and analyzed algorithm for sense disambiguation
 of homonyms using K-Means clustering and Random Indexing.
 
 Undergraduate Thesis with Professor Niladri Chatterjee \hfill /December
 2006 - May 2007/ \\
-\textsc{Indian Institute of Technology}, New Delhi, India\\
+*Indian Institute of Technology*, New Delhi, India\\
 /Single Document Summarization, Word-Space Models for Language/\\
 Designed, implemented and analyzed algorithm for single-document
 summarization using PageRank and Random Indexing.
 
 * Publications
-** _Conference/Workshop Proceedings_:
+** _Journal Articles_
+\bibentry{Mohan2012f}
+
+** _Conference/Workshop Proceedings_
+\bibentry{Mohan2012g}
+
+\bibentry{Joshi2012b}
+
 \bibentry{Mohan2012d}
 
 \bibentry{Mohan2012c}
@@ -112,7 +121,7 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2008}
 
 \bibentry{Mohan2007}
-** _Short Papers and Extended Abstracts_:
+** _Short Papers and Extended Abstracts_
 \bibentry{Joshi2012}
 
 \bibentry{Mohan2012a}
@@ -123,19 +132,25 @@ summarization using PageRank and Random Indexing.
 * Teaching Experience
 Graduate Student Instructor \hfill /January 2012 - April 2012/\\
 EECS 492: Introduction to Artificial Intelligence \\
-\textsc{University of Michigan}
+*University of Michigan*, Ann Arbor
 
 Student\hfill /September 2011 - December 2011/\\
 CHE 580: Teaching Engineering \\
 \textsc{University of Michigan}
 * Advising Experience
+Undergraduate Student Advising \hfill /September 2012 - Present/\\
+Anant Mittal, Anmol Gupta\\
+Undergraduate thesis project: \emph{Designing Soar Agents for Planet Wars}\\
+*Bharati Vidyapeeth College of Engineering*, New Delhi, India\\
+
 Undergraduate Student Advising \hfill /September 2011 - May 2012/\\
 Mandar Joshi, Rakesh Khobragade, Saurabh Sarda\\
-\emph{Reinforcement Learning agents for Infinite Mario}\\
-\textsc{Visvesvaraya National Institute of Techonology}, Nagpur, India\\
+Undergraduate thesis project: \emph{Reinforcement Learning Agents for Infinite Mario}\\
+*Visvesvaraya National Institute of Techonology*, Nagpur, India\\
 * Service
 
-#+ATTR_LaTeX: align=rp{14cm}
+#+ATTR_LaTeX: align=lp{15cm}
+| 2012 | /Co-Chair/, Special Interest Group - Faculty, University of Michigan                                                                   |
 | 2011 | /Vice-President/, Computer Science and Engineering Graduate Organization, University of Michigan                                       |
 |      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
 |      | /Pioneer/, EduMentoring - an community to promote collaborative research between graduate students and undergraduate students in India |
@@ -145,7 +160,6 @@ Mandar Joshi, Rakesh Khobragade, Saurabh Sarda\\
 | 2007 | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
 | 2006 | /Volunteer/, The Neighborhood Project, Netaji Subhas Institute of Technology, Delhi                                                    |
 |      | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
-
 * Professional Experience
 Software Engineer with Strategic Data Services \hfill /July 2007 -
 July 2008/\\
@@ -163,26 +177,21 @@ July 2006/\\
 Software Intern \hfill /May 2005 -
 July 2005/\\
 \textsc{Central Research Laboratory}, India
-\\
-\\
-\\
-\\
 * Technical Skills
-#+ATTR_LaTeX: align=rp{13cm}
-| Operating Systems:        | Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) |
-| Programming Languages:    | \textsc{C/C++}, \textsc{Java}, Perl, Soar  |
-| Programming IDEs/Editors: | Eclipse, Emacs                             |
-| Document Markup Language: | \LaTeX                                     |
+Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
+Programming Languages: \textsc{C}, \textsc{Java}, Perl, Soar  \\
+Programming IDEs/Editors: Eclipse, Emacs \\
+Document Markup Language: \LaTeX
 * Interests and Activities
 Technology, Science Trivia\\
 Dance and Choreography, Design, Typography
 * Miscellaneous
-#+ATTR_LaTeX: align=rp{13cm}
+#+ATTR_LaTeX: align=lp{13cm}
 | Date of Birth | December 24, 1985                                                |
 | Home Address  | 1923 Point Lane, Apartment 102, Ann Arbor, Michigan - 48105, USA |
-| Citizenship:  | Republic of India                                                |
-| Languages:    | Hindi (mother tongue), English (fluent)                          |
-| Email:        | [[mailto:shiwali.mohan@gmail.com][shiwali.mohan@gmail.com]]                                          |
+| Citizenship   | Republic of India                                                |
+| Languages     | Hindi (mother tongue), English (fluent)                          |
+| Email         | [[mailto:shiwali.mohan@gmail.com][shiwali.mohan@gmail.com]]                                          |
 
 #+begin_latex
 \nobibliography{../my_library}
