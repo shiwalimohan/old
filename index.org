@@ -167,7 +167,7 @@ Michigan
 @inproceedings{Mohan2012f,
         author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
         title = {Acquiring Grounded Representations of Words with Situated Interactive Instruction},
-	  booktitle = {(accepted for oral presentation) The First Annual Conference on Advances in Cognitive Systems},
+	  booktitle = {(in press) Advances in Cognitive Systems},
 	  year = {2012},
         pdf = {./content/mohan_ACS_2012.pdf},
         type_publi = {journal},
