@@ -49,16 +49,18 @@
 #+end_latex
 
 * Education
-Doctor of Philosophy in /Computer Science and Engineering/  \hfill /August
+Doctor of Philosophy in [[http://www.cse.umich.edu/][Computer Science and Engineering]]  \hfill /August
 2009 - Present/ \\
-*University of Michigan*, Ann Arbor\\
+*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor \\
+Advisor: Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \\
+Thesis: Comprehension and Acquisition of Verbs using Situated Context
+in Interactive Instruction \\
 Areas of Interest: cognitive agents and architectures, embodied
-language processing, learning with human-agent interaction
+language processing, learning with human-agent interaction 
 
-
-Master of Science and Engineering in /Computer Science/ \hfill
+Master of Science and Engineering in [[http://www.cse.umich.edu/][Computer Science and Engineering]] \hfill
 /August 2008 - December 2009/\\
-*University of Michigan*, Ann Arbor\\
+*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
 Relevant Coursework: Introductory/Advanced Artificial Intelligence,
 Machine Learning, Natural Language Processing, Models of Cognition,
 Cognitive Functioning, Algorithms, Parallel Computing, Psychology of
@@ -68,18 +70,18 @@ Bachelor of Engineering in /Instrumentation and Control
 Engineering/ \hfill /August 2003 - May 2007/\\
 Netaji Subhas Institute of Technology, *Delhi University*, New Delhi, India\\
 * Research Experience
- Graduate Student Research Assistant to Professor John E. Laird \hfill
+ Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /August 2010 - Present/\\
 *University of Michigan*, Ann Arbor\\
 /Learning with Human-Agent Interaction/  \\
-Designed, implemented, and analyzed an interaction model for agents instantiated in Soar
-cognitive architecture that allows limited mixed-initiative
-interaction with an instructor. The agents can derived generally
-applicable procedural knowledge from a history of interactions
-(available in episodic/semantic memory of the agent) using situated explanation.
+Designed, implemented, and analyzed an interaction model for agents
+ instantiated in Soar cognitive architecture that allows limited
+ mixed-initiative interaction with an instructor. The agents can
+ derived generally applicable procedural knowledge from a history of
+ (available in episodic/semantic memory of the agent) using situated
+ explanation.
 
-
- Graduate Student Research Assistant to Professor John E. Laird \hfill
+ Graduate Student Research Assistant to Professor [[%20http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /May 2009 - August 2010/\\
 *University of Michigan*, Ann Arbor\\
 /Reinforcement Learning in Soar Cognitive Architecture/\\
@@ -105,14 +107,10 @@ summarization using PageRank and Random Indexing.
 ** _Journal Articles_
 \bibentry{Mohan2012f}
 
-** _Conference/Workshop Proceedings_
+** _Conference/Symposium Proceedings_
 \bibentry{Mohan2012g}
 
 \bibentry{Joshi2012b}
-
-\bibentry{Mohan2012d}
-
-\bibentry{Mohan2012c}
 
 \bibentry{Mohan2011a}
 
@@ -121,6 +119,10 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2008}
 
 \bibentry{Mohan2007}
+** _Workshop Proceedings_
+\bibentry{Mohan2012d}
+
+\bibentry{Mohan2012c}
 ** _Short Papers and Extended Abstracts_
 \bibentry{Joshi2012}
 
@@ -186,7 +188,7 @@ Document Markup Language: \LaTeX
 Technology, Science Trivia\\
 Dance and Choreography, Design, Typography
 * Miscellaneous
-#+ATTR_LaTeX: align=lp{13cm}
+#+ATTR_LaTeX: align=lp{15.5cm}
 | Date of Birth | December 24, 1985                                                |
 | Home Address  | 1923 Point Lane, Apartment 102, Ann Arbor, Michigan - 48105, USA |
 | Citizenship   | Republic of India                                                |
@@ -198,5 +200,7 @@ Dance and Choreography, Design, Typography
 \bibliographystyle{plain}
 #+end_latex
 
+* References 
+Available on request.
 
 
