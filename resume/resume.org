@@ -51,8 +51,8 @@
 Doctor of Philosophy in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/  \hfill /August
 2009 - Present/ \\
 *University of Michigan*, Ann Arbor \\
-Thesis: Comprehension and Acquisition of Verbs using Situated Context
-in Interactive Instruction \\
+Thesis: Comprehension and acquisition of verbs using situated context
+in interactive instruction \\
 Areas of Interest: cognitive agents and architectures, embodied
 language processing, learning with human-agent interaction 
 
@@ -68,18 +68,18 @@ Bachelor of Engineering in /[[http://www.nsitonline.in/departments/ice.html][Ins
 Engineering]]/ \hfill /August 2003 - May 2007/\\
 Netaji Subhas Institute of Technology, *Delhi University*, New Delhi,
 India\\
-Thesis: Extraction Based Summarization of Documents
+Thesis: Extraction based summarization of documents
 * Research Experience
  Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /August 2010 - Present/\\
 *[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
-/Grounded Language for Physical Agents/\\
+/Grounded language for physical agents/\\
 Investigating comprehension and acquisition of grounded representation
  of verbs for robotic systems acting in a complex environment such
  that the robot is able to collaborate with humans on a wide variety
  of tasks. 
 
-/Learning with Human-Agent Interaction/  \\
+/Learning with human-agent interaction/  \\
 Designed, implemented, and analyzed an interaction model for agents
  instantiated in Soar cognitive architecture that allows limited
  mixed-initiative interaction with an instructor. The agents can
@@ -90,7 +90,7 @@ Designed, implemented, and analyzed an interaction model for agents
  Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /May 2009 - August 2010/\\
 *[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
-/Reinforcement Learning in Soar Cognitive Architecture/\\
+/Reinforcement learning in Soar cognitive architecture/\\
  Designed, implemented, and analyzed reinforcement learning agents for
  Infinite Mario. Implemented modular reinforcement learning for Soar cognitive
  architecture that allows the agent to learn multiple MDPs. 
@@ -98,14 +98,14 @@ Designed, implemented, and analyzed an interaction model for agents
 Research Assistant to Professor [[http://maths.iitd.ac.in/people/faculty/niladri_chatterjee.php][Niladri Chatterjee]] \hfill /May
 2007 - May 2007/ \\
 *[[http://www.iitd.ac.in][Indian Institute of Technology]]*, New Delhi, India\\
-/Sense Disambiguation, Word-Space Models for Language/\\
+/Sense disambiguation, Word-Space models for language/\\
 Designed, implemented and analyzed algorithm for sense disambiguation
 of homonyms using K-Means clustering and Random Indexing.
 
 Undergraduate Thesis with Professor [[http://maths.iitd.ac.in/people/faculty/niladri_chatterjee.php][Niladri Chatterjee]] \hfill /December
 2006 - May 2007/ \\
 *[[http://www.iitd.ac.in][Indian Institute of Technology]]*, New Delhi, India\\
-/Single Document Summarization, Word-Space Models for Language/\\
+/Single document summarization, Word-Space models for language/\\
 Designed, implemented and analyzed algorithm for single-document
 summarization using PageRank and Random Indexing.
 
@@ -148,12 +148,12 @@ CHE 580: Teaching Engineering \\
 * Advising Experience
 Undergraduate Student Advising \hfill /September 2012 - Present/\\
 Anant Mittal, Anmol Gupta\\
-Undergraduate thesis project: \emph{Designing Soar Agents for Planet Wars}\\
+Undergraduate thesis project: \emph{Designing Soar agents for planet wars}\\
 *Bharati Vidyapeeth College of Engineering*, New Delhi, India\\
 
 Undergraduate Student Advising \hfill /September 2011 - May 2012/\\
 Mandar Joshi, Rakesh Khobragade, Saurabh Sarda\\
-Undergraduate thesis project: \emph{Reinforcement Learning Agents for Infinite Mario}\\
+Undergraduate thesis project: \emph{Reinforcement learning agents for Infinite Mario}\\
 *Visvesvaraya National Institute of Techonology*, Nagpur, India\\
 * Service
 
@@ -188,7 +188,7 @@ July 2005/\\
 Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
 Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar  \\
 Programming IDEs/Editors: Eclipse, Emacs \\
-Document Markup Language: \LaTeX
+Document Markup Language: Latex
 
 #+begin_latex
 \nobibliography{../my_library}
