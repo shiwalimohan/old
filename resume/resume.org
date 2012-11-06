@@ -21,7 +21,7 @@
 #+latex_header: \usepackage{fullpage}
 #+latex_header: \usepackage{titlesec}					%custom \section
 #+latex_header: \usepackage{hyperref}
-#+latex_header: \definecolor{linkcolour}{rgb}{0.6,0.1,0.1}
+#+latex_header: \definecolor{linkcolour}{rgb}{0,0,0.6}
 #+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 #+latex_header: \defaultfontfeatures{Mapping=tex-text}
 #+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Linux Libertine O}
@@ -171,11 +171,11 @@ Undergraduate thesis project: \emph{Reinforcement Learning Agents for Infinite M
 Software Engineer with Strategic Data Services \hfill /July 2007 -
 July 2008/\\
 *[[http://bangalore.yahoo.com][Yahoo! Research and Development]]*, India\\
-Worked on distributed memory clusters owned by Media
-Analytics. Implemented feed aggregation (to generate analytic numbers
+Implemented feed aggregation (to generate analytic numbers
 such as page views and click-through rate) for many Yahoo!
-websites. Implemented better scheduling of I/O and CPU bound processes
-leading to performance improvement of Media Analytics processes.
+websites on a custom distributed computing platform. Implemented
+better scheduling of I/O and CPU bound processes leading to
+performance improvement of Media Analytics processes.
 
 Software Intern \hfill /May 2006 -
 July 2006/\\
@@ -189,13 +189,6 @@ Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
 Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar  \\
 Programming IDEs/Editors: Eclipse, Emacs \\
 Document Markup Language: \LaTeX
-* Miscellaneous
-#+ATTR_LaTeX: align=lp{15.5cm}
-| Date of Birth | December 24, 1985                                                |
-| Home Address  | 1923 Point Lane, Apartment 102, Ann Arbor, Michigan - 48105, USA |
-| Citizenship   | Republic of India                                                |
-| Languages     | Hindi (mother tongue), English (fluent)                          |
-| Email         | [[mailto:shiwali.mohan@gmail.com][shiwali.mohan@gmail.com]]                                          |
 
 #+begin_latex
 \nobibliography{../my_library}
