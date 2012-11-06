@@ -38,7 +38,6 @@
 
 \font\fb=''[cmr10]'' %for use with \LaTeX command
 
-
 \par{
 		{\Huge  \textsc{Shiwali Mohan}\\
 \normalsize{
@@ -49,56 +48,63 @@
 #+end_latex
 
 * Education
-Doctor of Philosophy in [[http://www.cse.umich.edu/][Computer Science and Engineering]]  \hfill /August
+Doctor of Philosophy in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/  \hfill /August
 2009 - Present/ \\
-*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor \\
-Advisor: Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \\
+*University of Michigan*, Ann Arbor \\
 Thesis: Comprehension and Acquisition of Verbs using Situated Context
 in Interactive Instruction \\
 Areas of Interest: cognitive agents and architectures, embodied
 language processing, learning with human-agent interaction 
 
-Master of Science and Engineering in [[http://www.cse.umich.edu/][Computer Science and Engineering]] \hfill
+Master of Science and Engineering in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/ \hfill
 /August 2008 - December 2009/\\
-*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
+*University of Michigan*, Ann Arbor\\
 Relevant Coursework: Introductory/Advanced Artificial Intelligence,
 Machine Learning, Natural Language Processing, Models of Cognition,
 Cognitive Functioning, Algorithms, Parallel Computing, Psychology of
 Language
 
-Bachelor of Engineering in /Instrumentation and Control
-Engineering/ \hfill /August 2003 - May 2007/\\
-Netaji Subhas Institute of Technology, *Delhi University*, New Delhi, India\\
+Bachelor of Engineering in /[[http://www.nsitonline.in/departments/ice.html][Instrumentation and Control
+Engineering]]/ \hfill /August 2003 - May 2007/\\
+Netaji Subhas Institute of Technology, *Delhi University*, New Delhi,
+India\\
+Thesis: Extraction Based Summarization of Documents
 * Research Experience
  Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /August 2010 - Present/\\
-*University of Michigan*, Ann Arbor\\
+*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
+/Grounded Language for Physical Agents/\\
+Investigating comprehension and acquisition of grounded representation
+ of verbs for robotic systems acting in a complex environment such
+ that the robot is able to collaborate with humans on a wide variety
+ of tasks. 
+
 /Learning with Human-Agent Interaction/  \\
 Designed, implemented, and analyzed an interaction model for agents
  instantiated in Soar cognitive architecture that allows limited
  mixed-initiative interaction with an instructor. The agents can
- derived generally applicable procedural knowledge from a history of
- (available in episodic/semantic memory of the agent) using situated
- explanation.
+ derived general action policies from a history of (available in
+ episodic/semantic memory of the agent) using explanation based
+ generalization.
 
- Graduate Student Research Assistant to Professor [[%20http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
+ Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /May 2009 - August 2010/\\
-*University of Michigan*, Ann Arbor\\
+*[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
 /Reinforcement Learning in Soar Cognitive Architecture/\\
-Designed, implemented and analyzed reinforcement learning agents for
+ Designed, implemented, and analyzed reinforcement learning agents for
  Infinite Mario. Implemented modular reinforcement learning for Soar cognitive
  architecture that allows the agent to learn multiple MDPs. 
 
-Research Assistant to Professor Niladri Chatterjee \hfill /May
+Research Assistant to Professor [[http://maths.iitd.ac.in/people/faculty/niladri_chatterjee.php][Niladri Chatterjee]] \hfill /May
 2007 - May 2007/ \\
-*Indian Institute of Technology*, New Delhi, India\\
+*[[http://www.iitd.ac.in][Indian Institute of Technology]]*, New Delhi, India\\
 /Sense Disambiguation, Word-Space Models for Language/\\
 Designed, implemented and analyzed algorithm for sense disambiguation
 of homonyms using K-Means clustering and Random Indexing.
 
-Undergraduate Thesis with Professor Niladri Chatterjee \hfill /December
+Undergraduate Thesis with Professor [[http://maths.iitd.ac.in/people/faculty/niladri_chatterjee.php][Niladri Chatterjee]] \hfill /December
 2006 - May 2007/ \\
-*Indian Institute of Technology*, New Delhi, India\\
+*[[http://www.iitd.ac.in][Indian Institute of Technology]]*, New Delhi, India\\
 /Single Document Summarization, Word-Space Models for Language/\\
 Designed, implemented and analyzed algorithm for single-document
 summarization using PageRank and Random Indexing.
@@ -138,7 +144,7 @@ EECS 492: Introduction to Artificial Intelligence \\
 
 Student\hfill /September 2011 - December 2011/\\
 CHE 580: Teaching Engineering \\
-\textsc{University of Michigan}
+*University of Michigan*
 * Advising Experience
 Undergraduate Student Advising \hfill /September 2012 - Present/\\
 Anant Mittal, Anmol Gupta\\
@@ -153,11 +159,10 @@ Undergraduate thesis project: \emph{Reinforcement Learning Agents for Infinite M
 
 #+ATTR_LaTeX: align=lp{15cm}
 | 2012 | /Co-Chair/, Special Interest Group - Faculty, University of Michigan                                                                   |
-| 2011 | /Vice-President/, Computer Science and Engineering Graduate Organization, University of Michigan                                       |
+| 2011 | /Vice-President/, CSE Graduate Organization, University of Michigan                                                                    |
 |      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
-|      | /Pioneer/, EduMentoring - an community to promote collaborative research between graduate students and undergraduate students in India |
 |      | /Mentor/, EduMentoring                                                                                                                 |
-| 2010 | /DCO Representative/, Computer Science and Engineering Graduate Organization, University of Michigan                                   |
+| 2010 | /DCO Representative/, CSE Graduate Organization, University of Michigan                                                                |
 |      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
 | 2007 | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
 | 2006 | /Volunteer/, The Neighborhood Project, Netaji Subhas Institute of Technology, Delhi                                                    |
@@ -165,7 +170,7 @@ Undergraduate thesis project: \emph{Reinforcement Learning Agents for Infinite M
 * Professional Experience
 Software Engineer with Strategic Data Services \hfill /July 2007 -
 July 2008/\\
-\textsc{Yahoo! Research and Development}, India\\
+*[[http://bangalore.yahoo.com][Yahoo! Research and Development]]*, India\\
 Worked on distributed memory clusters owned by Media
 Analytics. Implemented feed aggregation (to generate analytic numbers
 such as page views and click-through rate) for many Yahoo!
@@ -174,19 +179,16 @@ leading to performance improvement of Media Analytics processes.
 
 Software Intern \hfill /May 2006 -
 July 2006/\\
-\textsc{Bharat Electronics Limited}, India
+*[[http://www.bel-india.com/][Bharat Electronics Limited]]*, India
 
 Software Intern \hfill /May 2005 -
 July 2005/\\
-\textsc{Central Research Laboratory}, India
+*Central Research Laboratory*, *[[http://www.bel-india.com/][Bharat Electronics Limited]]*, India
 * Technical Skills
 Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
-Programming Languages: \textsc{C}, \textsc{Java}, Perl, Soar  \\
+Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar  \\
 Programming IDEs/Editors: Eclipse, Emacs \\
 Document Markup Language: \LaTeX
-* Interests and Activities
-Technology, Science Trivia\\
-Dance and Choreography, Design, Typography
 * Miscellaneous
 #+ATTR_LaTeX: align=lp{15.5cm}
 | Date of Birth | December 24, 1985                                                |
@@ -199,8 +201,5 @@ Dance and Choreography, Design, Typography
 \nobibliography{../my_library}
 \bibliographystyle{plain}
 #+end_latex
-
-* References 
-Available on request.
 
 
