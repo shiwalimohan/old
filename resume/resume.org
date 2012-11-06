@@ -53,13 +53,13 @@ Doctor of Philosophy in /[[http://www.cse.umich.edu/][Computer Science and Engin
 *University of Michigan*, Ann Arbor \\
 Thesis: Comprehension and acquisition of verbs using situated context
 in interactive instruction \\
-Areas of Interest: cognitive agents and architectures, embodied
+Areas of interest: Cognitive agents and architectures, embodied
 language processing, learning with human-agent interaction 
 
 Master of Science and Engineering in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/ \hfill
 /August 2008 - December 2009/\\
 *University of Michigan*, Ann Arbor\\
-Relevant Coursework: Introductory/Advanced Artificial Intelligence,
+Relevant coursework: Introductory/Advanced Artificial Intelligence,
 Machine Learning, Natural Language Processing, Models of Cognition,
 Cognitive Functioning, Algorithms, Parallel Computing, Psychology of
 Language
@@ -178,7 +178,7 @@ better scheduling of I/O and CPU bound processes leading to
 performance improvement of Media Analytics processes.
 
 Software Intern \hfill /May 2006 -
-July 2006/\\
+July 2006/\\          
 *[[http://www.bel-india.com/][Bharat Electronics Limited]]*, India
 
 Software Intern \hfill /May 2005 -
