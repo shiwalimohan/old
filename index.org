@@ -162,7 +162,6 @@ EECS 589, Advanced Computer Networks, December 2009, University of
 Michigan
 * Publications
 #+begin_html
-
     <div class ="bib" id = "bib_publi">
 @inproceedings{Mohan2012f,
         author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
