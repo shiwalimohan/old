@@ -170,6 +170,7 @@ Michigan
 	  year = {2012},
         pdf = {./content/mohan_ACS_2012.pdf},
         type_publi = {journal},
+        talk = {./content/acs-talk.pdf},
 }
 @inproceedings{Joshi2012a,
         author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
@@ -186,6 +187,7 @@ Michigan
         pdf = {./content/mohan_AAAIFS_2012.pdf},
 	year = {2012},
         type_publi = {symposium},
+        talk = {./content/aaaifs-talk.pdf},
 }
 
 @inproceedings{Joshi2012,
