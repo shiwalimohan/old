@@ -1,0 +1,47 @@
+search term: kitchen chore list
+webpage:
+http://mrshappyhousewife.com/housekeeping/days-of-the-week-chores/2006-kichen-day-chore-list.html
+
+|----------------------------------------------------+------+---------+-------+-----|
+| Task                                               | Verb | Objects | Goals | Age |
+|----------------------------------------------------+------+---------+-------+-----|
+| Wash tablecloth                                    |      |         |       |     |
+| Wash placemats                                     |      |         |       |     |
+| Wash towels                                        |      |         |       |     |
+| Wash dishcloth                                     |      |         |       |     |
+| Empty crumbs from the toaster                      |      |         |       |     |
+| Clean coffee pot                                   |      |         |       |     |
+| Clean coffee filter area                           |      |         |       |     |
+| Wipe off microwave                                 |      |         |       |     |
+| Wipe off mixer                                     |      |         |       |     |
+| Wipe off coffee maker                              |      |         |       |     |
+| Wipe off toaster                                   |      |         |       |     |
+| Clean top of the refridgerator                     |      |         |       |     |
+| Clean stove hood                                   |      |         |       |     |
+| Wipe off front of the cabinets                     |      |         |       |     |
+| Wipe off front of refridgerator                    |      |         |       |     |
+| Wipe off front of stove                            |      |         |       |     |
+| Wipe off front off dishwasher                      |      |         |       |     |
+| Empty out-of-date food from refriderator           |      |         |       |     |
+| Empty out-of-date food from freezer                |      |         |       |     |
+| Organize cupboard                                  |      |         |       |     |
+| Clean cupboard                                     |      |         |       |     |
+| Organize drawer                                    |      |         |       |     |
+| Clean drawer                                       |      |         |       |     |
+| Organize pantry shelf                              |      |         |       |     |
+| Clean pantry shelf                                 |      |         |       |     |
+| Clean microwave                                    |      |         |       |     |
+| Remove clutter from counter                        |      |         |       |     |
+| Wipe-off counter                                   |      |         |       |     |
+| Treat any stains on counter with Clorox Bleach Pen |      |         |       |     |
+| Clean stove top                                    |      |         |       |     |
+| Clean stove eye pans                               |      |         |       |     |
+| Scrub sink                                         |      |         |       |     |
+| Scrub faucet                                       |      |         |       |     |
+| Dust blinds                                        |      |         |       |     |
+| Clean window                                       |      |         |       |     |
+| Clean window sill                                  |      |         |       |     |
+| Wipe down kitchen table                            |      |         |       |     |
+| Wipe down kitchen chairs                           |      |         |       |     |
+| Wipe down garbage can                              |      |         |       |     |
+|----------------------------------------------------+------+---------+-------+-----|
