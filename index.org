@@ -65,7 +65,7 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 26-10-2012 is [[file:resume/resume.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
-*** Grounded Natural Language
+*** Language for Physical Agents
 I am involved with the grounded language acquisition project
 at Michigan. Apart from the Soar group at University of Michigan, the
 team also includes [[http://april.eecs.umich.edu/][APRIL at Michigan]] and [[http://www.soartech.com/][SoarTech]].
@@ -88,6 +88,8 @@ Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://git
 
 <iframe width="390" height="220" src="http://www.youtube.com/embed/_ktny-h0KX4" frameborder="0" allowfullscreen></iframe>
 #+end_html
+-------
+*** Learning from Instruction
 
 -------
 *** Reinforcement Learning
@@ -99,6 +101,7 @@ agent to learn multiple MDPs at the same time.
 
 Related Software:
 [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
+*** Word-Space Models of Language
 * Academia
 *** Teaching
 I served as a graduate student instructor for EECS 492 - Introduction

@@ -1,0 +1,52 @@
+search term: kitchen chore list
+webpage: http://static.howstuffworks.com/pdf/19-kids-and-counting-family-chore-list.pdf
+
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Task                                                     | Verb       | Objects              | Goals |   Age |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Carry empty plate to counter                             | carry      | plate, counter       |       |   3-5 |
+| Put placemats on table                                   | put        | placemats, table     |       |       |
+| Stir batters.                                            | stir       | batter               |       |       |
+| Help pour ingredients.                                   | help, pour | ingredients          |       |       |
+| Wipe up small spills                                     | wipe       | spills               |       |       |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Measure ingredients                                      | measure    | ingredients          |       |   6-8 |
+| Stir ingredients                                         | stir       | ingredients          |       |       |
+| Set the table                                            | set        | table                |       |       |
+| Clear the table                                          | clear      | table                |       |       |
+| Unload utensils from dishwasher                          | unload     | utensils, dishwasher |       |       |
+| Help pack lunch                                          | help, pack | lunch                |       |       |
+| Help fix after-school snacks                             | help, fix  | snacks               |       |       |
+| Fix a sandwich                                           | fix        | sandwich             |       |       |
+| Fix a cold cereal                                        | fix        | cereal               |       |       |
+| Fix a toast                                              | fix        | toast                |       |       |
+| Wash dishes at sink                                      | wash       | dishes, sink         |       |       |
+| Clean tabletops with nontoxic cleanser                   | clean      | tabletops            |       |       |
+| Clean countertops with nontoxic cleanser                 | clean      | countertops          |       |       |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Use stovetop with supervision                            |            |                      |       |  9-11 |
+| Use oven with supervision                                |            |                      |       |       |
+| Carry in groceries                                       |            |                      |       |       |
+| Help make grocery list                                   |            |                      |       |       |
+| Cross-off items on the grocery list during shopping trip |            |                      |       |       |
+| Organize pantry                                          |            |                      |       |       |
+| Organize kitchen cabinets                                |            |                      |       |       |
+| Load dishwasher                                          |            |                      |       |       |
+| Unload dishwasher                                        |            |                      |       |       |
+| Take recycling to the curb                               |            |                      |       |       |
+| Take trash to the curb                                   |            |                      |       |       |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Help plan family meals for the week                      |            |                      |       | 12-14 |
+| Put away groceries                                       |            |                      |       |       |
+| Sort recycling                                           |            |                      |       |       |
+| Clip coupons                                             |            |                      |       |       |
+| Clean wastebaskets with soap and water weekly            |            |                      |       |       |
+| Clean garbage cans with soap and water weekly            |            |                      |       |       |
+| Peel vegetables                                          |            |                      |       |       |
+| Cut fruit                                                |            |                      |       |       |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+| Prepare dinner twice a week                              |            |                      |       | 15-18 |
+| Clean out refridgerator                                  |            |                      |       |       |
+| Deep clean household appliances                          |            |                      |       |       |
+|----------------------------------------------------------+------------+----------------------+-------+-------|
+

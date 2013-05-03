@@ -1,0 +1,17 @@
+search term: kitchen chore list
+webpage:
+http://blog.askousa.com/2011/04/27/creating-a-chore-list-for-your-kitchen-and-laundry/
+
+|-----------------------+--------+------------+------+---------------|
+| Task                  | Verb   | Objects    | Goal | Age           |
+|-----------------------+--------+------------+------+---------------|
+| Loading dishwasher    | load   | dishwasher |      | not specified |
+| Unloading dishwasher  | unload | dishwasher |      |               |
+| Putting away dishes   | put    | dishes     |      |               |
+| Wiping countertop     | wipe   | countertop |      |               |
+| Cleaning stovetop     | clean  | stovetop   |      |               |
+| Wiping down microwave | wipe   | microwave  |      |               |
+| Sweeping floor        | sweep  | floor      |      |               |
+| Mopping floor         | mop    | floor      |      |               |
+|-----------------------+--------+------------+------+---------------|
+
