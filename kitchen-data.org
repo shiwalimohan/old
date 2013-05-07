@@ -1,0 +1,25 @@
+#+TITLE:     Kitchen Data Set
+#+AUTHOR:    Shiwali Mohan
+#+EMAIL:     
+#+DATE:      2013-05-07 Tue
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+#+STYLE:<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+#+STYLE:<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+#+STYLE: <LINK href="css/data-style.css" rel="stylesheet" type="text/css">
+#+STYLE: <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+#+STYLE: <script type="text/javascript" src="javascripts/displayKitchenDataset.js"></script>
+
+#+begin_html
+<div id="visualization" style="height: 500px; width: 1200px;"></div>
+#+end_html
+
