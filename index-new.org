@@ -65,21 +65,6 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 26-10-2012 is [[file:resume/resume.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
-*** Language for Physical Agents
-Collaborators: John E. Laird
-------
-*** Learning with Human-Agent Interaction
-Collaborators: John E. Laird, Aaron Mininger, James Kirk
-------
-*** Reinforcement Learning for Mario
-Collaborators: John E. Laird
-------
-*** Vector-space Models for Language
-Collaborators: Niladri Chatterjee
-
-
-[[http://www.shiwali.me/content/mohan_ictai.pdf][ICTAI 2007]]  |[[http://www.shiwali.me/content/mohan_cicling_2008.pdf][CICLing 2008]] 
------
 *** Grounded Natural Language
 I am involved with the grounded language acquisition project
 at Michigan. Apart from the Soar group at University of Michigan, the
