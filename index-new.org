@@ -88,8 +88,6 @@ Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://git
 
 <iframe width="390" height="220" src="http://www.youtube.com/embed/_ktny-h0KX4" frameborder="0" allowfullscreen></iframe>
 #+end_html
-
--------
 *** Reinforcement Learning
 In the past, I was investigating the capabilities of Soar-RL in
 complex environments. I designed, implemented and analyzed
@@ -99,6 +97,7 @@ agent to learn multiple MDPs at the same time.
 
 Related Software:
 [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
+
 * Academia
 *** Teaching
 I served as a graduate student instructor for EECS 492 - Introduction
