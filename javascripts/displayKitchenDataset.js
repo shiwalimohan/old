@@ -16,11 +16,14 @@ function handleQueryResponse(response) {
 
   var data = response.getDataTable();
   var options = {
-			width:1800, 
+			width:1650, 
 			height:800,
+			axisTitlesPosition: 'in',
 			vAxis: {
 				title: "Number of instances",
 				titleTextStyle: {color: 'black', fontName: 'Esteban', fontSize: 20},
+				maxValue: 70,
+				gridlines: {count: 8},
 				},
 			hAxis: {
 				title: "Verbs", 

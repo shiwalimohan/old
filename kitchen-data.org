@@ -20,6 +20,6 @@
 #+STYLE: <script type="text/javascript" src="javascripts/displayKitchenDataset.js"></script>
 
 #+begin_html
-<div id="visualization" style="height: 500px; width: 1200px;"></div>
+<div id="visualization"></div>
 #+end_html
 

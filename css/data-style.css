@@ -8,13 +8,8 @@ body
     font-style: normal;
     background-color:#FFFFFF;
     color:#000000;
-    margin-left:auto;
-    margin-right:auto; 
     text-align:justify;
 }
-
-body ul{margin:0 0 0 0;padding:0;list-style-type:none}
-
 
 h1 {
     font-family: 'Vollkorn', serif;
