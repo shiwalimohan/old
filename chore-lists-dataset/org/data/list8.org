@@ -1,0 +1,15 @@
+|-----------------------------|
+| Task                        |
+|-----------------------------|
+| Load dishwasher             |
+| Unload dishwasher           |
+| Hand-wash dishes            |
+| Dry dishes                  |
+| Pack left-over food         |
+| Prepare food                |
+| Cook meals                  |
+| Wipe countertops            |
+| Wipe food-preparation areas |
+| Set table                   |
+| Sweep kitchen floor         |
+|                             |

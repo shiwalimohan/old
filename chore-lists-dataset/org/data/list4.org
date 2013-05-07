@@ -1,0 +1,39 @@
+|-----------------------------------------------------------------+------+---------+------+-----+-----------|
+| Task                                                            | Verb | Objects | Goal | Age | Frequency |
+|-----------------------------------------------------------------+------+---------+------+-----+-----------|
+| Clean up dishes after every meal                                |      |         |      |     | daily     |
+| Clean up pots after every meal                                  |      |         |      |     |           |
+| Clean up pants after every meal                                 |      |         |      |     |           |
+| Run dishwasher as needed.                                       |      |         |      |     |           |
+| Empty dishwasher when clean.                                    |      |         |      |     |           |
+| Wipe down kitchen counters                                      |      |         |      |     |           |
+| Wipe down table.                                                |      |         |      |     |           |
+| Wipe down stove top.                                            |      |         |      |     |           |
+| Empty trash can.                                                |      |         |      |     |           |
+| Sweep kitchen floor.                                            |      |         |      |     |           |
+| Change out your kitchen towels.                                 |      |         |      |     |           |
+| Wipe up spills as they occur.                                   |      |         |      |     |           |
+|-----------------------------------------------------------------+------+---------+------+-----+-----------|
+| Clean out the refridgerator of older food.                      |      |         |      |     | weekly    |
+| Clean out the freezer of older food.                            |      |         |      |     |           |
+| Mop the kitchen floor.                                          |      |         |      |     |           |
+| Check cleaning supplies, restock as necessary                   |      |         |      |     |           |
+| Flush kitchen drain with boiling water.                         |      |         |      |     |           |
+| Disinfect kitchen counters.                                     |      |         |      |     |           |
+| Disinfect work surfaces.                                        |      |         |      |     |           |
+| Take out recycling.                                             |      |         |      |     |           |
+|-----------------------------------------------------------------+------+---------+------+-----+-----------|
+| Clean coffeemaker.                                              |      |         |      |     | monthly   |
+| Clean dishwasher.                                               |      |         |      |     |           |
+| Clean oven.                                                     |      |         |      |     |           |
+| Clean kitchen sink with vinegar, baking soda, and boiling water |      |         |      |     |           |
+| Clean inside refridegrator.                                     |      |         |      |     |           |
+| Wipe outside of kitchen appliances.                             |      |         |      |     |           |
+| Update pantry inventory.                                        |      |         |      |     |           |
+| Update freezer inventory.                                       |      |         |      |     |           |
+| Wash kitchen rugs.                                              |      |         |      |     |           |
+| Clean microwave.                                                |      |         |      |     |           |
+| Straighten cabinets and drawers.                                |      |         |      |     |           |
+| Dust light fixtures.                                            |      |         |      |     |           |
+| Clean garbage can.                                              |      |         |      |     |           |
+|-----------------------------------------------------------------+------+---------+------+-----+-----------|

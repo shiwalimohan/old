@@ -1,0 +1,23 @@
+| Task                            |
+|---------------------------------|
+| Sweep the floor                 |
+| Mop the floor                   |
+| Clean all countertops           |
+| Clean tabletop                  |
+| Replace all garbage bins        |
+| Wipe inside of the trashcan     |
+| Wipe outside of the trashcan    |
+| Carry trash out to the dumpster |
+| Keep the kitchen clean          |
+| Clean stove                     |
+| Clean oven                      |
+| Clean refrigerator              |
+| Clean freezer                   |
+| Dispose uncovered leftovers     |
+| Wipe down countertops           |
+| Sweep floor                     |
+| Dry evening meal dishes         |
+| Put away meal dishes            |
+| Plan menu                       |
+| Keep the cupboards clean        |
+| Write grocery lists             |

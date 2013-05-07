@@ -1,0 +1,24 @@
+| Task                    |
+|-------------------------|
+| Cut vegetables          |
+| Stir ingredients        |
+| Mix ingredients         |
+| setting the table       |
+| Plan meals              |
+| Wipe salt shakers       |
+| Clean condiment bottles |
+| Load the dishwasher     |
+| Wash dishes             |
+| Dry dishes              |
+| Put away dishes         |
+| Clean sink              |
+| Wipe stove with sponge  |
+| Wipe countertops        |
+| Keep countertops clean  |
+| Vacuum floor            |
+| Sweep floor             |
+| Dust floor              |
+| Take out the trash      |
+| Take trash to the curb  |
+| Wipe the trash can      |
+

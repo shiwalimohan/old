@@ -1,0 +1,15 @@
+|-----------+--------------------+------------------------------|
+| Task list | Search term        | Webpage                      |
+|-----------+--------------------+------------------------------|
+| [[file:list1.org][list1]]     | kitchen chore list | [[http://blog.askousa.com/2011/04/27/creating-a-chore-list-for-your-kitchen-and-laundry/%0A][blog.askousa.com]]             |
+| [[file:list2.org][list2]]     | kitchen chore list | [[http://static.howstuffworks.com/pdf/19-kids-and-counting-family-chore-list.pdf%0A][howstuffworks.com]]            |
+| [[file:list3.org][list3]]     | kitchen chore list | [[http://mrshappyhousewife.com/housekeeping/days-of-the-week-chores/2006-kichen-day-chore-list.html%0A][mrshappyhousewife.com]]        |
+| [[file:list4.org][list4]]     | kitchen chore list | [[http://www.household-management-101.com/kitchen-cleaning.html][household-management-101.com]] |
+| [[file:list5.org][list5]]     | kitchen chore list | [[http://parentingteens.about.com/od/chores/a/Chores-List-Kids-Teens.htm%0A][parentingteens.com]]           |
+| [[file:list6.org][list6]]     | kitchen chore list | [[http://www.livestrong.com/article/208009-family-chore-list/%0A][livestrong.com]]               |
+| [[file:list7.org][list7]]     | kitchen chore list | [[http://www.homemadesimple.com/en-US/Cleaning/Pages/kitchen-chores-tips-tasks.aspx%0A][homemadesimple.com]]           |
+| [[file:list8.org][list8]]     | kitchen chore list | [[http://www.wahm.com/articles/5-chores-for-kids-to-lighten-up-your-workload.html%0A][wahm.com]]                     |
+| [[file:list9.org][list9]]     | kitchen chore list | [[http://cfr.octadyne.net/files/documents/Mens%2520Recovery%2520House%2520Duties.pdf%0A][octadyne.net]]                 |
+| [[file:list10.org][list10]]    | cooking chore      | [[http://www.chore.com/][chore.com]]                    |
+|-----------+--------------------+------------------------------|
+
