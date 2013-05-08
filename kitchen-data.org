@@ -23,26 +23,21 @@
 #+STYLE: <script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
 #+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
 
-#+begin_html
-<div id="tab-container">
-<ul>
-    <li><a href="#outline-container-1">» verbs «</a></li>
-    <li><a href="#outline-container-2">» data sources  «</a></li>
-  </ul>
-#+end_html
 * Verbs
 #+begin_html
 <div id="visualization"></div>
 #+end_html
 ** 
 #+begin_html
-<div id="details"></div>
+<div id="wrapper" style="width: 1000px;">
+<div id="details" style="float: left; width: 300px;">
+ &nbsp;
+</div>
+<div id="objects" style="float: right; width: 500px;">
+ &nbsp;
+</div>
+</div>
 #+end_html
-** 
-#+begin_html
-<div id="objects"></div>
-#+end_html
-* Data Sources
 
 
 

@@ -1,5 +1,5 @@
-google.load('visualization', '1', {packages: ['corechart']});
-google.load('visualization', '1', {packages:['table']});
+google.load('visualization', '1.1', {packages: ['corechart']});
+google.load('visualization', '1.1', {packages:['table']});
 
 var visualization;
 var data;
@@ -19,8 +19,7 @@ function handleQueryResponse(response) {
 
   data = response.getDataTable();
   var options = {
-			width:1650, 
-			height:800,
+			height:700,
 			axisTitlesPosition: 'in',
 			vAxis: {
 				title: "Number of instances",
@@ -36,6 +35,8 @@ function handleQueryResponse(response) {
 				},
 			colors: ['#800000'],
 			legend: 'none',
+			chartArea: {top:6, left:25, height:'80%', width:'100%'},
+
 		};
   visualization = new google.visualization.ColumnChart(document.getElementById('visualization'));
   visualization.draw(data,options);
@@ -93,12 +94,13 @@ function handleObjectQueryResponse(objectResponse) {
 				},
 			hAxis: {
 				title: "Objects",
-				textStyle: {color: 'black', fontName: 'Esteban', fontSize: 16},
-				slantedTextAngle: 65,
+				textStyle: {color: 'black', fontName: 'Esteban', fontSize: 15},
+				slantedTextAngle: 70,
 				titleTextStyle: {color: 'black', fontName: 'Esteban', fontSize: 20},
 				},
 			colors: ['#800000'],
 			legend: 'none',
+			chartArea: {top:5, left:25, height:'80%', width:'100%'},
 		};
 
   var objectData = objectResponse.getDataTable();
