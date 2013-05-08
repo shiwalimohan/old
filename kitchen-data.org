@@ -5,8 +5,8 @@
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc author:nil
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
@@ -18,8 +18,33 @@
 #+STYLE: <LINK href="css/data-style.css" rel="stylesheet" type="text/css">
 #+STYLE: <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 #+STYLE: <script type="text/javascript" src="javascripts/displayKitchenDataset.js"></script>
+#+STYLE: <script src="javascripts/jquery.js" type="text/javascript"></script>
+#+STYLE: <script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
+#+STYLE: <script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
+#+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
 
+#+begin_html
+<div id="tab-container">
+<ul>
+    <li><a href="#outline-container-1">» verbs «</a></li>
+    <li><a href="#outline-container-2">» data sources  «</a></li>
+  </ul>
+#+end_html
+* Verbs
 #+begin_html
 <div id="visualization"></div>
 #+end_html
+** 
+#+begin_html
+<div id="details"></div>
+#+end_html
+** 
+#+begin_html
+<div id="objects"></div>
+#+end_html
+* Data Sources
+
+
+
+
 
