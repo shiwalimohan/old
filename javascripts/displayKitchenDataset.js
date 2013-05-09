@@ -67,7 +67,7 @@ function handleDetailQueryResponse(detailResponse) {
   var tableOptions = {
 			width: 300,
 			page: 'enable',
-			pageSize: 10,
+			pageSize: 15,
 			showRowNumber: true,
 		};
 
@@ -85,28 +85,17 @@ function handleObjectQueryResponse(objectResponse) {
 
 
   var objectChartOptions = {
-			 width:800, 
-			height:500,
-			axisTitlesPosition: 'in',
-			vAxis: {
-				title: "Number of Instances",
-				titleTextStyle: {color: 'black', fontName: 'Esteban', fontSize: 20},
-				},
-			hAxis: {
-				title: "Objects",
-				textStyle: {color: 'black', fontName: 'Esteban', fontSize: 15},
-				slantedTextAngle: 70,
-				titleTextStyle: {color: 'black', fontName: 'Esteban', fontSize: 20},
-				},
-			colors: ['#800000'],
-			legend: 'none',
-			chartArea: {top:5, left:25, height:'80%', width:'100%'},
-		};
+			 chartArea:{left:0,top:0,width:"100%",height:"100%"},
+			 fontName: 'Esteban',
+			 fontSize: 16,
+			 height: 300,
+			 legend: {position: 'right'},
+  };
 
   var objectData = objectResponse.getDataTable();
-  var objectChart = new google.visualization.ColumnChart(document.getElementById('objects'));
+  var objectChart = new google.visualization.PieChart(document.getElementById('objects'));
 
-  objectChart.draw(objectData,objectChartOptions);
+  objectChart.draw(objectData, objectChartOptions);
 }
 
 
