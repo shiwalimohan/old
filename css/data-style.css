@@ -9,7 +9,7 @@ body
     background-color:#FFFFFF;
     margin-top:100px;
     color:#000000;
-    width: 80em;
+    width: 80%;
     margin-left:auto;
     margin-right:auto; 
     text-align:justify;
@@ -44,6 +44,10 @@ h3 {
   color:#5D5050;
 }
 
+#wrapper{
+    width: 80%;
+}
+
 
 a:link {color:#800000; text-decoration: none;}
 a:hover {color:#800000; text-decoration: underline;}
@@ -51,7 +55,7 @@ a:visited {color:#800000;text-decoration: none;}
 
 #tab-container { border: none; margin: 0 0 0 0; margin-left:auto; margin-right:auto; width:100em;}
 #tab-container ul { list-style: none; background: #fff; text-align:center; font-family:  'Esteban', serif; font-size: 20px; margin-top: -20px; margin-bottom: -3px}
-#tab-container ul li { width: 100px; display:inline;}
+#tab-container ul li { width: 80%; display:inline;}
 #tab-container ul li a { display: inline; padding: 5px 14px; outline: none; }
 #tab-container ul li a:hover { text-decoration: underline; }
 #tab-container ul li.selected-tab { background: #fff; position: relative;  border-style: solid; border-width: 0 0; }
@@ -65,3 +69,4 @@ hr {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+

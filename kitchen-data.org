@@ -29,11 +29,11 @@
 #+end_html
 ** 
 #+begin_html
-<div id="wrapper" style="width: 1000px;">
-<div id="details" style="float: left; width: 300px;">
+<div id="wrapper">
+<div id="details" style="width: 30%;">
  &nbsp;
 </div>
-<div id="objects" style="float: right; width: 500px;">
+<div id="objects" style="width: 40%;">
  &nbsp;
 </div>
 </div>
