@@ -44,10 +44,10 @@ h3 {
   color:#5D5050;
 }
 
-#wrapper{
-    width: 80%;
-}
-
+#wrapper { text-align: center;}
+#details { float: left;}
+#objects { display: inline-block}
+#senses { float: right;}
 
 a:link {color:#800000; text-decoration: none;}
 a:hover {color:#800000; text-decoration: underline;}

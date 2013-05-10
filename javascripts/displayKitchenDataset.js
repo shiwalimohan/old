@@ -3,10 +3,11 @@ google.load('visualization', '1.1', {packages:['table']});
 
 var visualization;
 var data;
+var url='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFkyZGdPQ2hnZVRlVzBSbkFkNkV6MkE';
+var urlVerbClasses='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dHplcXpJUWJNVlBFd2JiWjdJS2xILUE';
 
 function drawVisualization() {
-  var query = new google.visualization.Query('https://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFExS2wyVGJRa01rSWtlQ2NoSEF4OVE');
-
+  var query = new google.visualization.Query(url);
   query.setQuery("select B, sum(E) group by B order by 0 - sum(E)");
   query.send(handleQueryResponse);
 }
@@ -49,13 +50,17 @@ function selectHandler(e){
 	 var item = data.getFormattedValue(selection[0].row,0);
 
 
-	 var detailQuery = new google.visualization.Query('https://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFExS2wyVGJRa01rSWtlQ2NoSEF4OVE');
+	 var detailQuery = new google.visualization.Query(url);
 	 detailQuery.setQuery("select A, sum(E) where B = '" + item + "' group by A");	 
 	 detailQuery.send(handleDetailQueryResponse);
 
-	 var objectQuery = new google.visualization.Query('https://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFExS2wyVGJRa01rSWtlQ2NoSEF4OVE');
+	 var objectQuery = new google.visualization.Query(url);
 	 objectQuery.setQuery("select C, sum(E) where B = '" + item + "' group by C");	 
 	 objectQuery.send(handleObjectQueryResponse);
+
+	 var verbClassQuery = new google.visualization.Query(urlVerbClasses);
+	 verbClassQuery.setQuery("select B where A ='" + item + "'");
+	 verbClassQuery.send(handleVerbClassQueryResponse);
 }
 
 function handleDetailQueryResponse(detailResponse) {
@@ -83,7 +88,6 @@ function handleObjectQueryResponse(objectResponse) {
     return;
   }
 
-
   var objectChartOptions = {
 			 chartArea:{left:0,top:0,width:"100%",height:"100%"},
 			 fontName: 'Esteban',
@@ -96,6 +100,25 @@ function handleObjectQueryResponse(objectResponse) {
   var objectChart = new google.visualization.PieChart(document.getElementById('objects'));
 
   objectChart.draw(objectData, objectChartOptions);
+}
+
+function handleVerbClassQueryResponse(verbClassQueryResponse){
+  if (verbClassQueryResponse.isError()) {
+    alert('Error in query: ' + verbClassQueryResponse.getMessage() + ' ' + verbClassQueryResponse.getDetailedMessage());
+    return;
+  }
+
+  var tableOptions = {
+			width: 300,
+			page: 'enable',
+			pageSize: 15,
+			showRowNumber: true,
+		};
+
+  var verbClassData = verbClassQueryResponse.getDataTable();
+  
+  var table = new google.visualization.Table(document.getElementById('senses'));
+  table.draw(verbClassData,tableOptions);
 }
 
 
