@@ -3,8 +3,16 @@ google.load('visualization', '1.1', {packages:['table']});
 
 var visualization;
 var data;
-var url='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFkyZGdPQ2hnZVRlVzBSbkFkNkV6MkE';
-var urlVerbClasses='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dHplcXpJUWJNVlBFd2JiWjdJS2xILUE';
+
+if (document.title == 'Kitchen Data Set'){
+   var url='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dFkyZGdPQ2hnZVRlVzBSbkFkNkV6MkE';
+   var urlVerbClasses='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dHplcXpJUWJNVlBFd2JiWjdJS2xILUE';
+}
+
+if (document.title == 'Home Data Set'){
+   var url='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dG9WUjRfOFAyUkhmVDJrRGpsTDJReGc';
+   var urlVerbClasses='http://docs.google.com/spreadsheet/tq?key=0AqSXSwxevkk4dG14OUFPQVMwd0FzMEt0UlNoZVdpMHc';
+}
 
 function drawVisualization() {
   var query = new google.visualization.Query(url);
