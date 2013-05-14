@@ -164,6 +164,15 @@ Michigan
 #+begin_html
     <div class ="bib" id = "bib_publi">
 @inproceedings{Mohan2012f,
+        author = {Shiwali Mohan and James Kirk and John Laird},
+        title = {A Computational Model of Situated Task Learning with
+Interactive Instruction},
+	  booktitle = {International Conference on Cognitive Modeling},
+	  year = {2013},
+        pdf = {./content/mohan_ICCM_2013.pdf},
+        type_publi = {conference},
+       }
+@inproceedings{Mohan2012f,
         author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
         title = {Acquiring Grounded Representations of Words with Situated Interactive Instruction},
 	  booktitle = {Advances in Cognitive Systems, 2},
