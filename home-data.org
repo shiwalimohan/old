@@ -24,6 +24,8 @@
 #+STYLE: <script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
 #+STYLE: <script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
 
+(data source: [[https://sites.google.com/site/robotchores/]])
+
 * Verbs
 #+begin_html
 <div id="visualization"></div>
