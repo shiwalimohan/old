@@ -167,7 +167,7 @@ Michigan
         author = {Shiwali Mohan and James Kirk and John Laird},
         title = {A Computational Model of Situated Task Learning with
 Interactive Instruction},
-	  booktitle = {To appear in Proceedings of the 17th International Conference on Cognitive Modeling},
+	  booktitle = {(to appear) In Proceedings of the 17th International Conference on Cognitive Modeling},
 	  year = {2013},
         pdf = {./content/mohan_ICCM_2013.pdf},
         type_publi = {conference},
