@@ -171,6 +171,7 @@ Interactive Instruction},
 	  year = {2013},
         pdf = {./content/mohan_ICCM_2013.pdf},
         type_publi = {conference},
+        <a href="http://www.shiwali.me/content/mohan_ICCM_2013.pdf">internal link</a>
        }
 @inproceedings{Mohan2012f,
         author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
@@ -181,16 +182,17 @@ Interactive Instruction},
         type_publi = {journal},
         url = {http://www.cogsys.org/pdf/paper-3-2-136.pdf},
         talk = {./content/acs-talk.pdf},
+        <a href="http://www.shiwali.me/content/mohan_ACS_2012.pdf">internal link</a>
        }
 @inproceedings{Joshi2012a,
         author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
         title = {Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario},
 	  booktitle = {In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)},
 	  year = {2012},
-        pdf = {./content/joshi_STAIRS_2012.pdf},
-
+        pdf = {./content/joshi_ICTAI_2012.pdf},
+        url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6495169},
         type_publi = {workshop},
-        
+                <a href="http://www.shiwali.me/content/joshi_ICTAI_2012.pdf">internal link</a>
 }
 @inproceedings{Mohan2012e,
         author = {Shiwali Mohan* and Aaron Mininger* and James Kirk* and John Laird},
@@ -202,6 +204,7 @@ Interactive Instruction},
         type_publi = {symposium},
         url = {http://www.aaai.org/ocs/index.php/FSS/FSS12/paper/view/5662},
         talk = {./content/aaaifs-talk.pdf},
+                <a href="http://www.shiwali.me/content/mohan_AAAIFS_2012.pdf">internal link</a>
         }
 
 @inproceedings{Joshi2012,
@@ -213,7 +216,9 @@ Interactive Instruction},
 pdf = {./content/joshi_STAIRS_2012.pdf},
         url = {http://plata.ar.media.kyoto-u.ac.jp/mori/research/Proceedings/ECAI2012/content/stairs/stairs201215.pdf},
         type_publi = {workshop},
-        url = {http://books.google.com/books?hl=en&lr=&id=WOc8WSwcCjoC&oi=fnd&pg=PA162&dq=info:Zp20TtDieTIJ:scholar.google.com&ots=u-dG_96A95&sig=X1HmRu-UJj4UZ-8Y2n3YU-SO_eI},
+        url =
+        {http://books.google.com/books?hl=en&lr=&id=WOc8WSwcCjoC&oi=fnd&pg=PA162&dq=info:Zp20TtDieTIJ:scholar.google.com&ots=u-dG_96A95&sig=X1HmRu-UJj4UZ-8Y2n3YU-SO_eI},
+                <a href="http://www.shiwali.me/content/joshi_STAIRS_2012.pdf">internal link</a>
 }
 
 @inproceedings{Mohan2012d,
@@ -224,6 +229,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
         pdf = {./content/laird_AAAICogRob_2012.pdf},
         url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5221},
         type_publi = {workshop},
+                <a href="http://www.shiwali.me/content/laird_AAAICogRob_2012.pdf">internal link</a>
 }
 
 @inproceedings{Mohan2012c,
@@ -233,7 +239,9 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
         Technical Report WS-12-07},
 	year = {2012},
         pdf = {./content/mohan_AAAIGPS_2012.pdf},
-       url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5245},
+       url =
+        {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5245},
+                <a href="http://www.shiwali.me/content/mohan_AAAIGPS_2012.pdf">internal link</a>
         type_publi = {workshop},
 }
 
@@ -243,13 +251,15 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
 	booktitle = {Proceedings of the 26th AAAI Conference on Artificial Intelligence},
 	year = {2012},
         pdf = {./content/mohan_AAAISA_2012.pdf},
-        url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4834},
+        url =
+        {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4834},
+                <a href="http://www.shiwali.me/content/mohan_AAAISA_2012.pdf">internal link</a>
         type_publi = {conference},
         note = {\textit{(Extended Abstract)}},        
 }
 
 @inproceedings{Mohan2012a,
-        author = {Shiwali Mohan and John Laird},
+        author = {Shiwali Mohan},
         title = {Learning Actions and Action Verbs from Human-Agent Interaction},
 	booktitle = {17th AAAI/SIGART Doctoral Consortium},
 	year = {2012},
@@ -259,6 +269,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
         url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/4856/5288},
         note = {\textit{(Extended Abstract)}},    
         talk = {./content/dc-r.pdf},
+                <a href="http://www.shiwali.me/content/mohan_AAAIDC_2012.pdf">internal link</a>
 }
 
 
@@ -271,6 +282,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
 	abstract = {This paper discusses the challenge of designing instructable agents that can learn through interaction with a human expert. Learning through instruction is a powerful paradigm for acquiring knowledge because it limits the complexity of the learning task in a variety of ways. To support learning through instruction, the agent must be able to effectively communicate its lack of knowledge to the human, comprehend instructions, and apply them to the ongoing task. Weidentify some problems of concern when designing instructable agents. We propose an agent design that addresses some of these problems. We instantiate this design in the Soar cognitive architecture and analyze its capabilities on a learning task.},
 	url = {http://www.aaai.org/ocs/index.php/FSS/FSS11/paper/view/4165},
         pdf = {./content/mohan_fss_2011.pdf},
+                <a href="http://www.shiwali.me/content/mohan_fss_2011.pdf">internal link</a>
         type_publi = {conference},
 }
 
@@ -284,6 +296,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
         series = {AIIDE},
 	year = {2011},
         pdf = {./content/mohan_aiide_2011.pdf},
+                <a href="http://www.shiwali.me/content/mohan_aiide_2011.pdf">internal link</a>
         type_publi = {conference},
 }
 
@@ -297,6 +310,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
 	url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/view/1657},
         pdf = {./content/mohan.pdf},
         note = {\textit{(Extended Abstract)}},
+                <a href="http://www.shiwali.me/content/mohan.pdf">internal link</a>
         type_publi = {conference},
 }
 
@@ -311,6 +325,7 @@ pdf = {./content/joshi_STAIRS_2012.pdf},
  note = {\textbf{Best Paper Award}},
  url = {http://www.springerlink.com/content/xp70kw14w0054541/},
  pdf = {./content/mohan_cicling_2008.pdf},
+                <a href="http://www.shiwali.me/content/mohan_cicling_2008.pdf">internal link</a>
         type_publi = {conference},
 } 
 
@@ -323,6 +338,7 @@ series = {ICTAI},
 year = {2007},
 url ={http://www.computer.org/portal/web/csdl/doi/10.1109/ICTAI.2007.28},
 pdf ={./content/mohan_ictai.pdf},
+                <a href="http://www.shiwali.me/content/mohan_ictai.pdf">internal link</a>
  type_publi = {conference},
 }
 
