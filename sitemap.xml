@@ -132,4 +132,22 @@
   <changefreq>always</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://www.shiwali.me/content/acs-talk.pdf</loc>
+  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/joshi_STAIRS_2012.pdf</loc>
+  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/laird_AAAICogRob_2012.pdf</loc>
+  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
