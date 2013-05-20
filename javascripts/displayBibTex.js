@@ -48,16 +48,16 @@ function displayBibTex(element,id)
 		    // add tag links
 	            citation = citation + "[";
 	   	    if(bibtex.data[i]['pdf']){
-			citation = citation + "&nbsp;<a href=\""+bibtex.data[i]['pdf']+"\">pdf</a>&nbsp;";
+			citation = citation + "&nbsp;<a href=\""+bibtex.data[i]['pdf']+"\" target = \"_blank\">pdf</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['url']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['url']+"\">http</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['url']+"\" target = \"_blank\">http</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['abstract']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\">abstract</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\" target = \"_blank\">abstract</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['talk']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\">talk</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\" target = \"_blank\">talk</a>&nbsp;";
 	            }
 		    citation = citation + "]";
 		    // write to html
