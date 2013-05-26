@@ -1,153 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://www.shiwali.me/</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/resume/resume.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:13+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/mohan_EECS545.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/prelim-paper.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/MohanPillaiSleight.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_AAAIDC_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_AAAIFS_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/hadoop.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.shiwali.me/my_library_bib.html</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/laird_AAAICogRob_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_AAAISA_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_AAAIDC_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_AAAIGPS_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_aiide_2011.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/my_library_abstracts.html</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_fss_2011.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_cicling_2008.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/content/mohan_ictai.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shiwali.me/my_library.html</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
+  <loc>http://www.shiwali.me/content/mohan_ICCM_2013.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/mohan_ACS_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.shiwali.me/content/acs-talk.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <loc>http://www.shiwali.me/content/joshi_ICTAI_2012.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_AAAIFS_2012.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/joshi_STAIRS_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 <url>
   <loc>http://www.shiwali.me/content/laird_AAAICogRob_2012.pdf</loc>
-  <lastmod>2012-05-15T22:03:33+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_AAAIGPS_2012.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_AAAISA_2012.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_AAAIDC_2012.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_fss_2011.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_aiide_2011.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_cicling_2008.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.shiwali.me/content/mohan_ictai.pdf</loc>
+  <lastmod>2013-05-20T22:29:12+00:00</lastmod>
 </url>
 </urlset>
