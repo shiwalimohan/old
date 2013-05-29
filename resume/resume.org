@@ -21,7 +21,7 @@
 #+latex_header: \usepackage{fullpage}
 #+latex_header: \usepackage{titlesec}					%custom \section
 #+latex_header: \usepackage{hyperref}
-#+latex_header: \definecolor{linkcolour}{rgb}{0,0,0.6}
+#+latex_header: \definecolor{linkcolour}{rgb}{0.6,0,0}
 #+latex_header: \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 #+latex_header: \defaultfontfeatures{Mapping=tex-text}
 #+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Linux Libertine O}
@@ -51,10 +51,12 @@
 Doctor of Philosophy in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/  \hfill /August
 2009 - Present/ \\
 *University of Michigan*, Ann Arbor \\
-Thesis: Comprehension and acquisition of verbs using situated context
-in interactive instruction \\
-Areas of interest: Cognitive agents and architectures, embodied
-language processing, learning with human-agent interaction 
+Thesis: Learning to ground verbs in actions through situated
+interactive instruction for cognitive agents embodied in physical
+worlds. \\
+Areas of interest: linguistic human-robot interaction, learning from
+human-robot interaction, embodied language processing, cognitive
+architectures and agents
 
 Master of Science and Engineering in /[[http://www.cse.umich.edu/][Computer Science and Engineering]]/ \hfill
 /August 2008 - December 2009/\\
@@ -114,9 +116,11 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2012f}
 
 ** _Conference/Symposium Proceedings_
-\bibentry{Mohan2012g}
+\bibentry{Mohan2013a}
 
-\bibentry{Joshi2012b}
+\bibentry{Mohan2012g}
+ 
+\bibentry{Joshi2012a}
 
 \bibentry{Mohan2011a}
 
@@ -186,9 +190,11 @@ July 2005/\\
 *Central Research Laboratory*, *[[http://www.bel-india.com/][Bharat Electronics Limited]]*, India
 * Technical Skills
 Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
-Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar  \\
-Programming IDEs/Editors: Eclipse, Emacs \\
+Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar,
+Python, JavaScript  \\
 Document Markup Language: Latex
+* References
+available on request.
 
 #+begin_latex
 \nobibliography{../my_library}
