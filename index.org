@@ -38,7 +38,7 @@
 I am a doctoral candidate in [[http://www.cse.umich.edu/][Computer Science and Engineering]] at [[http://www.umich.edu/][The
 University of Michigan]], Ann Arbor. I have been collaborating with [[http://ai.eecs.umich.edu/people/laird/][John Laird]] on design and study of collaborative agents and robots.
 
-My current work focuses on designing cognitive robots that can communicate with human collaborators using natural language and can expand their skill set (and language comprehension) by engaging the human collaborator in instructional learning. The work looks at several interesting research challenges including embodied language comprehension, interactive collaboration, and active, agent-driven learning. The agents are designed within the framework of  [[http://sitemaker.umich.edu/soar/home][Soar Cognitive Architecture]] - an architecture for design of generally intelligent agents.
+My current work focuses on designing cognitive robots that can communicate with human collaborators using natural language and can expand their skill set (and language comprehension) by engaging the human collaborator in instructional learning. The work looks at several interesting HRI challenges including embodied language comprehension, interactive collaboration, and active, agent-driven learning. The agents are developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for design of generally intelligent agents.
 
 My past work has focused on cognitive agents that can learn to
 navigate new, complex environments. We have looked at agents that
