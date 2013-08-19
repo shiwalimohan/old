@@ -180,11 +180,22 @@ Michigan
 * Publications
 #+begin_html
 <div class ="bib" id = "bib_publi">
+@inproceedings{Laird2013,
+author = {John Laird and Shiwali Mohan},
+title = {A Case Study of Knowledge Integration across Multiple Memories in
+Soar},
+booktitle = {(to appear) In AAAI Fall Symposium on Integrated Cognition},
+year = {2013},
+type_publi = {symposium},
+pdf = {./content/laird_AAAIFS_2013.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/laird_AAAIFS_2013.pdf">internal link</a>}
+}
+
 @inproceedings{Mohan2012f,
 author = {Shiwali Mohan and James Kirk and John Laird},
 title = {A Computational Model of Situated Task Learning with
 Interactive Instruction},
-booktitle = {(to appear) In Proceedings of the 17th International Conference on Cognitive Modeling},
+booktitle = {In Proceedings of the 17th International Conference on Cognitive Modeling},
 year = {2013},
 pdf = {./content/mohan_ICCM_2013.pdf},
 type_publi = {conference},
