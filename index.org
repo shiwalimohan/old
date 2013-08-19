@@ -65,8 +65,12 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 20-05-2013 is [[file:resume/resume.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
+*** Active Learning with Instruction
+Collaborators: John E. Laird, James Kirk
+---------
+*** Embodied Natural Language
+Collaborators: John E. Laird, Aaron Mininger, James Kirk
 
-*** Grounded Natural Language
 I am involved with the grounded language acquisition project
 at Michigan. Apart from the Soar group at University of Michigan, the
 team also includes [[http://april.eecs.umich.edu/][APRIL at Michigan]] and [[http://www.soartech.com/][SoarTech]].
@@ -89,7 +93,12 @@ Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://git
 
 <iframe width="390" height="220" src="http://www.youtube.com/embed/_ktny-h0KX4" frameborder="0" allowfullscreen></iframe>
 #+end_html
+
+*** Cognitive Architecture
+Collaborators: John E. Laird
+
 *** Reinforcement Learning
+Collaborator: John E. Laird, Mandar Joshi
 In the past, I was investigating the capabilities of Soar-RL in
 complex environments. I designed, implemented and analyzed
 reinforcement learning agents for Infinite Mario. I also implemented modular
@@ -98,6 +107,9 @@ agent to learn multiple MDPs at the same time.
 
 Related Software:
 [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
+
+*** Statistical Models of Language
+Collaborator: Niladri Chatterjee 
 
 * Academia
 *** Thesis

@@ -11,8 +11,6 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   
 #+LINK_HOME: 
-
-#+latex_header: \documentclass[letterpaper,10pt]{article}
 #+latex_header: \usepackage{fontspec} 
 #+latex_header: \usepackage{bbding}					%for loading fonts
 #+latex_header: \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
@@ -39,7 +37,7 @@
 \font\fb=''[cmr10]'' %for use with \LaTeX command
 
 \par{
-		{\Huge  \textsc{Shiwali Mohan}\\
+		{\Huge  Shiwali Mohan\\
 \normalsize{
  \hfill{\Envelope} 	2260 Hayward Street \#3844, Computer Science and Engineering Building, Ann Arbor MI 48109 \\
  {\Phone} 734-757-0354    {\Envelope} \href{mailto:shiwali@umich.edu}{shiwali@umich.edu}  {\HandRight} \href{www.shiwali.me}{www.shiwali.me}
@@ -77,15 +75,14 @@ Thesis: Extraction based summarization of documents
 *[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
 /Grounded language for physical agents/\\
 Investigating comprehension and acquisition of grounded representation
- of verbs for robotic systems acting in a complex environment such
- that the robot is able to collaborate with humans on a wide variety
- of tasks. 
+ of verbs for robotic systems acting in a complex environment enabling
+ them to collaborate with humans on a wide variety of tasks. 
 
 /Learning with human-agent interaction/  \\
 Designed, implemented, and analyzed an interaction model for agents
  instantiated in Soar cognitive architecture that allows limited
  mixed-initiative interaction with an instructor. The agents can
- derived general action policies from a history of (available in
+ derive general action policies from a history of (available in
  episodic/semantic memory of the agent) using explanation based
  generalization.
 
@@ -116,7 +113,11 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2012f}
 
 ** _Conference/Symposium Proceedings_
+\bibentry{Laird2013}
+
 \bibentry{Mohan2013a}
+
+\bibentry{Joshi2012b}
 
 \bibentry{Mohan2012g}
  
@@ -160,18 +161,16 @@ Mandar Joshi, Rakesh Khobragade, Saurabh Sarda\\
 Undergraduate thesis project: \emph{Reinforcement learning agents for Infinite Mario}\\
 *Visvesvaraya National Institute of Techonology*, Nagpur, India\\
 * Service
-
-#+ATTR_LaTeX: align=lp{15cm}
+#+ATTR_LaTeX: align=lp{18cm}
+| 2013 | /Co-Chair/, Special Interest Group - Faculty, University of Michigan                                                                   |
 | 2012 | /Co-Chair/, Special Interest Group - Faculty, University of Michigan                                                                   |
 | 2011 | /Vice-President/, CSE Graduate Organization, University of Michigan                                                                    |
 |      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
-|      | /Mentor/, EduMentoring                                                                                                                 |
 | 2010 | /DCO Representative/, CSE Graduate Organization, University of Michigan                                                                |
 |      | /Social Chair/, Indian Students Association, University of Michigan                                                                    |
 | 2007 | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
 | 2006 | /Volunteer/, The Neighborhood Project, Netaji Subhas Institute of Technology, Delhi                                                    |
-|      | /Creative Head/, The Choreography Team, Netaji Subhas Institute of Technology, Delhi                                                   |
-* Professional Experience
+* Industry Experience
 Software Engineer with Strategic Data Services \hfill /July 2007 -
 July 2008/\\
 *[[http://bangalore.yahoo.com][Yahoo! Research and Development]]*, India\\
