@@ -73,18 +73,15 @@ Thesis: Extraction based summarization of documents
  Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /August 2010 - Present/\\
 *[[http://www.umich.edu][University of Michigan]]*, Ann Arbor\\
-/Grounded language for physical agents/\\
-Investigating comprehension and acquisition of grounded representation
- of verbs for robotic systems acting in a complex environment enabling
- them to collaborate with humans on a wide variety of tasks. 
-
 /Learning with human-agent interaction/  \\
-Designed, implemented, and analyzed an interaction model for agents
- instantiated in Soar cognitive architecture that allows limited
- mixed-initiative interaction with an instructor. The agents can
- derive general action policies from a history of (available in
- episodic/semantic memory of the agent) using explanation based
- generalization.
+Studying interaction and learning paradigms for collaborative
+intelligent agents embedded in physical worlds that can acquire novel
+tasks knowledge from linguistic human agent interaction. 
+
+/Grounded language for physical agents/\\
+Investigating comprehension and acquisition of grounded
+representations of language for effective linguistic human-agent
+interaction for robotic agents. 
 
  Graduate Student Research Assistant to Professor [[http://ai.eecs.umich.edu/people/laird/][John E. Laird]] \hfill
  /May 2009 - August 2010/\\
