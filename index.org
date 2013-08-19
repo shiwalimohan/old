@@ -110,8 +110,8 @@ Collaborator: Niladri Chatterjee
 * Academia
 *** Thesis
 My thesis work investigates acquistion of novel task knowledge through natural-language like human-robot interaction. \\
-Writing: [[file:content/thesis-proposal.pdf][thesis proposal]] \\
-Talks: [[file:content/thesis-proposal-talk.pdf][thesis proposal]]
+Writing: [[file:content/thesis-proposal.pdf][proposal]] \\
+Talks: [[file:content/thesis-proposal-talk.pdf][proposal]]
 -------
 *** Teaching
 I served as a graduate student instructor for EECS 492 - Introduction
@@ -119,10 +119,6 @@ to Artificial Intelligence in Winter 2012 at University of Michigan.\\
 Course material: [[https://github.com/shiwalimohan/eecs492UM/zipball/master][zip archive]] | [[https://github.com/shiwalimohan/eecs492UM][github]]
 -------
 *** Advising
-I am a founding member of the [[http://www.edulix.com/forum/forumdisplay.php?fid%3D105][EduMentoring]] initiative - a bunch of
-graduate students who volunteer as undergraduate research mentors to
-students in India.\\
-\\
 Fall 2012, Winter 2013: Advising [[mittal.anant@gmail.com][Anant Mittal]], [[anmol.gupta91@gmail.com][Anmol Gupta]] on
 designing Soar AI agents for Google AI Challenge - Planet Wars. The
 work is to be submitted as a minor project to the CS department,
