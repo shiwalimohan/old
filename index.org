@@ -61,51 +61,51 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 08-19-2013 is [[file:resume/resume.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
-*** Active Learning with Instruction
+*** Interactive Learning with Instruction
 Collaborators: John E. Laird, James Kirk
+
+Publications: [[file:content/mohan_fss_2011.pdf][AAAI FSS 2011]] | [[file:content/mohan_AAAISA_2012.pdf][AAAI 2012]] (extended abstract) | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]]
 ---------
 *** Embodied Natural Language
 Collaborators: John E. Laird, Aaron Mininger, James Kirk
 
-I am involved with the grounded language acquisition project
-at Michigan. Apart from the Soar group at University of Michigan, the
-team also includes [[http://april.eecs.umich.edu/][APRIL at Michigan]] and [[http://www.soartech.com/][SoarTech]].
+---------
+*** Cognitive Robotics and Architectures
+Collaborator:  [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]]
 
-I am currently studying comprehension of sentences by exploiting
-non-linguistic context such as perceptual information, procedural
-knowledge and semantic information.
+Publications: [[file:content/laird_AAAICogRob_2012.pdf][Cognitive Robotics 2012]] | [[file:content/laird_AAAICogRob_2012.pdf][Integrated Cognition 2013]]
 
-I have designed and implemented an interaction model for agents
-instantiated in Soar cognitive architecture that allows limited
-mixed-initiative interaction with an instructor. The
-agents can then derive generally applicable procedural knowledge from
-a history of interactions (available in episodic/semantic memory of
-the agent) using situated explanation. 
-
-Related Software: [[https://github.com/mtinkerhess/sbolt][SBOLT]], [[https://github.com/shiwalimohan/bolt-agents][Soar Agents]], [[http://code.google.com/p/soar/][Soar]]
-
-#+begin_html
-<iframe width="390" height="220" src="http://www.youtube.com/embed/9M-rpdXFbgs" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="390" height="220" src="http://www.youtube.com/embed/_ktny-h0KX4" frameborder="0" allowfullscreen></iframe>
-#+end_html
-
-*** Cognitive Architecture
-Collaborators: John E. Laird
-
+---------
 *** Reinforcement Learning
-Collaborator: John E. Laird, Mandar Joshi
-In the past, I was investigating the capabilities of Soar-RL in
-complex environments. I designed, implemented and analyzed
-reinforcement learning agents for Infinite Mario. I also implemented modular
-reinforcement learning for Soar cognitive architecture that allows the
-agent to learn multiple MDPs at the same time.
+Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], [[http://www.linkedin.com/profile/view?id%3D59121380&authType%3DNAME_SEARCH&authToken%3DAfRm&locale%3Den_US&srchid%3D149717791382042861385&srchindex%3D1&srchtotal%3D330&trk%3Dvsrp_people_res_name&trkInfo%3DVSRPsearchId%253A149717791382042861385%252CVSRPtargetId%253A59121380%252CVSRPcmpt%253Aprimary][Mandar Joshi]]
 
-Related Software:
-[[https://github.com/shiwalimohan/MarioSoar][MarioSoar]]
+Computer games are interesting test beds for research in reinforcement
+learning. Skill-based games such as [[http://www.ultimatearcade.com/game/infinite-mario][Infinite Mario]] usually have
+continuous state spaces, large action spaces and are characterized by
+complex relationships between their components. Without applying
+appropriate abstractions and generalizations, RL in computer games
+becomes infeasible. Relational representations in reinforcement
+learning allow for the use of structural information like the objects
+and their features and the relationships between them in the
+description of value functions. In this research, we explored
+relational representations and control hierarchies that impose
+structure on [[http://en.wikipedia.org/wiki/SARSA][SARSA]] and consequently make learning feasible. We have
+shown that relational representations allow for the inclusion of
+background knowledge (about both state and actions) which can be used
+to guide learning.
 
-*** Statistical Models of Language
-Collaborator: Niladri Chatterjee 
+Publications: [[file:content/mohan.pdf][AAAI 2010]] (extended abstract) | [[file:content/mohan_aiide_2011.pdf][AIIDE 2011]] | [[file:content/joshi_STAIRS_2012.pdf][STAIRS 2012]]
+(extended abstract) | [[file:content/joshi_ICTAI_2012.pdf][ICTAI 2012]]
+Software: [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]] | [[https://github.com/shiwalimohan/RLInfiniteMario][RLInfiniteMario]]
+
+---------
+*** Vector Space Models of Language Semantics
+Collaborator: Niladri Chatterjee
+
+
+
+Publications: [[file:content/mohan_ictai.pdf][ICTAI 2007]] | [[file:content/mohan_cicling_2008.pdf][CICLING 2008]] (best paper award)
+---------
 
 * Academia
 *** Thesis
