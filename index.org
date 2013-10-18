@@ -83,8 +83,7 @@ represent and play novel games.
 
 
 Publications: [[file:content/mohan_fss_2011.pdf][AAAI FSS 2011]] | [[file:content/mohan_AAAISA_2012.pdf][AAAI 2012]] (extended abstract) | [[file:content/mohan_AAAIFS_2012.pdf][AAAI FSS
-2012]] | [[file:content/mohan_ACS_2012.pdf][ACS 2012]] | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]]
-
+2012]] | [[file:content/mohan_ACS_2012.pdf][ACS 2012]] | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]] \\
 Videos: [[http://www.youtube.com/watch?v%3DzfXu0mF7c8o][Task learning]] | [[https://www.youtube.com/watch?v%3Da5j5IcQPXhY][Towers of Hanoi]] | [[https://www.youtube.com/watch?v%3D3CJdBKS24Ho][Frogs and Toads]]
 ---------
 *** Embodied Natural Language
@@ -120,10 +119,8 @@ background knowledge (about both state and actions) which can be used
 to guide learning.
 
 Publications: [[file:content/mohan.pdf][AAAI 2010]] (extended abstract) | [[file:content/mohan_aiide_2011.pdf][AIIDE 2011]] | [[file:content/joshi_STAIRS_2012.pdf][STAIRS 2012]]
-(extended abstract) | [[file:content/joshi_ICTAI_2012.pdf][ICTAI 2012]]
-
-Software: [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]] | [[https://github.com/shiwalimohan/RLInfiniteMario][RLInfiniteMario]]
-
+(extended abstract) | [[file:content/joshi_ICTAI_2012.pdf][ICTAI 2012]] \\
+Software: [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]] | [[https://github.com/shiwalimohan/RLInfiniteMario][RLInfiniteMario]] \\
 Videos: [[http://www.youtube.com/watch?v%3DV8F6zt70tbY][1]] | [[http://www.youtube.com/watch?v%3D7nv6kZzrTkg][2]]
 
 ---------
