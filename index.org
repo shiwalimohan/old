@@ -62,7 +62,7 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 
 * Research
 *** Interactive Learning with Instruction
-Collaborators: John E. Laird, James Kirk, Aaron Mininger
+Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], James Kirk, Aaron Mininger
 
 Intelligent agents are becoming pervasive in human society. From
 personal assistants such as [[http://en.wikipedia.org/wiki/Siri][Siri]] and [[http://www.google.com/landing/now/][Google Now]] to multi-purpose
@@ -84,21 +84,38 @@ games.
 
 Publications: [[file:content/mohan_fss_2011.pdf][AAAI FSS 2011]] | [[file:content/mohan_AAAISA_2012.pdf][AAAI 2012]] (extended abstract) | [[file:content/mohan_AAAIFS_2012.pdf][AAAI FSS
 2012]] | [[file:content/mohan_ACS_2012.pdf][ACS 2012]] | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]] \\
-Videos: [[http://www.youtube.com/watch?v%3DzfXu0mF7c8o][Task learning]] | [[https://www.youtube.com/watch?v%3Da5j5IcQPXhY][Towers of Hanoi]] | [[https://www.youtube.com/watch?v%3D3CJdBKS24Ho][Frogs and Toads]]
+Videos: [[http://www.youtube.com/watch?v%3DzfXu0mF7c8o][Task learning]] | [[https://www.youtube.com/watch?v%3Da5j5IcQPXhY][Towers of Hanoi]] | [[https://www.youtube.com/watch?v%3D3CJdBKS24Ho][Frogs and Toads]] \\
 ---------
 *** Embodied Natural Language
-Collaborators: John E. Laird, Aaron Mininger
+Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], Aaron Mininger
 
+There are several challenging questions that must be answered to
+design a language module for intelligent agents, including those
+pertaining to situated comprehension, intention assignment, dialog
+management, articulation etc. Our ongoing work focuses on questions
+that arise in designing language comprehension mechanisms for
+intelligent agents. We are developing comprehension models that
+implement a theory of translating lexical items to representations of
+beliefs, knowledge, and experience that are external to the linguistic
+system. We are interested in exploring how extra-linguistic contexts
+influence language processing, alleviating ambiguities and
+insufficient information prevalent in natural language. 
 
-
-Publications: [[file:content/mohan_AAAIGPS_2012.pdf][AAAI 2012 workshop]] | [[file:content/mohan_ACS_2013.pdf][ACS 2013]]
-
+Publications: [[file:content/mohan_AAAIGPS_2012.pdf][AAAI 2012 workshop]] | [[file:content/mohan_ACS_2013.pdf][ACS 2013]] \\
 ---------
 *** Cognitive Robotics and Architectures
 Collaborator:  [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]]
 
-Publications: [[file:content/laird_AAAICogRob_2012.pdf][Cognitive Robotics 2012]] | [[file:content/laird_AAAICogRob_2012.pdf][Integrated Cognition 2013]]
+Cognitive architectures provide an integrated computational theory for
+intelligent behavior. They implement short-/long-term memories to store
+an agent's beliefs, goals, and knowledge and functional processes that
+operate on these structures to generate useful behavior or acquire
+knowledge structures through experience. Several architectures
+incorporate perceptual and motor modules.  Cognitive architectures,
+therefore, are a useful framework to study design of intelligent
+adaptive collaborative agents and robots. 
 
+Publications: [[file:content/laird_AAAICogRob_2012.pdf][Cognitive Robotics 2012]] | [[file:content/laird_AAAICogRob_2012.pdf][Integrated Cognition 2013]] \\
 ---------
 *** Reinforcement Learning
 Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], [[http://www.linkedin.com/profile/view?id%3D59121380&authType%3DNAME_SEARCH&authToken%3DAfRm&locale%3Den_US&srchid%3D149717791382042861385&srchindex%3D1&srchtotal%3D330&trk%3Dvsrp_people_res_name&trkInfo%3DVSRPsearchId%253A149717791382042861385%252CVSRPtargetId%253A59121380%252CVSRPcmpt%253Aprimary][Mandar Joshi]]
@@ -121,15 +138,14 @@ to guide learning.
 Publications: [[file:content/mohan.pdf][AAAI 2010]] (extended abstract) | [[file:content/mohan_aiide_2011.pdf][AIIDE 2011]] | [[file:content/joshi_STAIRS_2012.pdf][STAIRS 2012]]
 (extended abstract) | [[file:content/joshi_ICTAI_2012.pdf][ICTAI 2012]] \\
 Software: [[https://github.com/shiwalimohan/MarioSoar][MarioSoar]] | [[https://github.com/shiwalimohan/RLInfiniteMario][RLInfiniteMario]] \\
-Videos: [[http://www.youtube.com/watch?v%3DV8F6zt70tbY][1]] | [[http://www.youtube.com/watch?v%3D7nv6kZzrTkg][2]]
-
+Videos: [[http://www.youtube.com/watch?v%3DV8F6zt70tbY][1]] | [[http://www.youtube.com/watch?v%3D7nv6kZzrTkg][2]] \\
 ---------
 *** Vector Space Models of Language Semantics
 Collaborator: Niladri Chatterjee
 
 
 
-Publications: [[file:content/mohan_ictai.pdf][ICTAI 2007]] | [[file:content/mohan_cicling_2008.pdf][CICLING 2008]] (best paper award)
+Publications: [[file:content/mohan_ictai.pdf][ICTAI 2007]] | [[file:content/mohan_cicling_2008.pdf][CICLING 2008]] (best paper award) \\
 ---------
 
 * Academia
