@@ -67,19 +67,19 @@ Collaborators: John E. Laird, James Kirk, Aaron Mininger
 Intelligent agents are becoming pervasive in human society. From
 personal assistants such as [[http://en.wikipedia.org/wiki/Siri][Siri]] and [[http://www.google.com/landing/now/][Google Now]] to multi-purpose
 robots such as [[http://www.rethinkrobotics.com/products/baxter/][Baxter]] and [[http://en.wikipedia.org/wiki/Kiva_Systems][Kiva systems]], several types of intelligent
-are beginning to contribute to a wide range of human
+agents are beginning to contribute to a wide range of human
 activities. Although useful, these agents have to be pre-programmed by
 trained engineers with a set desired behaviors, limiting their use. We
 are interested in developing intelligent adaptive agents that can be
 'programmed' to perform new tasks by naive human users. To this end,
 we are investigating learning from natural language instruction for
 intelligent agent embodied in a robotic framework. Our work looks at
-how a robotic agent can exploit interactions with a human
-collaborator to learn more about its world including how to
-categorize and describe perceptual properties of objects, how to use
-spatial relationships between objects for goal-oriented behavior, how
-to generate subtasks while executing complex tasks, and how to
-represent and play novel games. 
+how a robotic agent can exploit interactions with a human collaborator
+to learn more about its world including how to categorize and describe
+perceptual properties of objects, how to use spatial relationships
+between objects for goal-oriented behavior, how to generate subtasks
+while executing complex tasks, and how to represent and play novel
+games.
 
 
 Publications: [[file:content/mohan_fss_2011.pdf][AAAI FSS 2011]] | [[file:content/mohan_AAAISA_2012.pdf][AAAI 2012]] (extended abstract) | [[file:content/mohan_AAAIFS_2012.pdf][AAAI FSS
