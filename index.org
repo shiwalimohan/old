@@ -160,9 +160,9 @@ to Artificial Intelligence in Winter 2012 at University of Michigan.\\
 Course material: [[https://github.com/shiwalimohan/eecs492UM/zipball/master][zip archive]] | [[https://github.com/shiwalimohan/eecs492UM][github]]
 -------
 *** Advising
-Fall 2012, Winter 2013: Advising [[mittal.anant@gmail.com][Anant Mittal]], [[anmol.gupta91@gmail.com][Anmol Gupta]] on
+Fall 2012, Winter 2013: Advised [[mittal.anant@gmail.com][Anant Mittal]], [[anmol.gupta91@gmail.com][Anmol Gupta]] on
 designing Soar AI agents for Google AI Challenge - Planet Wars. The
-work is to be submitted as a minor project to the CS department,
+work was submitted as final year thesis project to the CS department,
 [[http://www.bvcoend.ac.in//][BVCOE]], New Delhi, India.\\
 \\
 Fall 2011, Winter 2012: Advised [[mandarjoshi.90@gmail.com][Mandar Joshi]], [[khobragade.rakesh@gmail.com][Rakesh Khobragade]],
