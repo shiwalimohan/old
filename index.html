@@ -1,75 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Shiwali Mohan</title>
+<!-- 2013-10-21 Mon 23:29 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<meta name="title" content="Shiwali Mohan"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2013-10-18T16:58-0400"/>
-<meta name="author" content="Shiwali Mohan"/>
 <meta name="description" content="Shiwali's personal website"/>
-<meta name="keywords" content=""/>
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  html { font-family: Times, serif; font-size: 12pt; }
   .title  { text-align: center; }
-  .todo   { color: red; }
+  .todo   { font-family: monospace; color: red; }
   .done   { color: green; }
-  .tag    { background-color: #add8e6; font-weight:normal }
-  .target { }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
-  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
-  .center {margin-left:auto; margin-right:auto; text-align:center;}
-  p.verse { margin-left: 3% }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
   pre {
-	border: 1pt solid #AEBDCC;
-	background-color: #F3F5F7;
-	padding: 5pt;
-	font-family: courier, monospace;
-        font-size: 90%;
-        overflow:auto;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
   }
-  table { border-collapse: collapse; }
-  td, th { vertical-align: top;  }
-  th.right  { text-align:center;  }
-  th.left   { text-align:center;   }
-  th.center { text-align:center; }
-  td.right  { text-align:right;  }
-  td.left   { text-align:left;   }
-  td.center { text-align:center; }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  div.figure { padding: 0.5em; }
-  div.figure p { text-align: center; }
-  div.inlinetask {
-    padding:10px;
-    border:2px solid gray;
-    margin:10px;
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
     background: #ffffcc;
   }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
   textarea { overflow-x: auto; }
-  .linenr { font-size:smaller }
-  .code-highlighted {background-color:#ffff00;}
-  .org-info-js_info-navigation { border-style:none; }
-  #org-info-js_console-label { font-size:10px; font-weight:bold;
-                               white-space:nowrap; }
-  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
-                                 font-weight:bold; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
   /*]]>*/-->
 </style>
-<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-<LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
-<script src="javascripts/jquery.js" type="text/javascript"></script>
-<script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
-<script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>  
-<script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
-<script src ="javascripts/BibTex-0.1.2.js" type="text/javascript"></script>
-<script type="text/javascript" src="javascripts/displayBibTex.js"></script>
-<script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -116,21 +131,10 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-
 </head>
 <body>
-
-<div id="preamble">
-
-</div>
-
 <div id="content">
 <h1 class="title">Shiwali Mohan</h1>
-
-
-
-
-
 <div id="tab-container">
 <ul>
     <li><a href="#outline-container-1">» about «</a></li>
@@ -139,19 +143,26 @@ for the JavaScript code in this tag.
     <li><a href="#outline-container-3">» academia «</a></li>
   </ul>
 
-
-
-<div id="outline-container-1" class="outline-2">
+<div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">About</h2>
 <div class="outline-text-2" id="text-1">
-
+<p>
+I am a doctoral candidate in <a href="http://www.cse.umich.edu/">Computer Science and Engineering</a> at <a href="http://www.umich.edu/">The
+University of Michigan</a>, Ann Arbor. I have been collaborating with <a href="http://ai.eecs.umich.edu/people/laird/">John
+Laird</a> on the design and study of interactive agents and robots.
+</p>
 
 <p>
-I am a doctoral candidate in <a href="http://www.cse.umich.edu/">Computer Science and Engineering</a> at <a href="http://www.umich.edu/">The University of Michigan</a>, Ann Arbor. I have been collaborating with <a href="http://ai.eecs.umich.edu/people/laird/">John Laird</a> on design and study of collaborative agents and robots.
+My current work focuses on designing cognitive robots that can
+communicate with their human partners using natural language and can
+expand their knowledge and skill set by engaging the human in
+instructional learning. The work looks at several interesting HRI
+challenges including embodied language comprehension, interactive
+collaboration, and active, agent-driven learning. The agents are
+developed in <a href="http://sitemaker.umich.edu/soar/home">Soar</a> - a cognitive architecture for design of generally
+intelligent agents.
 </p>
-<p>
-My current work focuses on designing cognitive robots that can communicate with human collaborators using natural language and can expand their skill set (and language comprehension) by engaging the human collaborator in instructional learning. The work looks at several interesting HRI challenges including embodied language comprehension, interactive collaboration, and active, agent-driven learning. The agents are developed in <a href="http://sitemaker.umich.edu/soar/home">Soar</a> - a cognitive architecture for design of generally intelligent agents.
-</p>
+
 <p>
 My past work has focused on cognitive agents that can learn to
 navigate new, complex environments. We have looked at agents that
@@ -159,39 +170,32 @@ start with minimal background knowledge about an environment and build
 relevant, relational structures using reinforcement learning in the
 <a href="http://2009.rl-competition.org/mario.php">Infinite Mario</a> RL domain.
 </p>
+
 <p>
 I am from India, where I received an undergraduate degree in
-<a href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation and Control Engineering</a> from <a href="http://www.du.ac.in/index.php?id=4">University of Delhi</a>. After four years of struggling with control equations and
-differential calculus, I ended up loving programming and other geeky,
-Computer Science-y things. I worked with <a href="http://in.careers.yahoo.com/">Yahoo! India</a> as a software
-engineer on their Strategic Data Solutions team for some time, before
-deciding to denounce the real world, and the money that comes with it
-and became a graduate student.
+<a href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation and Control Engineering</a> from <a href="http://www.du.ac.in/index.php?id=4">University of Delhi</a>. In
+past, I worked for <a href="http://in.careers.yahoo.com/">Yahoo! India</a> as a software engineer on their
+Strategic Data Solutions and Media Analytics team.
 </p>
 
 <hr/>
 <p>
 I am available at shiwali.at.umich.dot.edu and
 shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
-08-19-2013 is <a href="resume/resume.pdf">here</a>. My google citation page is <a href="http://scholar.google.com/citations?hl=en&amp;user=EYWzxPIAAAAJ">here</a>.
+08-19-2013 is <a href="resume/resume.pdf">here</a>. My google citation page is <a href="http://scholar.google.com/citations?hl=en&user=EYWzxPIAAAAJ">here</a>.
 </p>
 </div>
-
 </div>
-
-<div id="outline-container-2" class="outline-2">
+<div id="outline-container-sec-2" class="outline-2">
 <h2 id="sec-2">Research</h2>
 <div class="outline-text-2" id="text-2">
-
-
-</div>
-
-<div id="outline-container-2-1" class="outline-4">
-<h4 id="sec-2-1">Interactive Learning with Instruction</h4>
-<div class="outline-text-4" id="text-2-1">
-
-<p>Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, James Kirk, Aaron Mininger
+</div><div id="outline-container-sec-2-0-1" class="outline-4">
+<h4 id="sec-2-0-1">Interactive Learning with Instruction</h4>
+<div class="outline-text-4" id="text-2-0-1">
+<p>
+Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, James Kirk, Aaron Mininger
 </p>
+
 <p>
 Intelligent agents are becoming pervasive in human society. From
 personal assistants such as <a href="http://en.wikipedia.org/wiki/Siri">Siri</a> and <a href="http://www.google.com/landing/now/">Google Now</a> to smart robots such
@@ -211,22 +215,23 @@ while executing complex tasks, and how to represent and play novel
 games.
 </p>
 
-<p>
-Publications: <a href="content/mohan_fss_2011.pdf">AAAI FSS 2011</a> | <a href="content/mohan_AAAISA_2012.pdf">AAAI 2012</a> (extended abstract) | <a href="content/mohan_AAAIFS_2012.pdf">AAAI FSS 2012</a> | <a href="content/mohan_ACS_2012.pdf">ACS 2012</a> | <a href="content/mohan_ICCM_2013.pdf">ICCM 2013</a> <br/>
-Videos: <a href="http://www.youtube.com/watch?v=zfXu0mF7c8o">Task learning</a> | <a href="https://www.youtube.com/watch?v=a5j5IcQPXhY">Towers of Hanoi</a> | <a href="https://www.youtube.com/watch?v=3CJdBKS24Ho">Frogs and Toads</a> <br/>
 
+<p>
+Publications: <a href="content/mohan_fss_2011.pdf">AAAI FSS 2011</a> | <a href="content/mohan_AAAISA_2012.pdf">AAAI 2012</a> (extended abstract) | <a href="content/mohan_AAAIFS_2012.pdf">AAAI FSS
+2012</a> | <a href="content/mohan_ACS_2012.pdf">ACS 2012</a> | <a href="content/mohan_ICCM_2013.pdf">ICCM 2013</a> <br/>
+Videos: <a href="http://www.youtube.com/watch?v=zfXu0mF7c8o">Task learning</a> | <a href="https://www.youtube.com/watch?v=a5j5IcQPXhY">Towers of Hanoi</a> | <a href="https://www.youtube.com/watch?v=3CJdBKS24Ho">Frogs and Toads</a> <br/>
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-2-2" class="outline-4">
-<h4 id="sec-2-2">Embodied Natural Language</h4>
-<div class="outline-text-4" id="text-2-2">
-
-<p>Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, Aaron Mininger
+<div id="outline-container-sec-2-0-2" class="outline-4">
+<h4 id="sec-2-0-2">Embodied Natural Language</h4>
+<div class="outline-text-4" id="text-2-0-2">
+<p>
+Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, Aaron Mininger
 </p>
+
 <p>
 There are several challenging questions that must be answered to
 design a language module for intelligent agents, including those
@@ -240,21 +245,21 @@ system. We are interested in exploring how extra-linguistic contexts
 influence language processing, alleviating ambiguities and
 insufficient information prevalent in natural language. 
 </p>
+
 <p>
 Publications: <a href="content/mohan_AAAIGPS_2012.pdf">AAAI 2012 workshop</a> | <a href="content/mohan_ACS_2013.pdf">ACS 2013</a> <br/>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-2-3" class="outline-4">
-<h4 id="sec-2-3">Cognitive Robotics and Architectures</h4>
-<div class="outline-text-4" id="text-2-3">
-
-<p>Collaborator:  <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>
+<div id="outline-container-sec-2-0-3" class="outline-4">
+<h4 id="sec-2-0-3">Cognitive Robotics and Architectures</h4>
+<div class="outline-text-4" id="text-2-0-3">
+<p>
+Collaborator:  <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>
 </p>
+
 <p>
 Cognitive architectures provide an integrated computational theory for
 intelligent behavior. They implement short-/long-term memories to store
@@ -265,21 +270,21 @@ incorporate perceptual and motor modules. Cognitive architectures,
 therefore, are a useful framework to study design of intelligent
 adaptive collaborative agents and robots. 
 </p>
+
 <p>
 Publications: <a href="content/laird_AAAICogRob_2012.pdf">Cognitive Robotics 2012</a> | <a href="content/laird_AAAICogRob_2012.pdf">Integrated Cognition 2013</a> <br/>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-2-4" class="outline-4">
-<h4 id="sec-2-4">Reinforcement Learning</h4>
-<div class="outline-text-4" id="text-2-4">
-
-<p>Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, <a href="http://www.linkedin.com/profile/view?id=59121380&amp;authType=NAME_SEARCH&amp;authToken=AfRm&amp;locale=en_US&amp;srchid=149717791382042861385&amp;srchindex=1&amp;srchtotal=330&amp;trk=vsrp_people_res_name&amp;trkInfo=VSRPsearchId%3A149717791382042861385%2CVSRPtargetId%3A59121380%2CVSRPcmpt%3Aprimary">Mandar Joshi</a>
+<div id="outline-container-sec-2-0-4" class="outline-4">
+<h4 id="sec-2-0-4">Reinforcement Learning</h4>
+<div class="outline-text-4" id="text-2-0-4">
+<p>
+Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, <a href="http://www.linkedin.com/profile/view?id=59121380&authType=NAME_SEARCH&authToken=AfRm&locale=en_US&srchid=149717791382042861385&srchindex=1&srchtotal=330&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A149717791382042861385%2CVSRPtargetId%3A59121380%2CVSRPcmpt%3Aprimary">Mandar Joshi</a>
 </p>
+
 <p>
 Computer games are interesting test beds for research in reinforcement
 learning. Skill-based games such as <a href="http://www.ultimatearcade.com/game/infinite-mario">Infinite Mario</a> usually have
@@ -296,117 +301,102 @@ shown that relational representations allow for the inclusion of
 background knowledge (about both state and actions) which can be used
 to guide learning.
 </p>
+
 <p>
 Publications: <a href="content/mohan.pdf">AAAI 2010</a> (extended abstract) | <a href="content/mohan_aiide_2011.pdf">AIIDE 2011</a> | <a href="content/joshi_STAIRS_2012.pdf">STAIRS 2012</a>
 (extended abstract) | <a href="content/joshi_ICTAI_2012.pdf">ICTAI 2012</a> <br/>
 Software: <a href="https://github.com/shiwalimohan/MarioSoar">MarioSoar</a> | <a href="https://github.com/shiwalimohan/RLInfiniteMario">RLInfiniteMario</a> <br/>
 Videos: <a href="http://www.youtube.com/watch?v=V8F6zt70tbY">1</a> | <a href="http://www.youtube.com/watch?v=7nv6kZzrTkg">2</a> <br/>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-2-5" class="outline-4">
-<h4 id="sec-2-5">Vector Space Models of Language Semantics</h4>
-<div class="outline-text-4" id="text-2-5">
-
-<p>Collaborator: Niladri Chatterjee
+<div id="outline-container-sec-2-0-5" class="outline-4">
+<h4 id="sec-2-0-5">Vector Space Models of Language Semantics</h4>
+<div class="outline-text-4" id="text-2-0-5">
+<p>
+Collaborator: Niladri Chatterjee
 </p>
+
 
 
 <p>
 Publications: <a href="content/mohan_ictai.pdf">ICTAI 2007</a> | <a href="content/mohan_cicling_2008.pdf">CICLING 2008</a> (best paper award) <br/>
-
 </p>
 <hr/>
-
 </div>
 </div>
-
 </div>
-
-<div id="outline-container-3" class="outline-2">
+<div id="outline-container-sec-3" class="outline-2">
 <h2 id="sec-3">Academia</h2>
 <div class="outline-text-2" id="text-3">
-
-
-</div>
-
-<div id="outline-container-3-1" class="outline-4">
-<h4 id="sec-3-1">Thesis</h4>
-<div class="outline-text-4" id="text-3-1">
-
-<p>My thesis work investigates acquistion of novel task knowledge through natural-language like human-robot interaction. <br/>
+</div><div id="outline-container-sec-3-0-1" class="outline-4">
+<h4 id="sec-3-0-1">Thesis</h4>
+<div class="outline-text-4" id="text-3-0-1">
+<p>
+My thesis work investigates acquistion of novel task knowledge through natural-language like human-robot interaction. <br/>
 Writing: <a href="content/thesis-proposal.pdf">proposal</a> <br/>
 Talks: <a href="content/thesis-proposal-talk.pdf">proposal</a>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-3-2" class="outline-4">
-<h4 id="sec-3-2">Teaching</h4>
-<div class="outline-text-4" id="text-3-2">
-
-<p>I served as a graduate student instructor for EECS 492 - Introduction
+<div id="outline-container-sec-3-0-2" class="outline-4">
+<h4 id="sec-3-0-2">Teaching</h4>
+<div class="outline-text-4" id="text-3-0-2">
+<p>
+I served as a graduate student instructor for EECS 492 - Introduction
 to Artificial Intelligence in Winter 2012 at University of Michigan.<br/>
 Course material: <a href="https://github.com/shiwalimohan/eecs492UM/zipball/master">zip archive</a> | <a href="https://github.com/shiwalimohan/eecs492UM">github</a>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-3-3" class="outline-4">
-<h4 id="sec-3-3">Advising</h4>
-<div class="outline-text-4" id="text-3-3">
-
-<p>Fall 2012, Winter 2013: Advising <a href="#mittal.anant-gmail.com">Anant Mittal</a>, <a href="#anmol.gupta91-gmail.com">Anmol Gupta</a> on
+<div id="outline-container-sec-3-0-3" class="outline-4">
+<h4 id="sec-3-0-3">Advising</h4>
+<div class="outline-text-4" id="text-3-0-3">
+<p>
+Fall 2012, Winter 2013: Advised <i>Anant Mittal</i>, <i>Anmol Gupta</i> on
 designing Soar AI agents for Google AI Challenge - Planet Wars. The
-work is to be submitted as a minor project to the CS department,
+work was submitted as final year thesis project to the CS department,
 <a href="http://www.bvcoend.ac.in//">BVCOE</a>, New Delhi, India.<br/>
-<br/>
-Fall 2011, Winter 2012: Advised <a href="#mandarjoshi.90-gmail.com">Mandar Joshi</a>, <a href="#khobragade.rakesh-gmail.com">Rakesh Khobragade</a>,
-<a href="#sonusaurabhsarda-gmail.com">Saurabh Sarda</a> on designing Reinforcement Learning agents for Infinite
+\\
+Fall 2011, Winter 2012: Advised <i>Mandar Joshi</i>, <i>Rakesh Khobragade</i>,
+<i>Saurabh Sarda</i> on designing Reinforcement Learning agents for Infinite
 Mario. The work was submitted as final year thesis project to the CS
 department, <a href="http://www.vnit.ac.in/">VNIT</a>, Nagpur, India.
 </p>
 
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-3-4" class="outline-4">
-<h4 id="sec-3-4">Service</h4>
-<div class="outline-text-4" id="text-3-4">
-
-<p>Co-chair, Special Interest Group on Faculty (<a href="https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page">SIG-Faculty</a>) at
+<div id="outline-container-sec-3-0-4" class="outline-4">
+<h4 id="sec-3-0-4">Service</h4>
+<div class="outline-text-4" id="text-3-0-4">
+<p>
+Co-chair, Special Interest Group on Faculty (<a href="https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page">SIG-Faculty</a>) at
 University of Michigan. 2012.<br/>
 Vice-President, Computer Science and Engineering Graduate student
 organization (<a href="http://cseg.eecs.umich.edu/">CSEG</a>) at University of Michigan. 2011. <br/>
-Creative Lead, Indian Students Association (<a href="#umisa.org">ISA</a>) at University of Michigan. 2011<br/>
+Creative Lead, Indian Students Association (<i>ISA</i>) at University of Michigan. 2011<br/>
 DCO Representative, Computer Science and Engineering Graduate student
 organization (<a href="http://cseg.eecs.umich.edu/">CSEG</a>) at University of Michigan. 2010.
-Social Chair, Indian Students Association (<a href="#umisa.org">ISA</a>) at University of
+Social Chair, Indian Students Association (<i>ISA</i>) at University of
 Michigan. 2010<br/>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-3-5" class="outline-4">
-<h4 id="sec-3-5">Talks</h4>
-<div class="outline-text-4" id="text-3-5">
-
-<p><a href="http://shiwali.me/content/interaction.pdf">Mixed-Initiative Interaction for Learning with Instruction</a>,
+<div id="outline-container-sec-3-0-5" class="outline-4">
+<h4 id="sec-3-0-5">Talks</h4>
+<div class="outline-text-4" id="text-3-0-5">
+<p>
+<a href="http://shiwali.me/content/interaction.pdf">Mixed-Initiative Interaction for Learning with Instruction</a>,
 32nd Soar Workshop, June 2012, Ann Arbor, Michigan<br/>
 <a href="http://shiwali.me/content/comprehension.pdf">Situated Comprehension of Action Commands</a>,
 32nd Soar Workshop, June 2012, Ann Arbor, Michigan<br/>
@@ -422,18 +412,16 @@ Michigan. 2010<br/>
 30th Soar Workshop, June 2010, Ann Arbor, Michigan <br/>
 <a href="http://sitemaker.umich.edu/soar/files/mohan.pdf">Learning to Play Mario</a>, 
 29th Soar Workshop, June 2009, Ann Arbor, Michigan <br/>
-
 </p>
 <hr/>
 </div>
-
 </div>
 
-<div id="outline-container-3-6" class="outline-4">
-<h4 id="sec-3-6">Miscellaneous Projects</h4>
-<div class="outline-text-4" id="text-3-6">
-
-<p><a href="content/mohan_EECS545.pdf">On Generating Grounded Language in Cognitive Architecture</a>, 
+<div id="outline-container-sec-3-0-6" class="outline-4">
+<h4 id="sec-3-0-6">Miscellaneous Projects</h4>
+<div class="outline-text-4" id="text-3-0-6">
+<p>
+<a href="content/mohan_EECS545.pdf">On Generating Grounded Language in Cognitive Architecture</a>, 
 EECS 590, Natural Language Processing, April 2011, University of Michigan<br/>
 <a href="content/prelim-paper.pdf">Relational Reinforcement Learning in Infinite Mario</a>, 
 Preliminary Examination, September 2010, University of Michigan <br/>
@@ -442,19 +430,17 @@ EECS 545, Machine Learning, December 2009, University of Michigan<br/>
 <a href="content/hadoop.pdf">Towards a Resource Aware Scheduler in Hadoop</a>,
 EECS 589, Advanced Computer Networks, December 2009, University of
 Michigan
-</p></div>
+</p>
+</div>
+</div>
 </div>
 
-</div>
-
-<div id="outline-container-4" class="outline-2">
+<div id="outline-container-sec-4" class="outline-2">
 <h2 id="sec-4">Publications</h2>
 <div class="outline-text-2" id="text-4">
-
-
 <div class ="bib" id = "bib_publi">
 
-@inproceedings{Laird2013,
+@inproceedings{Mohan2013b,
 author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
 booktitle = {(to be presented at) the Second Annual Conference on
@@ -674,10 +660,13 @@ pdf = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/00000000000000000
 type_publi = {techreport},
 }
 </div>
-
 </div>
 </div>
 </div>
-
+<div id="postamble" class="status">
+<p class="date">Created: 2013-10-21 Mon 23:29</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.0.6)</p>
+<p class="xhtml-validation"><a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a></p>
+</div>
 </body>
 </html>

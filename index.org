@@ -21,8 +21,6 @@
 #+STYLE: <script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
 
 #+BEGIN_HTML        
-
-
 <div id="tab-container">
 <ul>
     <li><a href="#outline-container-1">» about «</a></li>
@@ -32,13 +30,20 @@
   </ul>
 #+END_HTML
 
-
 * About
 
 I am a doctoral candidate in [[http://www.cse.umich.edu/][Computer Science and Engineering]] at [[http://www.umich.edu/][The
-University of Michigan]], Ann Arbor. I have been collaborating with [[http://ai.eecs.umich.edu/people/laird/][John Laird]] on design and study of collaborative agents and robots.
+University of Michigan]], Ann Arbor. I have been collaborating with [[http://ai.eecs.umich.edu/people/laird/][John
+Laird]] on the design and study of interactive agents and robots.
 
-My current work focuses on designing cognitive robots that can communicate with human collaborators using natural language and can expand their skill set (and language comprehension) by engaging the human collaborator in instructional learning. The work looks at several interesting HRI challenges including embodied language comprehension, interactive collaboration, and active, agent-driven learning. The agents are developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for design of generally intelligent agents.
+My current work focuses on designing cognitive robots that can
+communicate with their human partners using natural language and can
+expand their knowledge and skill set by engaging the human in
+instructional learning. The work looks at several interesting HRI
+challenges including embodied language comprehension, interactive
+collaboration, and active, agent-driven learning. The agents are
+developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for design of generally
+intelligent agents.
 
 My past work has focused on cognitive agents that can learn to
 navigate new, complex environments. We have looked at agents that
@@ -47,13 +52,9 @@ relevant, relational structures using reinforcement learning in the
 [[http://2009.rl-competition.org/mario.php][Infinite Mario]] RL domain.
 
 I am from India, where I received an undergraduate degree in
-[[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of
-Delhi]]. After four years of struggling with control equations and
-differential calculus, I ended up loving programming and other geeky,
-Computer Science-y things. I worked with [[http://in.careers.yahoo.com/][Yahoo! India]] as a software
-engineer on their Strategic Data Solutions team for some time, before
-deciding to denounce the real world, and the money that comes with it
-and became a graduate student.
+[[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of Delhi]]. In
+past, I worked for [[http://in.careers.yahoo.com/][Yahoo! India]] as a software engineer on their
+Strategic Data Solutions and Media Analytics team.
 
 -----
 I am available at shiwali.at.umich.dot.edu and
@@ -214,7 +215,7 @@ Michigan
 #+begin_html
 <div class ="bib" id = "bib_publi">
 
-@inproceedings{Laird2013,
+@inproceedings{Mohan2013b,
 author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
 booktitle = {(to be presented at) the Second Annual Conference on
