@@ -43,18 +43,13 @@ instructional learning. The work looks at several interesting HRI
 challenges including embodied language comprehension, interactive
 collaboration, and active, agent-driven learning. The agents are
 developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for design of generally
-intelligent agents.
-
-My past work has focused on cognitive agents that can learn to
-navigate new, complex environments. We have looked at agents that
-start with minimal background knowledge about an environment and build
-relevant, relational structures using reinforcement learning in the
-[[http://2009.rl-competition.org/mario.php][Infinite Mario]] RL domain.
+intelligent agents. In past, I have worked on relational reinforcement
+learning agents for the [[http://www.ultimatearcade.com/game/infinite-mario][Infinite Mario]] domain.
 
 I am from India, where I received an undergraduate degree in
-[[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of Delhi]]. In
-past, I worked for [[http://in.careers.yahoo.com/][Yahoo! India]] as a software engineer on their
-Strategic Data Solutions and Media Analytics team.
+[[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of
+Delhi]]. After graduating, I worked for [[http://in.careers.yahoo.com/][Yahoo! India]] as a software
+engineer on media analytics and strategic data solutions. 
 
 -----
 I am available at shiwali.at.umich.dot.edu and
