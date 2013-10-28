@@ -25,10 +25,10 @@
 #+latex_header: \setmainfont[SmallCapsFont = Linux Libertine Capitals O]{Linux Libertine O}
 #+latex_header: \usepackage{natbib}
 #+latex_header: \usepackage{bibentry}
-#+latex_header: \newcommand{\bibverse}[1]{\begin{verse} \bibentry{#1}. \end{verse}}
-#+latex_header: \nobibliography*
-
 #+begin_latex
+\bibliographystyle{plain}
+\nobibliography{library}
+
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
 \hyphenation{im-pre-se}
@@ -111,6 +111,8 @@ summarization using PageRank and Random Indexing.
 \bibentry{Mohan2012f}
 
 ** _Conference/Workshop Proceedings_
+\bibentry{Mohan2013b}
+
 \bibentry{Laird2013}
 
 \bibentry{Mohan2013a}
