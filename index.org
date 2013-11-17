@@ -228,8 +228,8 @@ Soar},
 booktitle = {In Papers from Integrated Cognition (AAAI Fall Symposium Series)},
 year = {2013},
 type_publi = {symposium},
-pdf = {./content/laird_AAAIFS_2013.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/laird_AAAIFS_2013.pdf">internal link</a>}
+pdf = {./content/laird_AAAI_IC_2013.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal link</a>}
 }
 
 @inproceedings{Mohan2012f,
