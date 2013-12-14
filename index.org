@@ -169,6 +169,8 @@ department, [[http://www.vnit.ac.in/][VNIT]], Nagpur, India.
 -------
 *** Service
 Co-chair, Special Interest Group on Faculty ([[https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page][SIG-Faculty]]) at
+University of Michigan. 2013.\\
+Co-chair, Special Interest Group on Faculty ([[https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page][SIG-Faculty]]) at
 University of Michigan. 2012.\\
 Vice-President, Computer Science and Engineering Graduate student
 organization ([[http://cseg.eecs.umich.edu/][CSEG]]) at University of Michigan. 2011. \\
@@ -213,12 +215,16 @@ Michigan
 @inproceedings{Mohan2013b,
 author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
-booktitle = {(to be presented at) the Second Annual Conference on
+booktitle = {In the Second Annual Conference on
 Advances in Cognitive Systems},
 year = {2013},
 type_publi = {symposium},
 pdf = {./content/mohan_ACS_2013.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal link</a>}
+internal-link = {<a
+href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal
+link</a>},
+url={http://www.cogsys.org/papers/2013conference29.pdf},
+talk = {./content/mohan-acs-2013-talk.pdf},
 }
 
 @inproceedings{Laird2013,
@@ -229,7 +235,10 @@ booktitle = {In Papers from Integrated Cognition (AAAI Fall Symposium Series)},
 year = {2013},
 type_publi = {symposium},
 pdf = {./content/laird_AAAI_IC_2013.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal link</a>}
+internal-link = {<a
+href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal
+link</a>},
+url = {http://www.aaai.org/ocs/index.php/FSS/FSS13/paper/view/7606},
 }
 
 @inproceedings{Mohan2012f,

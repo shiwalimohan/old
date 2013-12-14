@@ -191,3 +191,10 @@ Operating Systems: Linux(Ubuntu/Red Hat), Windows(XP/Vista/7) \\
 Programming Languages: \textsc{C/C++}, \textsc{Java}, Perl, Soar,
 Python, JavaScript  \\
 Document Markup Language: Latex
+* Talks
+Learning Hierarchical Tasks with Situated Interactive Instruction \\
+Center for Vision, Cognition, Learning, and Art, UCLA\\
+USC Institute for Creative Techonologies \\
+Interaction Lab, Computer Science and Engineering, USC
+Information Sciences Institute\\
+

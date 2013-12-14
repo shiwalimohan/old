@@ -57,7 +57,7 @@ function displayBibTex(element,id)
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\" target = \"_blank\">abstract</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['talk']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\" target = \"_blank\">talk</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\" target = \"_blank\">slides</a>&nbsp;";
 	            }
 		    citation = citation + "]";
 		    // write to html
