@@ -226,6 +226,16 @@ Michigan
 #+begin_html
 <div class ="bib" id = "bib_publi">
 
+@inproceedings{Mohan2014a,
+author = {Shiwali Mohan and John E. Laird},
+title = {Learning New Tasks from Situated Interactive Instruction},
+booktitle = {In the 2014 HRI Pioneers workshop},
+year = {2014},
+type_publi = {symposium},
+pdf = {./content/mohan_HRIPioneers_2014.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/mohan_HRIPioneers_2014.pdf">internal link</a>},
+}
+
 @inproceedings{Mohan2013b,
 author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
@@ -234,9 +244,7 @@ Advances in Cognitive Systems},
 year = {2013},
 type_publi = {symposium},
 pdf = {./content/mohan_ACS_2013.pdf},
-internal-link = {<a
-href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal
-link</a>},
+internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal link</a>},
 url={http://www.cogsys.org/papers/2013conference29.pdf},
 talk = {./content/mohan-acs-2013-talk.pdf},
 }
@@ -249,9 +257,7 @@ booktitle = {In Papers from Integrated Cognition (AAAI Fall Symposium Series)},
 year = {2013},
 type_publi = {symposium},
 pdf = {./content/laird_AAAI_IC_2013.pdf},
-internal-link = {<a
-href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal
-link</a>},
+internal-link = {<a href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal link</a>},
 url = {http://www.aaai.org/ocs/index.php/FSS/FSS13/paper/view/7606},
 }
 
