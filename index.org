@@ -4,7 +4,7 @@
 #+DESCRIPTION: Shiwali's personal website
 #+LANGUAGE:  en
 #+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc author:nil
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc author:nil 
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   
@@ -23,10 +23,10 @@
 #+BEGIN_HTML        
 <div id="tab-container">
 <ul>
-    <li><a href="#outline-container-1">» about «</a></li>
-    <li><a href="#outline-container-2">» research  «</a></li>
-    <li><a href="#outline-container-4">» publications  «</a></li>
-    <li><a href="#outline-container-3">» academia «</a></li>
+    <li><a href="#outline-container-sec-1">» about «</a></li>
+    <li><a href="#outline-container-sec-2">» research  «</a></li>
+    <li><a href="#outline-container-sec-4">» publications  «</a></li>
+    <li><a href="#outline-container-sec-3">» academia «</a></li>
   </ul>
 #+END_HTML
 
