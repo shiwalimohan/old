@@ -227,7 +227,7 @@ Michigan
 <div class ="bib" id = "bib_publi">
 @inproceedings{Laird2014,
 author = {John E. Laird and Shiwali Mohan},
-title = {A Case Study of Knowledge Integration across Multiple Memories in Soar},
+title = {A Case Study of Knowledge Integration across Multiple Memories in Soar (forthcoming)},
 booktitle = {Biologically Inspired Cognitive Architectures},
 year = {2014},
 type_publi = {symposium},
