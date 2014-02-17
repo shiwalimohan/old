@@ -54,7 +54,7 @@ engineer on media analytics and strategic data solutions.
 -----
 I am available at shiwali.at.umich.dot.edu and
 shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
-12-18-2013 is [[file:resume/cv.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
+02-17-2014 is [[file:resume/cv.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
 *** Interactive Learning with Instruction
@@ -225,6 +225,14 @@ Michigan
 * Publications
 #+begin_html
 <div class ="bib" id = "bib_publi">
+@inproceedings{Laird2014,
+author = {John E. Laird and Shiwali Mohan},
+title = {A Case Study of Knowledge Integration across Multiple Memories in Soar},
+booktitle = {Biologically Inspired Cognitive Architectures},
+year = {2014},
+type_publi = {symposium},
+}
+
 @inproceedings{Mohan2014a,
 author = {Shiwali Mohan and John E. Laird},
 title = {Learning New Tasks from Situated Interactive Instruction},
