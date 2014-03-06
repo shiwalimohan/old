@@ -52,8 +52,11 @@ function displayBibTex(element,id)
 	   	    if(bibtex.data[i]['pdf']){
 			citation = citation + "&nbsp;<a href=\""+bibtex.data[i]['pdf']+"\" target = \"_blank\">pdf</a>&nbsp;";
 	            }
-		    if(bibtex.data[i]['url']){
+		    if(bibtex.data[i]['url'] && bibtex.data[i]['pdf']){
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['url']+"\" target = \"_blank\">http</a>&nbsp;";
+	            }
+		    if(bibtex.data[i]['url'] && !bibtex.data[i]['pdf']){
+			citation = citation + "&nbsp;<a href=\""+bibtex.data[i]['url']+"\" target = \"_blank\">http</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['abstract']){
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['Abstract']+"\" target = \"_blank\">abstract</a>&nbsp;";
