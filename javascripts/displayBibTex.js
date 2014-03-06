@@ -46,7 +46,9 @@ function displayBibTex(element,id)
    	    	    citation = citation + authors+" "+bibtex.data[i]['title']+". "+"<i>"+bibtex.data[i]['booktitle']+"</i>, "+bibtex.data[i]['year']+".<br />";
 
 		    // add tag links
-	            citation = citation + "[";
+		    if(bibtex.data[i]['pdf'] || bibtex.data[i]['url'] || bibtex.data[i]['abstract'] || bibtex.data[i]['talk'] || bibtex.data[i]['poster']){
+	                citation = citation + "[";
+		    }
 	   	    if(bibtex.data[i]['pdf']){
 			citation = citation + "&nbsp;<a href=\""+bibtex.data[i]['pdf']+"\" target = \"_blank\">pdf</a>&nbsp;";
 	            }
@@ -59,7 +61,12 @@ function displayBibTex(element,id)
 		    if(bibtex.data[i]['talk']){
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\" target = \"_blank\">slides</a>&nbsp;";
 	            }
+		    if(bibtex.data[i]['poster']){
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['poster']+"\" target = \"_blank\">slides</a>&nbsp;";
+	            }
+		    if(bibtex.data[i]['pdf'] || bibtex.data[i]['url'] || bibtex.data[i]['abstract'] || bibtex.data[i]['talk'] || bibtex.data[i]['poster']){
 		    citation = citation + "]";
+		    }
 		    // write to html
 		    pTag.innerHTML = citation;
 	      	    document.getElementById(element).appendChild(pTag);
