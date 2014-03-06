@@ -19,6 +19,7 @@
 #+HTML_HEAD:   <script src ="javascripts/BibTex-0.1.2.js" type="text/javascript"></script>
 #+HTML_HEAD:    <script type="text/javascript" src="javascripts/displayBibTex.js"></script>
 #+HTML_HEAD: <script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
+#+BIND: org-html-postamble nil
 
 #+BEGIN_HTML        
 <div id="tab-container">
@@ -42,14 +43,14 @@ expand their knowledge and skill set by engaging the human in
 instructional learning. The work looks at several interesting HRI
 challenges including embodied language comprehension, interactive
 collaboration, and active, agent-driven learning. The agents are
-developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for design of generally
+developed in [[http://sitemaker.umich.edu/soar/home][Soar]] - a cognitive architecture for designing generally
 intelligent agents. In past, I have worked on relational reinforcement
 learning agents for the [[http://www.ultimatearcade.com/game/infinite-mario][Infinite Mario]] domain.
 
 I am from India, where I received an undergraduate degree in
 [[http://en.wikipedia.org/wiki/Instrumentation][Instrumentation and Control Engineering]] from [[http://www.du.ac.in/index.php?id%3D4][University of
 Delhi]]. After graduating, I worked for [[http://in.careers.yahoo.com/][Yahoo! India]] as a software
-engineer on media analytics and strategic data solutions. 
+engineer on media analytics and strategic data solutions for a year. 
 
 -----
 I am available at shiwali.at.umich.dot.edu and
@@ -250,10 +251,10 @@ booktitle = {In the Second Annual Conference on
 Advances in Cognitive Systems},
 year = {2013},
 type_publi = {symposium},
-pdf = {./content/mohan_ACS_2013.pdf},
+pdf = {./content/mohan-acs-2013-talk.pdf},
 internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal link</a>},
 url={http://www.cogsys.org/papers/2013conference29.pdf},
-talk = {./content/mohan-acs-2013-talk.pdf},
+talk = {./content/mohan_ACS_2013_talk.pdf},
 }
 
 @inproceedings{Laird2013,
