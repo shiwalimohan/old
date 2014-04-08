@@ -161,7 +161,8 @@ Fall 2012, Winter 2013: Advised [[mittal.anant@gmail.com][Anant Mittal]], [[anmo
 designing Soar AI agents for Google AI Challenge - Planet Wars. The
 work was submitted as final year thesis project to the CS department,
 [[http://www.bvcoend.ac.in//][BVCOE]], New Delhi, India.\\
-\\
+
+
 Fall 2011, Winter 2012: Advised [[mandarjoshi.90@gmail.com][Mandar Joshi]], [[khobragade.rakesh@gmail.com][Rakesh Khobragade]],
 [[sonusaurabhsarda@gmail.com][Saurabh Sarda]] on designing Reinforcement Learning agents for Infinite
 Mario. The work was submitted as final year thesis project to the CS
@@ -226,7 +227,15 @@ Michigan
 * Publications
 #+begin_html
 <div class ="bib" id = "bib_publi">
-@inproceedings{Mohan2012f,
+@inproceedings{Mohan2014b,
+author = {Shiwali Mohan and John Laird},
+title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction (forthcoming)},
+booktitle = {In the Proceedings of the 28th AAAI Conference},
+year = {2014},
+type_publi = {symposium},
+}
+
+@inproceedings{Mohan2014a,
 author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents (forthcoming)},
 booktitle = {Advances in Cognitive Systems, 3},
