@@ -152,8 +152,14 @@ Writing: [[file:content/thesis-proposal.pdf][proposal]] \\
 Talks: [[file:content/thesis-proposal-talk.pdf][proposal]]
 -------
 *** Teaching
+I delivered a guest lecture on Cognition and Interactive Systems for
+EECS 492 - Intelligent Interactive Systems in April 2014 at the
+University of Michigan, Ann Arbor. \\
+
+
 I served as a graduate student instructor for EECS 492 - Introduction
-to Artificial Intelligence in Winter 2012 at University of Michigan.\\
+to Artificial Intelligence in Winter 2012 at the University of
+Michigan, Ann Arbor.\\
 Course material: [[https://github.com/shiwalimohan/eecs492UM/zipball/master][zip archive]] | [[https://github.com/shiwalimohan/eecs492UM][github]]
 -------
 *** Advising
