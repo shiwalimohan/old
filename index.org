@@ -152,7 +152,7 @@ Writing: [[file:content/thesis-proposal.pdf][proposal]] \\
 Talks: [[file:content/thesis-proposal-talk.pdf][proposal]]
 -------
 *** Teaching
-I delivered a guest lecture on Cognition and Interactive Systems for
+I delivered a guest lecture on [[http://www.shiwali.me/content/guestTalkUmich.pdf][Cognition and Interaction Sytems]] for
 EECS 492 - Intelligent Interactive Systems in April 2014 at the
 University of Michigan, Ann Arbor. \\
 
