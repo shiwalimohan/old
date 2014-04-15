@@ -58,8 +58,8 @@ shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
 04-11-2014 is [[file:resume/cv.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
 
 * Research
-*** Interactive Learning with Instruction
-Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], James Kirk, Aaron Mininger
+*** Taskability
+Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], James Kirk
 
 Intelligent agents are becoming pervasive in human society. From
 personal assistants such as [[http://en.wikipedia.org/wiki/Siri][Siri]] and [[http://www.google.com/landing/now/][Google Now]] to smart robots such
@@ -67,7 +67,7 @@ as [[http://www.rethinkrobotics.com/products/baxter/][Baxter]] and [[http://en.w
 beginning to contribute to a wide range of human activities. Although
 useful, these agents have to be pre-programmed by trained engineers
 with a set desired behaviors, limiting their use. We are interested in
-developing intelligent adaptive agents that can be 'programmed' to
+developing intelligent taskable agents that can be 'programmed' to
 perform new tasks by naive human users. To this end, we are
 investigating learning from natural language instruction for
 intelligent agent embodied in a robotic framework. Our work looks at
