@@ -243,7 +243,8 @@ type_publi = {symposium},
 
 @inproceedings{Mohan2014a,
 author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
-title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents (forthcoming)},
+title = {Towards an Indexical Model of Situated Language Comprehension
+for Real-World Cognitive Agents (accepted, in revision)},
 booktitle = {Advances in Cognitive Systems, 3},
 year = {2014},
 type_publi = {journal},
@@ -253,7 +254,8 @@ internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2012.pdf">inte
 
 @inproceedings{Laird2014,
 author = {John E. Laird and Shiwali Mohan},
-title = {A Case Study of Knowledge Integration across Multiple Memories in Soar (forthcoming)},
+title = {A Case Study of Knowledge Integration across Multiple
+Memories in Soar (invited, in print)},
 booktitle = {Biologically Inspired Cognitive Architectures},
 year = {2014},
 type_publi = {symposium},
