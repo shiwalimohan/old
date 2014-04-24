@@ -65,7 +65,7 @@ function displayBibTex(element,id)
 			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['talk']+"\" target = \"_blank\">slides</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['poster']){
-			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['poster']+"\" target = \"_blank\">slides</a>&nbsp;";
+			citation = citation + "|&nbsp;<a href=\""+bibtex.data[i]['poster']+"\" target = \"_blank\">poster</a>&nbsp;";
 	            }
 		    if(bibtex.data[i]['pdf'] || bibtex.data[i]['url'] || bibtex.data[i]['abstract'] || bibtex.data[i]['talk'] || bibtex.data[i]['poster']){
 		    citation = citation + "]";
