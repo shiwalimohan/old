@@ -256,10 +256,12 @@ link</a>},
 @inproceedings{Laird2014,
 author = {John E. Laird and Shiwali Mohan},
 title = {A Case Study of Knowledge Integration across Multiple
-Memories in Soar (invited, in print)},
+Memories in Soar (invited)},
 booktitle = {Biologically Inspired Cognitive Architectures},
 year = {2014},
 url={http://www.sciencedirect.com/science/article/pii/S2212683X14000164},
+pdf={./content/laird_BICA2014.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/laird_BICA2014.pdf">internal link</a>},
 }
 
 @inproceedings{Mohan2014a,
