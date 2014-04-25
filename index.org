@@ -80,7 +80,7 @@ games.
 
 
 Publications: [[file:content/mohan_fss_2011.pdf][AAAI FSS 2011]] | [[file:content/mohan_AAAISA_2012.pdf][AAAI 2012]] (extended abstract) | [[file:content/mohan_AAAIFS_2012.pdf][AAAI FSS
-2012]] | [[file:content/mohan_ACS_2012.pdf][ACS 2012]] | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]] \\
+2012]] | [[file:content/mohan_ACS_2012.pdf][ACS 2012]] | [[file:content/mohan_ICCM_2013.pdf][ICCM 2013]] | [[file:content/mohan_HRIPioneers_2014.pdf][HRI2014]] (extended abstract) | [[file:content/mohan_AAAI_2014.pdf][AAAI2014]]\\
 Videos: [[http://www.youtube.com/watch?v%3DzfXu0mF7c8o][Task learning]] | [[https://www.youtube.com/watch?v%3Da5j5IcQPXhY][Towers of Hanoi]] | [[https://www.youtube.com/watch?v%3D3CJdBKS24Ho][Frogs and Toads]] \\
 ---------
 *** Embodied Natural Language
@@ -112,7 +112,7 @@ incorporate perceptual and motor modules. Cognitive architectures,
 therefore, are a useful framework to study design of intelligent
 adaptive collaborative agents and robots. 
 
-Publications: [[file:content/laird_AAAICogRob_2012.pdf][Cognitive Robotics 2012]] | [[file:content/laird_AAAICogRob_2012.pdf][Integrated Cognition 2013]] \\
+Publications: [[file:content/laird_AAAICogRob_2012.pdf][Cognitive Robotics 2012]] | [[file:content/laird_AAAICogRob_2012.pdf][Integrated Cognition 2013]] | [[file:content/laird_BICA2014.pdf][BICA2014]]\\
 ---------
 *** Reinforcement Learning
 Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], [[http://www.linkedin.com/profile/view?id%3D59121380&authType%3DNAME_SEARCH&authToken%3DAfRm&locale%3Den_US&srchid%3D149717791382042861385&srchindex%3D1&srchtotal%3D330&trk%3Dvsrp_people_res_name&trkInfo%3DVSRPsearchId%253A149717791382042861385%252CVSRPtargetId%253A59121380%252CVSRPcmpt%253Aprimary][Mandar Joshi]]
@@ -498,4 +498,3 @@ type_publi = {techreport},
 }
 </div>
 #+end_html
-
