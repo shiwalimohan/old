@@ -94,9 +94,9 @@ that arise in designing language comprehension mechanisms for
 intelligent agents. We are developing comprehension models that
 implement a theory of translating lexical items to representations of
 beliefs, knowledge, and experience that are external to the linguistic
-system. We are interested in exploring how extra-linguistic contexts
-influence language processing, alleviating ambiguities and
-insufficient information prevalent in natural language. 
+system. We are exploring how extra-linguistic contexts influence
+language processing and their utility in alleviating ambiguities and
+under-specification prevalent in natural language.
 
 Publications: [[file:content/mohan_AAAIGPS_2012.pdf][AAAI 2012 workshop]] | [[file:content/mohan_ACS_2013.pdf][ACS 2013]] \\
 ---------
