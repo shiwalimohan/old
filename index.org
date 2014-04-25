@@ -236,8 +236,10 @@ Michigan
 @inproceedings{Mohan2014b,
 author = {Shiwali Mohan and John Laird},
 title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction (forthcoming)},
-booktitle = {In the Proceedings of the 28th AAAI Conference},
+booktitle = {In the Proceedings of the 28th AAAI Conference on Artificial Intelligence},
 year = {2014},
+pdf={./content/mohan_AAAI_2014.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAI_2014.pdf">internal link</a>},
 }
 
 @inproceedings{Mohan2014a,
@@ -247,9 +249,6 @@ for Real-World Cognitive Agents (accepted, in revision)},
 booktitle = {Advances in Cognitive Systems, 3},
 year = {2014},
 type_publi = {journal},
-internal-link = {<a
-href="http://www.shiwali.me/content/mohan_ACS_2012.pdf">internal
-link</a>},
 }
 
 
@@ -283,7 +282,7 @@ booktitle = {In the Second Annual Conference on
 Advances in Cognitive Systems},
 year = {2013},
 type_publi = {symposium},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013.pdf">internal link</a>},
+internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013_talk.pdf">internal link</a>},
 url={http://www.cogsys.org/papers/2013conference29.pdf},
 talk = {./content/mohan_ACS_2013_talk.pdf},
 }
