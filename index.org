@@ -247,10 +247,12 @@ internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAI_2014.pdf">int
 @inproceedings{Mohan2014a,
 author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
 title = {Towards an Indexical Model of Situated Language Comprehension
-for Real-World Cognitive Agents (accepted, in revision)},
+for Real-World Cognitive Agents},
 booktitle = {Advances in Cognitive Systems, 3},
 year = {2014},
 type_publi = {journal},
+pdf = {./content/mohan_ACS_2014.pdf},
+internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2014.pdf">internal link</a>},
 }
 
 
