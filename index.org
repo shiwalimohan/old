@@ -21,6 +21,7 @@
 #+HTML_HEAD: <script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
 #+BIND: org-html-postamble nil
 
+
 #+BEGIN_HTML        
 <div id="tab-container">
 <ul>
@@ -52,10 +53,16 @@ I am from India, where I received an undergraduate degree in
 Delhi]]. After graduating, I worked for [[http://in.careers.yahoo.com/][Yahoo! India]] as a software
 engineer on media analytics and strategic data solutions for a year. 
 
+
 -----
-I am available at shiwali.at.umich.dot.edu and
-shiwali.dot.mohan.at.gmail.dot.com. My curriculum vitae dated
-04-11-2014 is [[file:resume/cv.pdf][here]]. My google citation page is [[http://scholar.google.com/citations?hl%3Den&user%3DEYWzxPIAAAAJ][here]].
+#+begin_center
+#+html:  <a href="#" onclick="$('#hiddenText').show(); return false;">Contact</a> | <a href="http://www.shiwali.me/resume/cv.pdf">CV</a> | Statements | <a href="http://scholar.google.com/citations?user%3DEYWzxPIAAAAJ&hl%3Den">Google Scholar</a> | <a href="https://www.linkedin.com/in/shiwalimohan">LinkedIn</a> 
+#+html: <div style="display: none;" id="hiddenText">shiwali dot mohan at gmail dot com; shiwali at umich dot edu</div> 
+#+end_center
+-----
+
+
+
 
 * Research
 *** Taskability
@@ -148,6 +155,7 @@ Publications: [[file:content/mohan_ictai.pdf][ICTAI 2007]] | [[file:content/moha
 ---------
 
 * Academia
+*** Statements
 *** Thesis
 My thesis work investigates acquistion of novel task knowledge through natural-language like human-robot interaction. \\
 Writing: [[file:content/thesis-proposal.pdf][proposal]] \\
