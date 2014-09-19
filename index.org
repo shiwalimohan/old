@@ -63,7 +63,6 @@ engineer on media analytics and strategic data solutions for a year.
 
 
 
-
 * Research
 *** Taskability
 Collaborators: [[http://ai.eecs.umich.edu/people/laird/\][John E. Laird]], James Kirk
@@ -245,7 +244,7 @@ Michigan
 <div class ="bib" id = "bib_publi">
 @inproceedings{Mohan2014b,
 author = {Shiwali Mohan and John Laird},
-title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction (forthcoming)},
+title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction},
 booktitle = {In the Proceedings of the 28th AAAI Conference on Artificial Intelligence},
 year = {2014},
 pdf={./content/mohan_AAAI_2014.pdf},
