@@ -1,768 +1,940 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>Shiwali Mohan</title>
-<!-- 2014-09-19 Fri 11:10 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="description" content="Shiwali's personal website"
- />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
-
-  table { border-collapse:collapse; }
-  td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  /*]]>*/-->
-</style>
-<link href='http://fonts.googleapis.com/css?family=Esteban|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-<LINK href="css/stylesheet.css" rel="stylesheet" type="text/css">
-<script src="javascripts/jquery.js" type="text/javascript"></script>
-<script src="javascripts/jquery.hashchange.js" type="text/javascript"></script>
-<script src="javascripts/jquery.easytabs.js" type="text/javascript"></script>
-<script type="text/javascript"> $(document).ready(function(){ $('#tab-container').easytabs();});</script>
-<script src ="javascripts/BibTex-0.1.2.js" type="text/javascript"></script>
-<script type="text/javascript" src="javascripts/displayBibTex.js"></script>
-<script type="text/javascript">function displayBoth(){displayBibTex('text-4','bib_publi');} window.onload=displayBoth;</script>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
-</head>
-<body>
-<div id="content">
-<h1 class="title">Shiwali Mohan</h1>
-<div id="tab-container">
-<ul>
-    <li><a href="#outline-container-sec-1">» about «</a></li>
-    <li><a href="#outline-container-sec-2">» research  «</a></li>
-    <li><a href="#outline-container-sec-4">» publications  «</a></li>
-    <li><a href="#outline-container-sec-3">» academia «</a></li>
-  </ul>
-
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">About</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-I am a doctoral candidate in <a href="http://www.cse.umich.edu/">Computer Science and Engineering</a> at <a href="http://www.umich.edu/">The
-University of Michigan</a>, Ann Arbor. I have been collaborating with <a href="http://ai.eecs.umich.edu/people/laird/">John
-Laird</a> on the design and study of interactive agents and robots.
-</p>
-
-<p>
-My current work focuses on designing cognitive robots that can
-communicate with their human partners using natural language and can
-expand their knowledge and skill set by engaging the human in
-instructional learning. The work looks at several interesting HRI
-challenges including embodied language comprehension, interactive
-collaboration, and active, agent-driven learning. The agents are
-developed in <a href="http://sitemaker.umich.edu/soar/home">Soar</a> - a cognitive architecture for designing generally
-intelligent agents. In past, I have worked on relational reinforcement
-learning agents for the <a href="http://www.ultimatearcade.com/game/infinite-mario">Infinite Mario</a> domain.
-</p>
-
-<p>
-I am from India, where I received an undergraduate degree in
-<a href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation and Control Engineering</a> from <a href="http://www.du.ac.in/index.php?id%3D4">University of
-Delhi</a>. After graduating, I worked for <a href="http://in.careers.yahoo.com/">Yahoo! India</a> as a software
-engineer on media analytics and strategic data solutions for a year. 
-</p>
-
-
-<hr  />
-<div class="center">
-<a href="#" onclick="$('#hiddenText').show(); return false;">Contact</a> | <a href="http://www.shiwali.me/resume/cv.pdf">CV</a> | Statements | <a href="http://scholar.google.com/citations?user%3DEYWzxPIAAAAJ&hl%3Den">Google Scholar</a> | <a href="https://www.linkedin.com/in/shiwalimohan">LinkedIn</a>
-<div style="display: none;" id="hiddenText">shiwali dot mohan at gmail dot com; shiwali at umich dot edu</div>
-</div>
-<hr  />
-</div>
-</div>
-
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Research</h2>
-<div class="outline-text-2" id="text-2">
-</div><div id="outline-container-sec-2-0-1" class="outline-4">
-<h4 id="sec-2-0-1">Taskability</h4>
-<div class="outline-text-4" id="text-2-0-1">
-<p>
-Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, James Kirk
-</p>
-
-<p>
-Intelligent agents are becoming pervasive in human society. From
-personal assistants such as <a href="http://en.wikipedia.org/wiki/Siri">Siri</a> and <a href="http://www.google.com/landing/now/">Google Now</a> to smart robots such
-as <a href="http://www.rethinkrobotics.com/products/baxter/">Baxter</a> and <a href="http://en.wikipedia.org/wiki/Kiva_Systems">Kiva systems</a>, several types of intelligent agents are
-beginning to contribute to a wide range of human activities. Although
-useful, these agents have to be pre-programmed by trained engineers
-with a set desired behaviors, limiting their use. We are interested in
-developing intelligent taskable agents that can be 'programmed' to
-perform new tasks by naive human users. To this end, we are
-investigating learning from natural language instruction for
-intelligent agent embodied in a robotic framework. Our work looks at
-how a robotic agent can exploit interactions with a human collaborator
-to learn more about its world including how to categorize and describe
-perceptual properties of objects, how to use spatial relationships
-between objects for goal-oriented behavior, how to generate subtasks
-while executing complex tasks, and how to represent and play novel
-games.
-</p>
-
-
-<p>
-Publications: <a href="content/mohan_fss_2011.pdf">AAAI FSS 2011</a> | <a href="content/mohan_AAAISA_2012.pdf">AAAI 2012</a> (extended abstract) | <a href="content/mohan_AAAIFS_2012.pdf">AAAI FSS
-2012</a> | <a href="content/mohan_ACS_2012.pdf">ACS 2012</a> | <a href="content/mohan_ICCM_2013.pdf">ICCM 2013</a> | <a href="content/mohan_HRIPioneers_2014.pdf">HRI2014</a> (extended abstract) | <a href="content/mohan_AAAI_2014.pdf">AAAI2014</a><br  />
-Videos: <a href="http://www.youtube.com/watch?v%3DzfXu0mF7c8o">Task learning</a> | <a href="https://www.youtube.com/watch?v%3Da5j5IcQPXhY">Towers of Hanoi</a> | <a href="https://www.youtube.com/watch?v%3D3CJdBKS24Ho">Frogs and Toads</a> <br  />
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-2-0-2" class="outline-4">
-<h4 id="sec-2-0-2">Embodied Natural Language</h4>
-<div class="outline-text-4" id="text-2-0-2">
-<p>
-Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, Aaron Mininger
-</p>
-
-<p>
-There are several challenging questions that must be answered to
-design a language module for intelligent agents, including those
-pertaining to situated comprehension, intention assignment, dialog
-management, articulation etc. Our ongoing work focuses on questions
-that arise in designing language comprehension mechanisms for
-intelligent agents. We are developing comprehension and generation
-models that generate meaning by associating amodal lexical symbols to
-modal representations of beliefs, knowledge, and experience. These
-representations are external to the linguistic system and are used by
-the agent to perceive, reason about, learn from, and manipulate their
-environments. We are exploring how extra-linguistic contexts influence
-language processing and their utility in alleviating ambiguities and
-under-specification prevalent in natural language.
-</p>
-
-<p>
-Publications: <a href="content/mohan_AAAIGPS_2012.pdf">AAAI 2012 workshop</a> | <a href="content/mohan_ACS_2013.pdf">ACS 2013</a> <br  />
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-2-0-3" class="outline-4">
-<h4 id="sec-2-0-3">Cognitive Robotics and Architectures</h4>
-<div class="outline-text-4" id="text-2-0-3">
-<p>
-Collaborator:  <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>
-</p>
-
-<p>
-Cognitive architectures provide an integrated computational theory for
-intelligent behavior. They implement short-/long-term memories to store
-an agent's beliefs, goals, and knowledge and functional processes that
-operate on these structures to generate useful behavior or acquire
-knowledge structures through experience. Several architectures
-incorporate perceptual and motor modules. Cognitive architectures,
-therefore, are a useful framework to study design of intelligent
-adaptive collaborative agents and robots. 
-</p>
-
-<p>
-Publications: <a href="content/laird_AAAICogRob_2012.pdf">Cognitive Robotics 2012</a> | <a href="content/laird_AAAICogRob_2012.pdf">Integrated Cognition 2013</a> | <a href="content/laird_BICA2014.pdf">BICA2014</a><br  />
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-2-0-4" class="outline-4">
-<h4 id="sec-2-0-4">Reinforcement Learning</h4>
-<div class="outline-text-4" id="text-2-0-4">
-<p>
-Collaborators: <a href="http://ai.eecs.umich.edu/people/laird/\">John E. Laird</a>, <a href="http://www.linkedin.com/profile/view?id%3D59121380&authType%3DNAME_SEARCH&authToken%3DAfRm&locale%3Den_US&srchid%3D149717791382042861385&srchindex%3D1&srchtotal%3D330&trk%3Dvsrp_people_res_name&trkInfo%3DVSRPsearchId%253A149717791382042861385%252CVSRPtargetId%253A59121380%252CVSRPcmpt%253Aprimary">Mandar Joshi</a>
-</p>
-
-<p>
-Computer games are interesting test beds for research in reinforcement
-learning. Skill-based games such as <a href="http://www.ultimatearcade.com/game/infinite-mario">Infinite Mario</a> usually have
-continuous state spaces, large action spaces and are characterized by
-complex relationships between their components. Without applying
-appropriate abstractions and generalizations, RL in computer games
-becomes infeasible. Relational representations in reinforcement
-learning allow for the use of structural information like the objects
-and their features and the relationships between them in the
-description of value functions. In this research, we explored
-relational representations and control hierarchies that impose
-structure on <a href="http://en.wikipedia.org/wiki/SARSA">SARSA</a> and consequently make learning feasible. We have
-shown that relational representations allow for the inclusion of
-background knowledge (about both state and actions) which can be used
-to guide learning.
-</p>
-
-<p>
-Publications: <a href="content/mohan.pdf">AAAI 2010</a> (extended abstract) | <a href="content/mohan_aiide_2011.pdf">AIIDE 2011</a> | <a href="content/joshi_STAIRS_2012.pdf">STAIRS 2012</a>
-(extended abstract) | <a href="content/joshi_ICTAI_2012.pdf">ICTAI 2012</a> <br  />
-Software: <a href="https://github.com/shiwalimohan/MarioSoar">MarioSoar</a> | <a href="https://github.com/shiwalimohan/RLInfiniteMario">RLInfiniteMario</a> <br  />
-Videos: <a href="http://www.youtube.com/watch?v%3DV8F6zt70tbY">1</a> | <a href="http://www.youtube.com/watch?v%3D7nv6kZzrTkg">2</a> <br  />
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-2-0-5" class="outline-4">
-<h4 id="sec-2-0-5">Vector Space Models of Language Semantics</h4>
-<div class="outline-text-4" id="text-2-0-5">
-<p>
-Collaborator: Niladri Chatterjee
-</p>
-
-
-
-<p>
-Publications: <a href="content/mohan_ictai.pdf">ICTAI 2007</a> | <a href="content/mohan_cicling_2008.pdf">CICLING 2008</a> (best paper award) <br  />
-</p>
-<hr  />
-</div>
-</div>
-</div>
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Academia</h2>
-<div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-0-1" class="outline-4">
-<h4 id="sec-3-0-1">Statements</h4>
-</div>
-<div id="outline-container-sec-3-0-2" class="outline-4">
-<h4 id="sec-3-0-2">Thesis</h4>
-<div class="outline-text-4" id="text-3-0-2">
-<p>
-My thesis work investigates acquistion of novel task knowledge through natural-language like human-robot interaction. <br  />
-Writing: <a href="content/thesis-proposal.pdf">proposal</a> <br  />
-Talks: <a href="content/thesis-proposal-talk.pdf">proposal</a>
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-3-0-3" class="outline-4">
-<h4 id="sec-3-0-3">Teaching</h4>
-<div class="outline-text-4" id="text-3-0-3">
-<p>
-I delivered a guest lecture on <a href="http://www.shiwali.me/content/guestTalkUmich.pdf">Cognition and Interaction Sytems</a> for
-EECS 498 - Intelligent Interactive Systems in April 2014 at the
-University of Michigan, Ann Arbor. <br  />
-</p>
-
-
-<p>
-I served as a graduate student instructor for EECS 492 - Introduction
-to Artificial Intelligence in Winter 2012 at the University of
-Michigan, Ann Arbor.<br  />
-Course material: <a href="https://github.com/shiwalimohan/eecs492UM/zipball/master">zip archive</a> | <a href="https://github.com/shiwalimohan/eecs492UM">github</a>
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-3-0-4" class="outline-4">
-<h4 id="sec-3-0-4">Advising</h4>
-<div class="outline-text-4" id="text-3-0-4">
-<p>
-Fall 2012, Winter 2013: Advised <i>Anant Mittal</i>, <i>Anmol Gupta</i> on
-designing Soar AI agents for Google AI Challenge - Planet Wars. The
-work was submitted as final year thesis project to the CS department,
-<a href="http://www.bvcoend.ac.in//">BVCOE</a>, New Delhi, India.<br  />
-</p>
-
-
-<p>
-Fall 2011, Winter 2012: Advised <i>Mandar Joshi</i>, <i>Rakesh Khobragade</i>,
-<i>Saurabh Sarda</i> on designing Reinforcement Learning agents for Infinite
-Mario. The work was submitted as final year thesis project to the CS
-department, <a href="http://www.vnit.ac.in/">VNIT</a>, Nagpur, India.
-</p>
-
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-3-0-5" class="outline-4">
-<h4 id="sec-3-0-5">Talks</h4>
-<div class="outline-text-4" id="text-3-0-5">
-<p>
-<a href="content/lht.pdf">Learning Hierarchical Tasks from Situated Interactive Instruction</a> <br  />
-<a href="http://vcla.stat.ucla.edu/">Center for Cognition, Vision, Learning, and Art</a>. UCLA <br  />
-USC <a href="http://ict.usc.edu/">Institute of Creative Technology</a> <br  />
-<a href="http://robotics.usc.edu/~agents/">Interaction Lab</a>, Computer Science Department, USC<br  />
-<a href="http://www.isi.edu/natural-language/">The Natural Language Group</a>, USC Information Sciences Institute
-</p>
-
-
-<p>
-<a href="http://shiwali.me/content/interaction.pdf">Mixed-Initiative Interaction for Learning with Instruction</a>, <br  />
-32nd Soar Workshop, June 2012, Ann Arbor, Michigan
-</p>
-
-<p>
-<a href="http://shiwali.me/content/comprehension.pdf">Situated Comprehension of Action Commands</a>, <br  />
-32nd Soar Workshop, June 2012, Ann Arbor, Michigan
-</p>
-
-<p>
-<a href="http://shiwali.me/content/verb-learning.pdf">Learning New Verbs with Retrospective Projection</a>, <br  />
-32nd Soar Workshop, June 2012, Ann Arbor, Michigan
-</p>
-
-<p>
-<a href="http://ai.eecs.umich.edu/soar/sitemaker/workshop/31/files/27_mohan1_modular.pdf">Modular Reinforcement Learning In Soar</a>, <br  />
-31st Soar Workshop, June 2011, Ann Arbor, Michigan 
-</p>
-
-<p>
-<a href="http://ai.eecs.umich.edu/soar/sitemaker/workshop/31/files/35_mohan2_architecture.pdf">Towards an Architecture for Learning with Instruction</a>, <br  />
-31st Soar Workshop, June 2011, Ann Arbor Michigan 
-</p>
-
-<p>
-<a href="http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan1.pdf">Reinforcement Learning in Infinite Mario</a>, <br  />
-30th Soar Workshop, June 2010, Ann Arbor, Michigan 
-</p>
-
-<p>
-<a href="http://ai.eecs.umich.edu/soar/sitemaker/workshop/30/mohan2.pdf">Learning Background Knowledge through Instruction</a>, <br  />
-30th Soar Workshop, June 2010, Ann Arbor, Michigan 
-</p>
-
-<p>
-<a href="http://sitemaker.umich.edu/soar/files/mohan.pdf">Learning to Play Mario</a>, <br  />
-29th Soar Workshop, June 2009, Ann Arbor, Michigan 
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-3-0-6" class="outline-4">
-<h4 id="sec-3-0-6">Service</h4>
-<div class="outline-text-4" id="text-3-0-6">
-<p>
-Co-chair, Special Interest Group on Faculty (<a href="https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page">SIG-Faculty</a>) at
-University of Michigan. 2013.<br  />
-Co-chair, Special Interest Group on Faculty (<a href="https://wiki.eecs.umich.edu/sigfaculty/index.php/Main_Page">SIG-Faculty</a>) at
-University of Michigan. 2012.<br  />
-Vice-President, Computer Science and Engineering Graduate student
-organization (<a href="http://cseg.eecs.umich.edu/">CSEG</a>) at University of Michigan. 2011. <br  />
-Creative Lead, Indian Students Association (<i>ISA</i>) at University of Michigan. 2011<br  />
-DCO Representative, Computer Science and Engineering Graduate student
-organization (<a href="http://cseg.eecs.umich.edu/">CSEG</a>) at University of Michigan. 2010.
-Social Chair, Indian Students Association (<i>ISA</i>) at University of
-Michigan. 2010<br  />
-</p>
-<hr  />
-</div>
-</div>
-
-<div id="outline-container-sec-3-0-7" class="outline-4">
-<h4 id="sec-3-0-7">Miscellaneous Projects</h4>
-<div class="outline-text-4" id="text-3-0-7">
-<p>
-<a href="content/mohan_EECS545.pdf">On Generating Grounded Language in Cognitive Architecture</a>, 
-EECS 590, Natural Language Processing, April 2011, University of Michigan<br  />
-<a href="content/prelim-paper.pdf">Relational Reinforcement Learning in Infinite Mario</a>, 
-Preliminary Examination, September 2010, University of Michigan <br  />
-<a href="content/MohanPillaiSleight.pdf">Classification of Executed and Imagined Motor Movement EEG Signals</a>,
-EECS 545, Machine Learning, December 2009, University of Michigan<br  />
-<a href="content/hadoop.pdf">Towards a Resource Aware Scheduler in Hadoop</a>,
-EECS 589, Advanced Computer Networks, December 2009, University of
-Michigan
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4">Publications</h2>
-<div class="outline-text-2" id="text-4">
-<div class ="bib" id = "bib_publi">
-@inproceedings{Mohan2014b,
-author = {Shiwali Mohan and John Laird},
-title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction (corrected)},
-booktitle = {In the Proceedings of the 28th AAAI Conference on Artificial Intelligence},
-year = {2014},
-pdf={./content/mohan_AAAI_2014.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAI_2014.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2014a,
-author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
-title = {Towards an Indexical Model of Situated Language Comprehension
-for Cognitive Agents in Physical Worlds},
-booktitle = {Advances in Cognitive Systems, 3},
-year = {2014},
-type_publi = {journal},
-pdf = {./content/mohan_ACS_2014.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2014.pdf">internal link</a>},
-}
-
-
-@inproceedings{Laird2014,
-author = {John E. Laird and Shiwali Mohan},
-title = {A Case Study of Knowledge Integration across Multiple
-Memories in Soar (invited)},
-booktitle = {Biologically Inspired Cognitive Architectures},
-year = {2014},
-url={http://www.sciencedirect.com/science/article/pii/S2212683X14000164},
-pdf={./content/laird_BICA2014.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/laird_BICA2014.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2014a,
-author = {Shiwali Mohan and John E. Laird},
-title = {Learning New Tasks from Situated Interactive Instruction},
-booktitle = {In the 2014 HRI Pioneers workshop},
-year = {2014},
-type_publi = {symposium},
-pdf = {./content/mohan_HRIPioneers_2014.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_HRIPioneers_2014.pdf">internal link</a>},
-url = {http://www.hripioneers.info/Proceedings/2014PioneersProceedings.pdf},
-poster = {./content/mohan_HRIPioneers_2014_poster.pdf},
-}
-
-@inproceedings{Mohan2013b,
-author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
-title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
-booktitle = {In the Second Annual Conference on
-Advances in Cognitive Systems},
-year = {2013},
-type_publi = {symposium},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2013_talk.pdf">internal link</a>},
-url={http://www.cogsys.org/papers/2013conference29.pdf},
-talk = {./content/mohan_ACS_2013_talk.pdf},
-}
-
-@inproceedings{Laird2013,
-author = {John Laird and Shiwali Mohan},
-title = {A Case Study of Knowledge Integration across Multiple Memories in
-Soar},
-booktitle = {In Papers from Integrated Cognition (AAAI Fall Symposium Series)},
-year = {2013},
-type_publi = {symposium},
-pdf = {./content/laird_AAAI_IC_2013.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/laird_AAAI_IC_2013.pdf">internal link</a>},
-url = {http://www.aaai.org/ocs/index.php/FSS/FSS13/paper/view/7606},
-}
-
-@inproceedings{Mohan2012f,
-author = {Shiwali Mohan and James Kirk and John Laird},
-title = {A Computational Model of Situated Task Learning with
-Interactive Instruction},
-booktitle = {In Proceedings of the 17th International Conference on Cognitive Modeling},
-year = {2013},
-pdf = {./content/mohan_ICCM_2013.pdf},
-talk = {./content/mohan-iccm-talk.pdf},
-url = {http://iccm-conference.org/2013-proceedings/papers/0049/index.html},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ICCM_2013.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012f,
-author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
-title = {Acquiring Grounded Representations of Words with Situated Interactive Instruction},
-booktitle = {Advances in Cognitive Systems, 2},
-year = {2012},
-pdf = {./content/mohan_ACS_2012.pdf},
-type_publi = {journal},
-url = {http://www.cogsys.org/pdf/paper-3-2-136.pdf},
-talk = {./content/acs-talk.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ACS_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Joshi2012a,
-author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
-title = {Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario},
-booktitle = {In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)},
-year = {2012},
-pdf = {./content/joshi_ICTAI_2012.pdf},
-url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6495169},
-type_publi = {workshop},
-internal-link = {<a href="http://www.shiwali.me/content/joshi_ICTAI_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012e,
-author = {Shiwali Mohan* and Aaron Mininger* and James Kirk* and John Laird},
-title = {Learning Grounded Language through Situated Interactive Instruction},
-booktitle = {In Papers from Robots Learning Interactively from Human Teachers (AAAI Fall Symposium Series)},
-pdf = {./content/mohan_AAAIFS_2012.pdf},
-url = {http://aaai.org/ocs/index.php/FSS/FSS12/paper/view/5662},
-year = {2012},
-type_publi = {symposium},
-url = {http://www.aaai.org/ocs/index.php/FSS/FSS12/paper/view/5662},
-talk = {./content/aaaifs-talk.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAIFS_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Joshi2012,
-author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
-title = {Hierarchical Action Selection for Reinforcement Learning in Infinite Mario},
-booktitle = {In Proceedings of the 6th Starting Artificial Intelligence Research Symposium (co-located with ECAI)},
-year = {2012},
-pdf = {./content/joshi_STAIRS_2012.pdf},
-url = {http://plata.ar.media.kyoto-u.ac.jp/mori/research/Proceedings/ECAI2012/content/stairs/stairs201215.pdf},
-type_publi = {workshop},
-url =
-{http://books.google.com/books?hl=en&lr=&id=WOc8WSwcCjoC&oi=fnd&pg=PA162&dq=info:Zp20TtDieTIJ:scholar.google.com&ots=u-dG_96A95&sig=X1HmRu-UJj4UZ-8Y2n3YU-SO_eI},
-internal-link = {<a href="http://www.shiwali.me/content/joshi_STAIRS_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012d,
-author = {John Laird and Keegan Kinkade and Shiwali Mohan and Joseph Xu},
-title = {Cognitive Robotics Using the Soar Cognitive Architecture},
-booktitle = {In Proceedings of the 8th International Cognitive Robotics Workshop},
-year = {2012},
-pdf = {./content/laird_AAAICogRob_2012.pdf},
-url =
-{http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5221},
-type_publi = {workshop},
-internal-link = {<a href="http://www.shiwali.me/content/laird_AAAICogRob_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012c,
-author = {Shiwali Mohan and John Laird},
-title = {Situated Comprehension of Imperative Sentences in Embodied, Cognitive Agents},
-booktitle = {Grounding Language for Physical Systems, AAAI
-Technical Report WS-12-07},
-year = {2012},
-pdf = {./content/mohan_AAAIGPS_2012.pdf},
-url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5245},
-type_publi = {workshop},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAIGPS_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012b,
-author = {Shiwali Mohan and John Laird},
-title = {Exploring Mixed-Initiative Interaction for Learning with Situated Instruction in Cognitive Agents},
-booktitle = {Proceedings of the 26th AAAI Conference on Artificial Intelligence},
-year = {2012},
-pdf = {./content/mohan_AAAISA_2012.pdf},
-url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4834},
-type_publi = {conference},
-note = {\textit{(Extended Abstract)}},        
-internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAISA_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2012a,
-author = {Shiwali Mohan and John Laird},
-title = {Learning Actions and Action Verbs from Human-Agent Interaction},
-booktitle = {17th AAAI/SIGART Doctoral Consortium},
-year = {2012},
-keywords = {cognition; Soar; learning with instruction; human agent collaboration, lanugage acquisiton, situated learning},
-pdf = {./content/mohan_AAAIDC_2012.pdf},
-type_publi = {conference},
-url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/4856/5288},
-note = {\textit{(Extended Abstract)}},    
-talk = {./content/dc-r.pdf},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_AAAIDC_2012.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2011a,
-author = {Shiwali Mohan and John Laird},
-title = {Towards Situated, Interactive, Instructable Agents in a Cognitive Architecture},
-booktitle = {Papers from the 2011 AAAI Fall Symposium Series},
-year = {2011},
-keywords = {cognition; Soar; learning with instruction; human agent collaboration; rule-based systems},
-abstract = {This paper discusses the challenge of designing instructable agents that can learn through interaction with a human expert. Learning through instruction is a powerful paradigm for acquiring knowledge because it limits the complexity of the learning task in a variety of ways. To support learning through instruction, the agent must be able to effectively communicate its lack of knowledge to the human, comprehend instructions, and apply them to the ongoing task. Weidentify some problems of concern when designing instructable agents. We propose an agent design that addresses some of these problems. We instantiate this design in the Soar cognitive architecture and analyze its capabilities on a learning task.},
-url = {http://www.aaai.org/ocs/index.php/FSS/FSS11/paper/view/4165},
-pdf = {./content/mohan_fss_2011.pdf},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_fss_2011.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2011b,
-author = {Shiwali Mohan and John Laird},
-title = {An Object-Oriented Approach to Reinforcement Learning in an Action Game},
-booktitle = {Proceedings of the Artificial Intelligence for Interactive Digital Entertainment Conference},
-keywords = {decision making; reinforcement learning; action games},
-abstract = {In this work, we look at the challenge of learning in an action game,Infinite Mario. Learning to play an action game can be divided into two distinct but related problems, learning an object-related behavior and selecting a primitive action. We propose a framework that allows for the use of reinforcement learning for both of these problems. We present promising results in some instances of the game and identify some problems that might affect learning.},
-url = {http://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/view/4069},
-series = {AIIDE},
-year = {2011},
-pdf = {./content/mohan_aiide_2011.pdf},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_aiide_2011.pdf">internal link</a>},
-}
-
-@inproceedings{Mohan2010,
-author = {Shiwali Mohan and John Laird},
-title = {Relational Reinforcement Learning in Infinite Mario},
-booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence},
-abstract = {Relational representations in reinforcement learning allow for the use of structural information like the presence of objects and relationships between them in the description of value functions. Through this paper, we show that such representations allow for the inclusion of background knowledge that qualitatively describes a state and can be used to design agents that demonstrate learning behavior in domains with large state and actions spaces such as computer games.`},
-series = {AAAI},
-year = {2010},
-url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/view/1657},
-pdf = {./content/mohan.pdf},
-note = {\textit{(Extended Abstract)}},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan.pdf">internal link</a>},
-}
-
-
-@inproceedings{Mohan2008,
-author = {Niladri Chatterjee and Shiwali Mohan},
-title = {Discovering Word Senses from Text using Random Indexing},
-booktitle = {Proceedings of the 9th International Conference on Computational linguistics and Intelligent Text Processing},
-abstract = {Random Indexing is a novel technique for dimensionality reduction while creating Word Space model from a given text. This paper explores the possible application of Random Indexing in discovering word senses from the text. The words appearing in the text are plotted onto a multi-dimensional Word Space using Random Indexing. The geometric distance between words is used as an indicative of their semantic similarity. Soft Clustering by Committee algorithm (CBC) has been used to constellate similar words. The present work shows that the Word Space model can be used effectively to determine the similarity index required for clustering. The approach does not require parsers, lexicons or any other resources which are traditionally used in sense disambiguation of words. The proposed approach has been applied to TASA corpus and encouraging results have been obtained.},
-series = {CICLing},
-year = {2008},
-note = {\textbf{Best Paper Award}},
-url = {http://www.springerlink.com/content/xp70kw14w0054541/},
-pdf = {./content/mohan_cicling_2008.pdf},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_cicling_2008.pdf">internal link</a>},
-} 
-
-@inproceedings{Mohan2007,
-author = {Niladri Chatterjee and Shiwali Mohan},
-title = {Extraction-Based Single-Document Summarization Using Random Indexing},
-booktitle ={Proceeding of the 19th IEEE International Conference on Tools with Artificial Intelligence},
-abstract = {This paper presents a summarization technique for text documents exploiting the semantic similarity between sentences to remove the redundancy from the text. Semantic similarity scores are computed by mapping the sentences on a semantic space using Random Indexing. Random Indexing, in comparison with other semantic space algorithms, presents a computationally efficient way of implicit dimensionality reduction. It involves inexpensive vector computations such as addition. It thus provides an efficient way to compute similarities between words, sentences and documents. Random Indexing has been used to compute the semantic similarity scores of sentences and graph-based ranking algorithms have been employed to produce an extract of the given text.},
-series = {ICTAI},
-year = {2007},
-url ={http://www.computer.org/portal/web/csdl/doi/10.1109/ICTAI.2007.28},
-pdf ={./content/mohan_ictai.pdf},
-type_publi = {conference},
-internal-link = {<a href="http://www.shiwali.me/content/mohan_ictai.pdf">internal link</a>},
-}
-
-
-@techreport{Mohan2009,
-author = {Shiwali Mohan and John E. Laird},
-title = {Learning to Play Mario},
-NUMBER =        {CCA-TR-2009-03},
-booktitle = {Technical Report CCA-TR-2009-03 Center for
-Cognitive Architecture, University of Michigan, Ann Arbor, Michigan},
-INSTITUTION =   {Center for Cognitive Architecture, University of Michigan},
-ADDRESS =       {Ann Arbor, Michigan},
-ABSTRACT =      {Computer Games are interesting test beds for research in Artificial Intelligence and Machine Learning. Games usually have continuous state spaces, large action spaces and  are characterized by complex relationships between components. Without applying abstraction and generalizations, learning in computer games domain becomes infeasible. Through this work, we investigate some designs that facilitate tractable reinforcement learning in symbolic agents developed using Soar architecture operating in a complex domain, Infinite Mario. Object oriented representations of the environment greatly simplify otherwise complex state spaces. We also demonstrate that imposing hierarchy in problem structure greatly reduces the complexity of the tasks and aids in learning generalized policies that can be transferred across similar tasks.},
-year = {2009},
-url = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
-type_publi = {techreport},
-pdf = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
-type_publi = {techreport},
-}
-</div>
-</div>
-</div>
-</div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shiwali Mohan</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="owwwlab.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta name="description" content="A theme for faculty profile page" />
+        <meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
+
+        <link rel="shortcut icon" href="../favicon.ico">
+
+        <!--CSS styles-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="theme-style" rel="stylesheet" href="css/styles/blue.css">
+
+	<!--map-->
+	<style>
+	  #map-canvas {
+          width: auto;
+          height: 400px;
+	  }
+	</style>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	  function initialize() {
+          var mapCanvas = document.getElementById('map-canvas');
+          var mapOptions = {
+          center: new google.maps.LatLng(37.40245, -122.14796),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+          }
+          var map = new google.maps.Map(mapCanvas, mapOptions)
+	  }
+	  google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+   
+
+        
+        <!--/CSS styles-->
+        <!--Javascript files-->
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        <script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+        <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+
+        <script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+
+        <script type="text/javascript" src="js/magnific-popup.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--/Javascript files-->
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+
+            <div id="sidebar">
+                <div id="main-nav">
+                    <div id="nav-container">
+                        <div id="profile" class="clearfix">
+                            <div class="portrate hidden-xs"></div>
+                            <div class="title">
+                                <h2>Shiwali Mohan</h2>
+                                <h3>Palo Alto Research Center</h3>
+                            </div>
+                            
+                        </div>
+                        <ul id="navigation">
+                            <li>
+                              <a href="#biography">
+                                <div class="icon icon-user"></div>
+                                <div class="text">About Me</div>
+                              </a>
+                            </li>  
+                            
+                            <li>
+                              <a href="#research">
+                                <div class="icon icon-book"></div>
+                                <div class="text">Research</div>
+                              </a>
+                            </li> 
+                            
+                            <li>
+                              <a href="#publications">
+                                <div class="icon icon-edit"></div>
+                                <div class="text">Publications</div>
+                              </a>
+                            </li> 
+
+                            <li>
+                              <a href="#miscellany">
+                                <div class="icon icon-time"></div>
+                                <div class="text">Miscellany</div>
+                              </a>
+                            </li>
+
+                            <li>
+                              <a href="#contact">
+                                  <div class="icon icon-calendar"></div>
+                                  <div class="text">Contact & Meet Me</div>
+                              </a>
+                            </li>
+
+                            <li class="external">
+                              <a href="#">
+                                  <div class="icon icon-download-alt"></div>
+                                  <div class="text">Download CV</div>
+                              </a>
+                            </li>
+			    <li class="external">
+                              <a href="https://scholar.google.com/citations?hl=en&user=EYWzxPIAAAAJ">
+                                  <div class="icon icon-google-plus-sign"></div>
+                                  <div class="text">Google Scholar</div>
+                              </a>
+                            </li>
+                        </ul>
+                    </div>        
+                </div>
+                
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="http://github.com/shiwalimohan"><i class="icon-github"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/shiwalimohan"><i class="icon-linkedin"></i></a></li>
+			<li><a href="http://www.facebook.com/shiwali.mohan"><i class="icon-facebook"></i></a></li>
+                    </ul>
+                </div>    
+            </div>
+
+            <div id="main">
+            
+                <div id="biography" class="page home" data-pos="home">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                
+                                <div class="row">
+                                    <div class="col-sm-2 visible-sm"></div>
+                                    <div class="col-sm-8 col-md-5">
+                                        <div class="biothumb">
+                                            <img alt="image" src="img/personal/personal-big.png" class="img-responsive">
+                                            <div class="overlay">
+                                                
+                                                <h1 class="">Shiwali Mohan</h1>
+                                                <ul class="list-unstyled">
+                                                    <li>Palo Alto Research Center</li>
+                                                </ul>
+                                            </div> 
+                                            
+                                               
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="clearfix visible-sm visible-xs"></div>
+                                    <div class="col-sm-12 col-md-7">
+                                        <h3 class="title">About</h3>
+                                        <p>I am a researcher at Palo Alto Research Center. My research spans design of intelligent interactive agents, agent-oriented language processing, and cognitive systems and architectures. </p>
+                                    </div>  
+                                    
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <div class="section color-1">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-5 col-md-offset-1">
+                                        <div class="title text-center">
+                                            <h3>Professional Experience</h3>
+                                        </div>
+                                        <ul class="ul-dates">
+                                            <li>
+                                                <div class="dates">
+                                                    <span>Present</span>
+                                                    <span>2014</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Postdoctoral Researcher</h4>
+                                                    <p><em>Palo Alto Research Center</em></p>
+                                                </div>
+                                            </li>
+					    <li>
+                                                <div class="dates">
+                                                    <span>2014</span>
+                                                    <span>2009</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Graduate Student Research Assistant</h4>
+                                                    <p><em>University of Michigan</em>, Ann Arbor</p>
+                                                </div>
+                                            </li>
+					    					    <li>
+                                                <div class="dates">
+                                                    <span>2008</span>
+                                                    <span>2007</span>
+                                                </div>
+                                                <div class="content">
+                                                    <h4>Software Engineer</h4>
+                                                    <p><em>Yahoo! Research and Development</em>, Bangalore, India</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="title text-center">
+                                            <h3>Education & Training</h3>
+                                        </div>
+                                        <ul class="ul-card">
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">Ph.D.</span>
+                                                    <span class="year">2015</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Ph.D. in Computer Science</p>
+                                                    <p class="where">University of Michigan, Ann Arbor</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">M.S.</span><span class="year">2009</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Master of Science in Computer Science</p>
+                                                    <p class="where">University of Michigan, Ann Arbor</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dy">
+                                                    <span class="degree">B.E.</span><span class="year">2007</span>
+                                                </div>
+                                                <div class="description">
+                                                    <p class="waht">Bachelor of Engineering in Instrumentation and Control</p>
+                                                    <p class="where">Netaji Subhas Institute of Technology, New Delhi</p>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+
+                                    </div>    
+                                </div>    
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                <div id="research" class="page">
+                    <div class="pageheader">
+
+                        <div class="headercontent">
+
+                            <div class="section-container">
+                                <h2 class="title">Research Summary</h2>
+                            
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Recent trends in deep-submicron very large-scale integration (VLSI) circuit technology have resulted in new requirements for algorithms in integrated circuit layout. Much of my work centers on new formulations that capture performance and density criteria in the physical layout phases of computer-aided design (CAD). Our results include near-optimal approximation algorithms for such computationally difficult problems as minimum-cost Steiner tree routing, low-skew clock networks, cost-radius tradeoffs, bounded-density trees, circuit probe testing, high-performing Elmore-based constructions, layout density control, and improved manufacturability. </p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="subtitle text-center">
+                                            <h3>Interests</h3>
+                                        </div>
+                                        <ul class="ul-boxed list-unstyled">
+                                            <li>Human-Agent Interaction</li>
+                                            <li>Cognitive Agents and Robots</li>
+					    <li>Agent Learning</li>
+					    <li>Language for Agents</li>
+					    <li>Human Cognition and Language</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagecontents">
+                        <!-- <div class="section color-1"> -->
+                        <!--     <div class="section-container"> -->
+                        <!--         <div class="title text-center"> -->
+                        <!--             <h3>Laboratory Personel</h3> -->
+                        <!--         </div> -->
+                        <!--         <div class="row"> -->
+                        <!--             <div class="col-md-8"> -->
+                                        
+                        <!--                 <div id="labp-heads-wrap"> -->
+                                            
+                        <!--                     <div id="lab-carousel"> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                         <div><img alt="image" src="img/lab/120x120.png" width="120" height="120" class="img-circle lab-img" /></div> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <a href="#" id="prev"><i class="icon-chevron-sign-left"></i></a> -->
+                        <!--                         <a href="#" id="next"><i class="icon-chevron-sign-right"></i></a> -->
+                        <!--                     </div> -->
+                        <!--                 </div> -->
+
+                        <!--                 <div id="lab-details"> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>David A. Doe</h3> -->
+                        <!--                         <h4>Postdoctoral fellow</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>James Doe</h3> -->
+                        <!--                         <h4>Postdoctoral fellow</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>Nadja Sriram</h3> -->
+                        <!--                         <h4>Postdoctoral fellow</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>Davide Doe</h3> -->
+                        <!--                         <h4>Research Assistant</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>Pauline Doe</h3> -->
+                        <!--                         <h4>Summer Intern</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                     <div> -->
+                        <!--                         <h3>James Doe</h3> -->
+                        <!--                         <h4>Postdoctoral fellow</h4> -->
+                        <!--                         <a href="#" class="btn btn-info">+ Follow</a> -->
+                        <!--                     </div> -->
+                        <!--                 </div> -->
+                        <!--             </div> -->
+                        <!--             <div class="col-md-4"> -->
+                        <!--                 <h3>Great lab Personel!</h3> -->
+                        <!--                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+                        <!--             </div> -->
+                        <!--         </div> -->
+                        <!--     </div> -->
+                        <!-- </div> -->
+                        
+                        <div class="section color-2">
+                            <div class="section-container">
+                                <div class="title text-center">
+                                    <h3>Projects</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="ul-withdetails">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/400x400.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="icon icon-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Fittle</h3>
+                                                            <p>Intelligent Personal Coach.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="icon icon-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Xi Automation</h3>
+                                                            <p>Knowledge Acquisition from Language.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="image">
+                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="icon icon-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Rosie</h3>
+                                                            <p>Instructable Intelligent Agent.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div id="publications" class="page">
+                    <div class="page-container">
+                        <div class="pageheader">
+                            <div class="headercontent">
+                                <div class="section-container">
+                                    <h2 class="title">Publications</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pagecontents">
+                            <div class="section color-1" id="filters">
+                                <div class="section-container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h3>Filter by type:</h3>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+                                                <option class="filter" value="all" selected>All types</option>
+                                                <option class="filter" value="jpaper">Journal Papers</option>
+                                                <option class="filter" value="cpaper">Conference Papers</option>
+                                                <option class="filter" value="wpaper">Workshop Papers</option>
+                                                <option class="filter" value="abstract">Abstracts</option>
+						<option class="filter" value="treport">Technical Report</option>
+                                                <!-- <option class="filter" value="report">Reports</option>
+                                                <option class="filter" value="tpaper">Technical Papers</option> -->
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="col-md-3" id="sort">
+                                            <span>Sort by year:</span>
+                                            <div class="btn-group pull-right"> 
+
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section color-2" id="pub-grid">
+                                <div class="section-container">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="pitems">
+                                                
+                                                <div class="item mix cpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S1057740812000290" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="http://faculty-gsb.stanford.edu/aaker/pages/documents/CultivatingAdmirationinBrands_JCP2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction </h4>
+                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, John E. Laird</div>
+                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> In Proceedings of the 28th AAAI Conference on Artificial Intelligence, July 2014</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>Our research aims at building interactive robots and agents that can expand their knowledge by interacting with human users. In this paper, we focus on learning goal-oriented tasks from situated interactive instructions. Learning the structure of novel tasks and how to execute them is a challenging computational problem requiring the agent to acquire a variety of knowledge including goal definitions and hierarchical control information. We frame acquisition of novel tasks as an explanation-based learning (EBL) problem and propose an interactive learning variant of EBL for a robotic agent. We show that our approach can exploit information in situated instructions along with the domain knowledge to demonstrate fast generalization on several tasks. The knowledge acquired transfers across structurally similar tasks. Finally, we show that our approach seamlessly combines agent-driven exploration with instructions for mixed-initiative learning.</p>
+                                                    </div>
+                                                </div>
+						<div class="item mix jpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.cogsys.org/pdf/paper-9-3-34.pdf" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/mohan_ACS_2014.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Towards an Indexical Model of Situated Language Comprehension for Cognitive Agents in Physical Worlds</h4>
+                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, John E. Laird</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Advances in Cognitive Systems, Volume 3, 2014</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>We propose a computational model of situated language comprehension based on the Indexical Hypothesis that generates meaning representations by translating amodal linguistic symbols to modal representations of beliefs, knowledge, and experience external to the linguistic system. This Indexical Model incorporates multiple information sources, including perceptions, domain knowledge, and short-term and long-term experiences during comprehension. We show that exploiting diverse information sources can alleviate ambiguities that arise from contextual use of underspecific referring expressions and unexpressed argument alternations of verbs. The model is being used to support linguistic interactions in Rosie, an agent implemented in Soar that learns from instruction.</p>
+                                                    </div>
+                                                </div>
+
+
+						<div class="item mix jpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.sciencedirect.com/science/article/pii/S2212683X14000164" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/laird_ICCS_2014.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+
+                                                        <h4 class="pubtitle">A Case Study of Knowledge Integration Across Multiple Memories in Soar</h4>
+                                                        <div class="pubauthor">John E. Laird, <strong>Shiwali Mohan</strong></div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Biologically Inspired Cognitive Architectures, Volume 8, April 2014, Pages 93–99</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+							  Online perception, behavior, and learning in complex domains require an intelligent agent to quickly and reliably access different types of knowledge. A cognitive architecture, therefore, must implement a diverse set of memories that are optimized for storing, accessing, and learning these different types of knowledge. In this paper, we describe a complex Soar agent that uses and learns multiple types of knowledge while interacting with a human in a real-world domain. Our hypothesis is that a diverse set of memories is required for the different types of knowledge. We first present the agent’s processing, highlighting the types of knowledge used for each phase. We then present Soar’s memories and identify which memory is used for each type of knowledge. We also analyze which properties of each memory make it appropriate for the knowledge it encodes. These include procedural, semantic, and episodic knowledge, all of which play critical roles in the agent’s ability to learn and extend its capabilities. We conclude with a summary of our analysis, and conclude that a diversity of memory systems and knowledge are useful for supporting general, integrated intelligence.
+							</p> 
+                                                    </div>
+                                                </div>
+
+						<div class="item mix jpaper" data-year="2012">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.cogsys.org/pdf/paper-3-2-136.pdf" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/mohan_ACS_2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Acquiring Grounded Representations of Words with Situated Interactive Instruction</h4>
+                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, James R. Kirk, John E. Laird</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Advances in Cognitive Systems, Volume 2, 2012</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+							  We present an approach for acquiring grounded representations of words from mixed-initiative, situated interactions with a human instructor. The work focuses on the acquisition of diverse types of knowledge including perceptual, semantic, and procedural knowledge along with learning grounded meanings. Interactive learning allows the agent to control its learning by requesting instructions about unknown concepts, making learning efficient. Our approach has been instantiated in Soar and has been evaluated on a table-top robotic arm capable of manipulating small objects.
+							</p> 
+                                                    </div>
+                                                </div>
+
+						<div class="item mix wpaper" data-year="2014">
+                                                    <div class="pubmain">
+                                                        <div class="pubassets">
+                                                            
+                                                            <a href="#" class="pubcollapse">
+                                                                <i class="icon-expand-alt"></i>
+                                                            </a>
+                                                            <a href="http://www.hripioneers.info/Proceedings/2014PioneersProceedings.pdf" class="tooltips" title="External link" target="_blank">
+                                                                <i class="icon-external-link"></i>
+                                                            </a>
+                                                            <a href="./papers/mohan_ACS_2012.pdf" class="tooltips" title="Download" target="_blank">
+                                                                <i class="icon-cloud-download"></i>
+                                                            </a>
+                                                            
+                                                        </div>
+
+                                                        <h4 class="pubtitle">Acquiring Grounded Representations of Words with Situated Interactive Instruction</h4>
+                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, James R. Kirk, John E. Laird</div>
+                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Advances in Cognitive Systems, Volume 2, 2012</div>
+                                                        
+                                                    </div>
+                                                    <div class="pubdetails">
+                                                        <h4>Abstract</h4>
+                                                        <p>
+							  We present an approach for acquiring grounded representations of words from mixed-initiative, situated interactions with a human instructor. The work focuses on the acquisition of diverse types of knowledge including perceptual, semantic, and procedural knowledge along with learning grounded meanings. Interactive learning allows the agent to control its learning by requesting instructions about unknown concepts, making learning efficient. Our approach has been instantiated in Soar and has been evaluated on a table-top robotic arm capable of manipulating small objects.
+							</p> 
+                                                    </div>
+                                                </div>
+
+
+						
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="miscellany" class="page">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                
+                                <h2 class="title">Miscellany</h2>
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagecontents">
+                        <div class="section color-1">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="title text-center">
+                                        <h3>Currrent Teaching</h3>
+                                    </div>
+                                    <ul class="ul-dates">
+                                        <li>
+                                            <div class="dates">
+                                                <span>Present</span>
+                                                <span>1995</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Preclinical Endodnotics</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>Present</span>
+                                                <span>2003</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>SELC 8160 Molar Endodontic Selective</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>Present</span>
+                                                <span>2010</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section color-2">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="title text-center">
+                                        <h3>Teaching History</h3>
+                                    </div>
+                                    <ul class="ul-dates-gray">
+                                        <li>
+                                            <div class="dates">
+                                                <span>1997</span>
+                                                <span>1995</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Preclinical Endodnotics</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>2005</span>
+                                                <span>2003</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>SELC 8160 Molar Endodontic Selective</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>2011</span>
+                                                <span>2010</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>2011</span>
+                                                <span>2010</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="dates">
+                                                <span>2011</span>
+                                                <span>2010</span>
+                                            </div>
+                                            <div class="content">
+                                                <h4>Endodontics Postdoctoral AEGD Program</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="gallery" class="page">
+                    <div class="pagecontents">
+                        
+                        <div class="section color-3" id="gallery-header">
+                            <div class="section-container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h2>Gallery</h2>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section color-3" id="gallery-large">
+                            <div class="section-container">
+                                
+                                <ul id="grid" class="grid">
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/450x600.png">
+                                            <a href="img/gallery/450x600.png" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <i class="icon-search"></i>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/600x600.png">
+                                            <a href="img/gallery/600x500.png" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Image Title</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/900x600.png">
+                                            <a href="img/gallery/900x600.png" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <i class="icon-search"></i>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/400x300.png">
+                                            <a href="img/gallery/400x300.png" class="popup-with-move-anim"> 
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Image Title</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/400x300.png">
+                                            <a href="img/gallery/400x300.png" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <i class="icon-search"></i>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img alt="image" src="img/gallery/800x600.png">
+                                            <a href="img/gallery/800x600.png" class="popup-with-move-anim">
+                                                <div class="over">
+                                                    <div class="comein">
+                                                        <h3>Image Title</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        <div class="comein-bg"></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="contact" class="page stellar">
+                    <div class="pageheader">
+                        <div class="headercontent">
+                            <div class="section-container">
+                                
+                                <h2 class="title">Contact & Meet Me</h2>
+                            
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>My office is located at 3333 Coyote Hill Road, Palo Alto, California 94304, USA. I am available every day, usually from 9:00 am to 6:00 pm.</p>                              
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <strong><i class="icon-phone"></i>&nbsp;&nbsp;</strong>
+                                                <span>office: +1 800 650 812 4307</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="icon-envelope"></i>&nbsp;&nbsp;</strong>
+                                                <span>shiwali.mohan@parc.com</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="icon-envelope"></i>&nbsp;&nbsp;</strong>
+                                                <span>shiwali.mohan@gmail.com</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="icon-skype"></i>&nbsp;&nbsp;</strong>
+                                                <span>shiwalimohan</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="icon-twitter"></i>&nbsp;&nbsp;</strong>
+                                                <span>#shiwalimohan</span>
+                                            </li>
+                                            <li>
+                                                <strong><i class="icon-linkedin-sign"></i>&nbsp;&nbsp;</strong>
+                                                <span><a href="http://www.linkedin.com/in/shiwalimohan">shiwalimohan</a></span>
+                                            </li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		    <div class="pagecontents">
+		      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d101436.2085058304!2d-122.13199869133854!3d37.392634217349126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba9916957e2f%3A0xf6724fc4a201711!2s3333+Coyote+Hill+Rd%2C+Palo+Alto%2C+CA+94304%2C+USA!5e0!3m2!1sen!2s!4v1422972334126" width="100%" height="600" frameborder="0" style="border:0"></iframe>
+		    </div>
+                </div>
+                <div id="overlay"></div>
+            </div>
+        </div>
+    </body>
 </html>
+
