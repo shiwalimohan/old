@@ -57,6 +57,7 @@ function displayBibTex(element,id)
 	    assets.appendChild(poster);
 	}
 
+	// add link for talks
 	if(bibtex.data[i]['talk']){
 	    var talk = document.createElement("a")
 	    talk.setAttribute("href", bibtex.data[i]['talk']);
