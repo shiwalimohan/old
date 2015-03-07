@@ -1,0 +1,449 @@
+bash-3.2$ ls
+*shell*		CNAME		css		index.html	js
+*shell*~	CV.pdf		img		index.html~	papers
+bash-3.2$ ls -l
+total 576
+-rw-r--r--   1 smohan  1987151510   27895 Feb  5 07:01 *shell*
+-rw-r--r--   1 smohan  1987151510   27397 Feb  5 02:03 *shell*~
+-rw-r--r--   1 smohan  1987151510      14 Feb  4 08:56 CNAME
+-rw-r--r--   1 smohan  1987151510   49225 Feb  4 08:50 CV.pdf
+drwxr-xr-x@ 10 smohan  1987151510     340 Feb  4 08:50 css
+drwxr-xr-x@ 11 smohan  1987151510     374 Feb  4 08:50 img
+-rwxr-xr-x   1 smohan  1987151510   46441 Mar  6 13:38 index.html
+-rwxr-xr-x@  1 smohan  1987151510  131018 Feb  3 06:30 index.html~
+drwxr-xr-x  22 smohan  1987151510     748 Mar  6 13:37 js
+drwxr-xr-x   7 smohan  1987151510     238 Feb  4 08:50 papers
+bash-3.2$ pwd
+/Users/smohan/website/shiwalimohan.github.com
+bash-3.2$ ls -l
+total 576
+-rw-r--r--   1 smohan  1987151510   27895 Feb  5 07:01 *shell*
+-rw-r--r--   1 smohan  1987151510   27397 Feb  5 02:03 *shell*~
+-rw-r--r--   1 smohan  1987151510      14 Feb  4 08:56 CNAME
+-rw-r--r--   1 smohan  1987151510   49225 Feb  4 08:50 CV.pdf
+drwxr-xr-x@ 10 smohan  1987151510     340 Feb  4 08:50 css
+drwxr-xr-x@ 11 smohan  1987151510     374 Feb  4 08:50 img
+-rwxr-xr-x   1 smohan  1987151510   46441 Mar  6 13:38 index.html
+-rwxr-xr-x@  1 smohan  1987151510  131018 Feb  3 06:30 index.html~
+drwxr-xr-x  22 smohan  1987151510     748 Mar  6 13:37 js
+drwxr-xr-x   7 smohan  1987151510     238 Feb  4 08:50 papers
+bash-3.2$ cd papers/
+bash-3.2$ ls
+mohan_AAAI_2014.pdf		mohan_ICCM_2013.pdf		mohan_thesis_talk_2015.pdf
+mohan_HRIPioneers_2014.pdf	mohan_thesis_2015.pdf
+bash-3.2$ ls
+*shell*					mohan.pdf				mohan_cicling_2008.pdf
+MohanPillaiSleight.pdf			mohan_AAAIDC_2012.pdf			mohan_fss_2011.pdf
+agent-overview.pdf			mohan_AAAIFS_2012.pdf			mohan_ictai.pdf
+comprehension.pdf			mohan_AAAIGPS_2012.pdf			mohan_thesis_2015.pdf
+dc-r.pdf				mohan_AAAISA_2012.pdf			mohan_thesis_talk_2015.pdf
+guestTalkUmich.pdf			mohan_AAAI_2014.pdf			nlgSoarPresentation.pdf
+hadoop.pdf				mohan_ACS_2012.pdf			poster.pdf
+interaction.pdf				mohan_ACS_2013.pdf			prelim-paper.pdf
+joshi_ICTAI_2012.pdf			mohan_ACS_2013_talk.pdf			research-summary.pdf
+joshi_STAIRS_2012.pdf			mohan_ACS_2014.pdf			shiwali-cv.pdf
+laird_AAAICogRob_2012.pdf		mohan_EECS545.pdf			shiwali-talk.pdf
+laird_AAAI_IC_2013.pdf			mohan_HRIPioneers_2014.pdf		thesis-proposal-talk.pdf
+laird_BICA2014.pdf			mohan_HRIPioneers_2014_newposter.pdf	thesis-proposal.pdf
+lht.pdf					mohan_ICCM_2013.pdf			verb-learning.pdf
+mohan-iccm-talk.pdf			mohan_aiide_2011.pdf
+bash-3.2$ cd ../
+bash-3.2$ l
+bash: l: command not found
+bash-3.2$ ls
+*shell*		CNAME		css		index.html	js
+*shell*~	CV.pdf		img		index.html~	papers
+bash-3.2$ mv papers/ content
+bash-3.2$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'papers/mohan_AAAI_2014.pdf' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+bash-3.2$ cd ../
+bash-3.2$ ls
+index			index.html		package			shiwalimohan.github.com	untitled folder
+bash-3.2$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+bash-3.2$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+bash-3.2$ ls
+index			index.html		package			shiwalimohan.github.com	untitled folder
+bash-3.2$ cd shiwalimohan.github.com/
+bash-3.2$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'papers/mohan_AAAI_2014.pdf' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+bash-3.2$ git add -A 
+bash-3.2$ git commit -m "added publications removed photo"
+[master 632fa20] added publications removed photo
+ 51 files changed, 3233 insertions(+), 368 deletions(-)
+ create mode 100644 *shell*
+ create mode 100644 content/*shell*
+ create mode 100755 content/MohanPillaiSleight.pdf
+ create mode 100755 content/agent-overview.pdf
+ create mode 100755 content/comprehension.pdf
+ create mode 100755 content/dc-r.pdf
+ create mode 100755 content/guestTalkUmich.pdf
+ create mode 100755 content/hadoop.pdf
+ create mode 100755 content/interaction.pdf
+ create mode 100755 content/joshi_ICTAI_2012.pdf
+ create mode 100755 content/joshi_STAIRS_2012.pdf
+ create mode 100755 content/laird_AAAICogRob_2012.pdf
+ create mode 100755 content/laird_AAAI_IC_2013.pdf
+ create mode 100755 content/laird_BICA2014.pdf
+ create mode 100755 content/lht.pdf
+ create mode 100755 content/mohan-iccm-talk.pdf
+ create mode 100755 content/mohan.pdf
+ create mode 100755 content/mohan_AAAIDC_2012.pdf
+ create mode 100755 content/mohan_AAAIFS_2012.pdf
+ create mode 100755 content/mohan_AAAIGPS_2012.pdf
+ create mode 100755 content/mohan_AAAISA_2012.pdf
+ rename {papers => content}/mohan_AAAI_2014.pdf (100%)
+ mode change 100644 => 100755
+ create mode 100755 content/mohan_ACS_2012.pdf
+ create mode 100755 content/mohan_ACS_2013.pdf
+ create mode 100755 content/mohan_ACS_2013_talk.pdf
+ create mode 100755 content/mohan_ACS_2014.pdf
+ create mode 100755 content/mohan_EECS545.pdf
+ rename {papers => content}/mohan_HRIPioneers_2014.pdf (100%)
+ mode change 100644 => 100755
+ create mode 100755 content/mohan_HRIPioneers_2014_newposter.pdf
+ rename {papers => content}/mohan_ICCM_2013.pdf (100%)
+ mode change 100644 => 100755
+ create mode 100755 content/mohan_aiide_2011.pdf
+ create mode 100755 content/mohan_cicling_2008.pdf
+ create mode 100755 content/mohan_fss_2011.pdf
+ create mode 100755 content/mohan_ictai.pdf
+ rename {papers => content}/mohan_thesis_2015.pdf (100%)
+ rename {papers => content}/mohan_thesis_talk_2015.pdf (100%)
+ create mode 100755 content/nlgSoarPresentation.pdf
+ create mode 100755 content/poster.pdf
+ create mode 100755 content/prelim-paper.pdf
+ create mode 100755 content/research-summary.pdf
+ create mode 100755 content/shiwali-cv.pdf
+ create mode 100755 content/shiwali-talk.pdf
+ create mode 100755 content/thesis-proposal-talk.pdf
+ create mode 100755 content/thesis-proposal.pdf
+ create mode 100755 content/verb-learning.pdf
+ rewrite img/personal/personal-big.jpg (92%)
+ create mode 100644 js/BibTex-0.1.2.js
+ create mode 100644 js/displayBibtex.js
+ create mode 100644 temp.org
+bash-3.2$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:new-website
+
+To push to the branch of the same name on the remote, use
+
+    git push origin master
+
+bash-3.2$ git push origin master
+Counting objects: 30, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 420.93 KiB | 0 bytes/s, done.
+Total 14 (delta 7), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   f89212f..632fa20  master -> master
+bash-3.2$ ls
+#temp.org#	*shell*~	CV.pdf		css		index.html	js
+*shell*		CNAME		content		img		index.html~	temp.org
+bash-3.2$ git add .
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+bash-3.2$ git rm #temp.org\# 
+usage: git rm [options] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+bash-3.2$ git rm #temp.org\# -f
+usage: git rm [options] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+bash-3.2$ git rm -f #temp.org\# 
+usage: git rm [options] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+bash-3.2$ git pull
+Already up-to-date.
+bash-3.2$ ls
+#temp.org#	*shell*~	CV.pdf		css		index.html	js
+*shell*		CNAME		content		img		index.html~	temp.org
+bash-3.2$ git rm #temp.org\# 
+usage: git rm [options] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+bash-3.2$ git rm -f \#temp.org\# 
+fatal: pathspec '#temp.org#' did not match any files
+bash-3.2$ rm #temp.org\# 
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+bash-3.2$ ls
+#temp.org#	*shell*~	CV.pdf		css		index.html	js
+*shell*		CNAME		content		img		index.html~	temp.org
+bash-3.2$ rm *shell\*
+bash-3.2$ rm #temp.org\# 
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+bash-3.2$ rm temp.org 
+bash-3.2$ rm *shell\*~ 
+bash-3.2$ ls
+#temp.org#	CNAME		CV.pdf		content		css		img		index.html	index.html~	js
+bash-3.2$ rm #temp.org\# 
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+bash-3.2$ rm -f -d #temp.org\# 
+bash-3.2$ ls
+#temp.org#	CNAME		CV.pdf		content		css		img		index.html	index.html~	js
+bash-3.2$ git commit -m "removed filed"
+On branch master
+Your branch is ahead of 'origin/new-website' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	deleted:    *shell*
+	deleted:    temp.org
+
+no changes added to commit
+bash-3.2$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '*shell*' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+bash-3.2$ git add --all
+bash-3.2$ git commit -m "updated "
+[master 33e3ecc] updated
+ 2 files changed, 791 deletions(-)
+ delete mode 100644 *shell*
+ delete mode 100644 temp.org
+bash-3.2$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:new-website
+
+To push to the branch of the same name on the remote, use
+
+    git push origin master
+
+bash-3.2$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 223 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   632fa20..33e3ecc  master -> master
+bash-3.2$ git commit add . -A
+error: unknown switch `A'
+usage: git commit [options] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+bash-3.2$ git add .
+bash-3.2$ git commit -m "corrected indentation"
+[master 9fdcd07] corrected indentation
+ 1 file changed, 1112 insertions(+), 1114 deletions(-)
+ rewrite index.html (96%)
+bash-3.2$ git push origin new-website
+error: src refspec new-website does not match any.
+error: failed to push some refs to 'git@github.com:shiwalimohan/shiwalimohan.github.com.git'
+bash-3.2$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 4.78 KiB | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   33e3ecc..9fdcd07  master -> master
+bash-3.2$ cd js/
+bash-3.2$ ls
+BibTex-0.1.2.js					displayBibtex.js~				jquery.stellar.min.js
+BibTex-0.1.2.js~				jquery-1.10.2.js				jquery.touchSwipe.min.js
+ScrollToPlugin.min.js				jquery.carouFredSel-6.2.1-packed.js		magnific-popup.js
+TweenMax.min.js					jquery.dropdownit.js				masonry.min.js
+bootstrap.min.js				jquery.mixitup.min.js				modernizr.custom.63321.js
+custom.js					jquery.mixitup.min.js~				perfect-scrollbar-0.4.5.with-mousewheel.min.js
+displayBibtex.js				jquery.mousewheel.js
+bash-3.2$ git add .
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   displayBibtex.js
+
+bash-3.2$ git commit -m "fixed js"
+[master 6c35f57] fixed js
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git push origin master
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 381 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   9fdcd07..6c35f57  master -> master
+bash-3.2$ git add .
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 9 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   displayBibtex.js
+
+bash-3.2$ git commit -m "fixed jst"
+[master 6b852f7] fixed jst
+ 1 file changed, 1 deletion(-)
+bash-3.2$ git push origin master
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 351 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   6c35f57..6b852f7  master -> master
+bash-3.2$ git add displayBibtex.js
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 10 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+bash-3.2$ cd ../
+bash-3.2$ ls
+#temp.org#	CNAME		CV.pdf		content		css		img		index.html	index.html~	js
+bash-3.2$ git add content
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/new-website' by 10 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+bash-3.2$ git pull
+Already up-to-date.
+bash-3.2$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:new-website
+
+To push to the branch of the same name on the remote, use
+
+    git push origin master
+
+bash-3.2$ git push origin HEAD:new-website
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   e3dcaf2..6b852f7  HEAD -> new-website
+bash-3.2$ 
