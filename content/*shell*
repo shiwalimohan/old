@@ -1,0 +1,34 @@
+bash-3.2$ ls
+*shell*		CNAME		css		index.html	js
+*shell*~	CV.pdf		img		index.html~	papers
+bash-3.2$ ls -l
+total 576
+-rw-r--r--   1 smohan  1987151510   27895 Feb  5 07:01 *shell*
+-rw-r--r--   1 smohan  1987151510   27397 Feb  5 02:03 *shell*~
+-rw-r--r--   1 smohan  1987151510      14 Feb  4 08:56 CNAME
+-rw-r--r--   1 smohan  1987151510   49225 Feb  4 08:50 CV.pdf
+drwxr-xr-x@ 10 smohan  1987151510     340 Feb  4 08:50 css
+drwxr-xr-x@ 11 smohan  1987151510     374 Feb  4 08:50 img
+-rwxr-xr-x   1 smohan  1987151510   46441 Mar  6 13:38 index.html
+-rwxr-xr-x@  1 smohan  1987151510  131018 Feb  3 06:30 index.html~
+drwxr-xr-x  22 smohan  1987151510     748 Mar  6 13:37 js
+drwxr-xr-x   7 smohan  1987151510     238 Feb  4 08:50 papers
+bash-3.2$ pwd
+/Users/smohan/website/shiwalimohan.github.com
+bash-3.2$ ls -l
+total 576
+-rw-r--r--   1 smohan  1987151510   27895 Feb  5 07:01 *shell*
+-rw-r--r--   1 smohan  1987151510   27397 Feb  5 02:03 *shell*~
+-rw-r--r--   1 smohan  1987151510      14 Feb  4 08:56 CNAME
+-rw-r--r--   1 smohan  1987151510   49225 Feb  4 08:50 CV.pdf
+drwxr-xr-x@ 10 smohan  1987151510     340 Feb  4 08:50 css
+drwxr-xr-x@ 11 smohan  1987151510     374 Feb  4 08:50 img
+-rwxr-xr-x   1 smohan  1987151510   46441 Mar  6 13:38 index.html
+-rwxr-xr-x@  1 smohan  1987151510  131018 Feb  3 06:30 index.html~
+drwxr-xr-x  22 smohan  1987151510     748 Mar  6 13:37 js
+drwxr-xr-x   7 smohan  1987151510     238 Feb  4 08:50 papers
+bash-3.2$ cd papers/
+bash-3.2$ ls
+mohan_AAAI_2014.pdf		mohan_ICCM_2013.pdf		mohan_thesis_talk_2015.pdf
+mohan_HRIPioneers_2014.pdf	mohan_thesis_2015.pdf
+bash-3.2$ 

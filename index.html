@@ -21,6 +21,11 @@
 
         <!--/CSS styles-->
         <!--Javascript files-->
+		<!--Bibtex---->
+	<script src ="js/BibTex-0.1.2.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/displayBibTex.js"></script>
+	<script type="text/javascript">function displayBibliography(){displayBibTex('bib-display','bib_publi');} window.onload=displayBibliography;</script>
+	<!--/Bibtex--->
         <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="js/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
@@ -42,6 +47,8 @@
 
         <script type="text/javascript" src="js/magnific-popup.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
+
+
 
         <!--/Javascript files-->
 
@@ -131,35 +138,24 @@
                             <div class="section-container">
                                 <div class="row">
                                     <div class="col-sm-2 visible-sm"></div>
-                                    <div class="col-sm-8 col-md-5">
-                                        <div class="biothumb">
-                                            <img alt="image" src="img/personal/personal-big.jpg" class="img-responsive">
-                                            <div class="overlay">
-                                                <h1 class="">Shiwali Mohan</h1>
-                                                <ul class="list-unstyled">
-                                                    <li>Palo Alto Research Center</li>
-                                                </ul>
-                                            </div> 
-                                            
-                                               
-                                        </div>
-                                        
-                                    </div>
                                     <div class="clearfix visible-sm visible-xs"></div>
-                                    <div class="col-sm-12 col-md-7">
+                                    <div class="col-sm-12 col-md-12">
                                         <h3 class="title">Bio</h3>
                                         <p>I am an AI researcher at
-                                        Palo Alto Research Center. I
-                                        am interested in the design of
-                                        interactive intelligent agents
-                                        and systems that can
-                                        communicate, interact, and
-                                        collaborate with humans in
-                                        various capacities. My
-                                        research spans artificial
-                                        intelligence, agent design and
-                                        learning, cognitive science,
-                                        and psycholinguistics. </p>
+                                        <a href =
+                                        "https://www.parc.com/"
+                                        target="_blank">Palo Alto
+                                        Research Center</a>. I am
+                                        interested in designing
+                                        intelligent agents and systems
+                                        that can communicate,
+                                        interact, and collaborate with
+                                        humans in various
+                                        capacities. My research spans
+                                        artificial intelligence, agent
+                                        design and learning, cognitive
+                                        science, and
+                                        psycholinguistics. </p>
 					
 					<p> I recently defended my
 					thesis titled <em> From Verbs
@@ -168,20 +164,19 @@
 					Situated Interactive
 					Instruction</em> at the
 					University of Michigan, Ann
-					Arbor. It focuses on designing
-					cognitive robots that can
-					communicate with their human
-					partners using natural
-					language and can expand their
-					knowledge and skill set by
-					engaging the human in
-					instructional learning. This
-					looks at several interesting
-					HRI challenges including
-					embodied language
-					comprehension, interactive
-					collaboration, and active,
-					agent-driven learning.
+					Arbor. It focuses on cognitive
+					robots that can communicate
+					with their human partners
+					using natural language and can
+					expand their knowledge and
+					skill set by engaging the
+					human in instructional
+					learning. This looks at
+					several interesting HRI
+					challenges including embodied
+					language comprehension,
+					interactive collaboration, and
+					active, agent-driven learning.
 					  
 					<p>I was born and brought up
 					in India where I received an
@@ -210,7 +205,7 @@
                                                     <span>2014</span>
                                                 </div>
                                                 <div class="content">
-                                                    <h4>Postdoctoral Researcher</h4>
+                                                    <h4>Researcher</h4>
                                                     <p><em>Palo Alto Research Center</em></p>
                                                 </div>
                                             </li>
@@ -668,14 +663,13 @@ background knowledge (about both state and actions) which can be used
                                             </select>
                                         </div>
                                         
-                                        <div class="col-md-3" id="sort">
+                                        <div class="col-md-3" id="sort" style="display:none;">
                                             <span>Sort by year:</span>
-                                            <div class="btn-group pull-right"> 
-
-                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="icon-sort-by-order"></i></button>
-                                                <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
+                                            <div class="btn-group pull-right">
+                                                <button type="button" id="b1" class="btn btn-default"><i class="icon-sort-by-order"></i></button>
+                                                <button type="button" id="b2" class="btn btn-default"><i class="icon-sort-by-order-alt"></i></button>
                                             </div>
-                                        </div>    
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -684,324 +678,311 @@ background knowledge (about both state and actions) which can be used
                                 <div class="section-container">
                                     <div class="row">
                                         <div class="col-md-12">
-                                          <div class="pitems">
-					    <div class="item mix treport" data-year="2015">
-                                              <div class="pubmain">
-                                                <div class="pubassets">
-                                                  
-                                                  <a href="#" class="pubcollapse">
-                                                    <i class="icon-expand-alt"></i>
-                                                  </a>
-						  <a href="./papers/mohan_thesis_talk_2015.pdf" class="tooltips" title="Slides" target="_blank">
-                                                    <i class="icon-sitemap"></i>
-                                                  </a>
-						  
-                                                            <a href="#" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_thesis_2015.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+                                          <div class="pitems" id="bib-display">
+					  </div>
+					  <div class="bib" id="bib_publi" style="display: none;">
+					    @inproceedings{Mohan2015,
+					    author = {Shiwali Mohan and John Laird},
+					    title = {From Verbs to Tasks: An Integrated Account of Learning Tasks from Situated Interactive Instruction.},
+					    booktitle = {Ph.D. Thesis, University of Michigan},
+					    pdf={./content/mohan_thesis.pdf},
+					    abstract={Intelligent collaborative agents are becoming common in the human society. From virtual
+					    assistants such as Siri and Google Now to assistive robots, they contribute to human activities
+in a variety of ways. As they become more pervasive, the challenge of customizing
+them to a variety of environments and tasks becomes critical. It is infeasible for engineers
+to program them for each individual use. Our research aims at building interactive robots
+and agents that adapt to new environments autonomously by interacting with human
+users using natural modalities.
+This dissertation studies the problem of learning novel tasks from human-agent dialog.
+We propose a novel approach for interactive task learning, situated interactive instruction
+(SII), and investigate approaches to three computational challenges that arise in designing
+SII agents: situated comprehension, mixed-initiative interaction, and interactive task learning.
+We propose a novel mixed-modality grounded representation for task verbs which
+encompasses their lexical, semantic, and task-oriented aspects. This representation is useful
+in situated comprehension and can be learned through human-agent interactions. We
+introduce the Indexical Model of comprehension that can exploit extra-linguistic contexts
+for resolving semantic ambiguities in situated comprehension of task commands. The
+Indexical model is integrated with a mixed-initiative interaction model that facilitates a
+flexible task-oriented human-agent dialog. This dialog serves as the basis of interactive
+task learning. We propose an interactive variation of explanation-based learning that can
+acquire the proposed representation. We demonstrate that our learning paradigm is efficient,
+can transfer knowledge between structurally similar tasks, integrates agent-driven exploration with instructional learning, and can acquire several tasks. The methods proposed
+in this thesis are integrated in Rosie - a generally instructable agent developed in
+the Soar cognitive architecture and embodied on a table-top robot.},
+					    papertype={treport},
+					    }
+					      @inproceedings{Mohan2014aaai,
+					      author = {Shiwali Mohan and John E. Laird},
+					      title = {Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction},
+					      booktitle = {In the Proceedings of the 28th AAAI Conference on Artificial Intelligence},
+					      year = {2014},
+					      pdf={./content/mohan_AAAI_2014.pdf},
+					      url={http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8630},
+					      talk={},
+					      poster={},
+					      papertype={cpaper},
+					    abstract={Our research aims at building interactive robots and agents
+					    that can expand their knowledge by interacting with human
+					    users. In this paper, we focus on learning goal-oriented tasks
+					    from situated interactive instructions. Learning the structure
+					    of novel tasks and how to execute them is a challenging computational
+					    problem requiring the agent to acquire a variety of
+					    knowledge including goal definitions and hierarchical control
+					    information. We frame acquisition of novel tasks as an
+					    explanation-based learning (EBL) problem and propose an
+					    interactive learning variant of EBL for a robotic agent. We
+					    show that our approach can exploit information in situated instructions
+					    along with the domain knowledge to demonstrate
+					    fast generalization on several tasks. The knowledge acquired
+					    transfers across structurally similar tasks. Finally, we show
+					    that our approach seamlessly combines agent-driven exploration
+					    with instructions for mixed-initiative learning.},
+					      }
 
-                                                        <h4 class="pubtitle">From Verbs to Tasks: An Integrated Account of Learning Tasks from Situated Interactive Instruction</h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong></div>
-							<div class="pubcite"><span class="label label-info">Ph.D. Thesis</span>Computer Science and Engineering, University of Michigan, Ann Arbor. January 2015.</div>
-                                              </div>
-                                              <div class="pubdetails">
-                                                      <h4>Abstract</h4>
-						      <p>
-						      Intelligent collaborative agents are becoming common in the human society. From virtual assistants such as Siri and Google Now to assistive robots, they contribute to human activities in a variety of ways. As they become more pervasive, the challenge of customizing them to a variety of environments and tasks becomes critical. It is infeasible for engineers to program them for each individual use. Our research aims at building interactive robots and agents that adapt to new environments autonomously by interacting with human users using natural modalities. This dissertation studies the problem of learning novel tasks from human-agent dialog. We propose a novel approach for interactive task learning, situated interactive instruction (SII), and investigate approaches to three computational challenges that arise in designing SII agents: situated comprehension, mixed-initiative interaction, and interactive task learning. We propose a novel mixed-modality grounded representation for task verbs which encompasses their lexical, semantic, and task-oriented aspects. This representation is useful in situated comprehension and can be learned through human-agent interactions. We introduce the Indexical Model of comprehension that can exploit extra-linguistic contexts for resolving semantic ambiguities in situated comprehension of task commands. The Indexical model is integrated with a mixed-initiative interaction model that facilitates a flexible task-oriented human-agent dialog. This dialog serves as the basis of interactive task learning. We propose an interactive variation of explanation-based learning that can acquire the proposed representation. We demonstrate that our learning paradigm is efficient, can transfer knowledge between structurally similar tasks, integrates agent-driven exploration with instructional learning, and can acquire several tasks. The methods proposed in this thesis are integrated in <em> Rosie </em> - a generally instructable agent developed in the Soar cognitive architecture and embodied on a table-top robot. 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="item mix cpaper" data-year="2014">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-							    <a href="./papers/mohan_AAAI_2014_talk.pdf" class="tooltips" title="Slides" target="_blank">
-                                                                <i class="icon-sitemap"></i>
-                                                            </a>
-														     
-                                                            <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8630" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_AAAI_2014.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+					      @inproceedings{Mohan2014acs,
+					      author = {Shiwali Mohan and Aaron Mininger andJohn E. Laird},
+					      title = {Towards an Indexical Model of Situated Comprehension for Cognitive Agents in Physical Worlds},
+					      booktitle = {Advances in Cognitive Systems 3},
+					      year = {2014},
+					      pdf={./content/mohan_ACS_2014.pdf},
+					      url={http://www.cogsys.org/pdf/paper-9-3-34.pdf},
+					      papertype={jpaper},
+					    abstract={We propose a computational model of situated language comprehension based on the Indexical Hypothesis that generates meaning representations by translating amodal linguistic symbols to modal representations of beliefs, knowledge, and experience external to the linguistic system. This Indexical Model incorporates multiple information sources, including perceptions, domain knowledge, and short-term and long-term experiences during comprehension. We show that exploiting diverse information sources can alleviate ambiguities that arise from contextual use of underspecific referring expressions and unexpressed argument alternations of verbs. The model is being used to support linguistic interactions in Rosie, an agent implemented in Soar that learns from instruction.},
+					      }
+					    }
+					    @inproceedings{Laird2014bica,
+					    author = {John E. Laird and Shiwali Mohan},
+					    title = {A Case Study of Knowledge Integration Across Multiple Memories in Soar},
+					    booktitle = {Biologically Inspired Cognitive Architectures (invited)},
+					    year = {2014},
+					    pdf = {./content/laird_BICA2014.pdf},
+					    url = {http://www.sciencedirect.com/science/article/pii/S2212683X14000164},
+					    papertype = {jpaper},
+					    abstract = {Online perception, behavior, and learning in complex domains require an intelligent agent to quickly and reliably access different
+types of knowledge. A cognitive architecture, therefore, must implement a diverse set of memories that are optimized for storing,
+accessing, and learning these different types of knowledge. In this paper, we describe a complex Soar agent that uses and learns
+multiple types of knowledge while interacting with a human in a real-world domain. Our hypothesis is that a diverse set of memories
+is required for the different types of knowledge. We first present the agent’s processing, highlighting the types of knowledge used for
+each phase. We then present Soar’s memories and identify which memory is used for each type of knowledge. We also analyze which
+properties of each memory make it appropriate for the knowledge it encodes. We conclude with a summary of our analysis. },
+					    }
 
-                                                        <h4 class="pubtitle">Learning Goal-Oriented Hierarchical Tasks from Situated Interactive Instruction </h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span>In Proceedings of the 28th AAAI Conference on Artificial Intelligence, July 2014</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>Our research aims at building interactive robots and agents that can expand their knowledge by interacting with human users. In this paper, we focus on learning goal-oriented tasks from situated interactive instructions. Learning the structure of novel tasks and how to execute them is a challenging computational problem requiring the agent to acquire a variety of knowledge including goal definitions and hierarchical control information. We frame acquisition of novel tasks as an explanation-based learning (EBL) problem and propose an interactive learning variant of EBL for a robotic agent. We show that our approach can exploit information in situated instructions along with the domain knowledge to demonstrate fast generalization on several tasks. The knowledge acquired transfers across structurally similar tasks. Finally, we show that our approach seamlessly combines agent-driven exploration with instructions for mixed-initiative learning.</p>
-                                                    </div>
-                                                </div>
-						<div class="item mix jpaper" data-year="2014">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.cogsys.org/pdf/paper-9-3-34.pdf" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_ACS_2014.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+					    @inproceedings{Mohan2014a,
+					    author = {Shiwali Mohan and John E. Laird},
+					    title = {Learning New Tasks from Situated Interactive Instruction},
+					    booktitle = {In the 2014 HRI Pioneers workshop},
+					    year = {2014},
+					    papertype = {wpaper},
+					    pdf = {./content/mohan_HRIPioneers_2014.pdf},
+					    url = {http://www.hripioneers.info/Proceedings/2014PioneersProceedings.pdf},
+					    poster = {./content/mohan_HRIPioneers_2014_poster.pdf},}
+					    
+					    @inproceedings{Mohan2013acs,
+					    author = {Shiwali Mohan and Aaron Mininger and John E. Laird},
+					    title = {Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents},
+					    booktitle = {In the Second Annual Conference on Advances in Cognitive Systems},
+					    year = {2013},
+					    papertype = {cpaper},
+					    url={http://www.cogsys.org/papers/2013conference29.pdf},}
+					    					    @inproceedings{Laird2013,
+					    author = {John E. Laird and Shiwali Mohan},
+					    title = {A Case Study of Knowledge Integration across Multiple Memories in
+					    Soar},
+					    booktitle = {In Papers from Integrated Cognition (AAAI Fall Symposium Series)},
+					    year = {2013},
+					    papertype = {wpaper},
+					    pdf = {./content/laird_AAAI_IC_2013.pdf},
+					    url = {http://www.aaai.org/ocs/index.php/FSS/FSS13/paper/view/7606},
+					    }
 
-                                                        <h4 class="pubtitle">Towards an Indexical Model of Situated Language Comprehension for Cognitive Agents in Physical Worlds</h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Advances in Cognitive Systems, Volume 3, 2014</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>We propose a computational model of situated language comprehension based on the Indexical Hypothesis that generates meaning representations by translating amodal linguistic symbols to modal representations of beliefs, knowledge, and experience external to the linguistic system. This Indexical Model incorporates multiple information sources, including perceptions, domain knowledge, and short-term and long-term experiences during comprehension. We show that exploiting diverse information sources can alleviate ambiguities that arise from contextual use of underspecific referring expressions and unexpressed argument alternations of verbs. The model is being used to support linguistic interactions in Rosie, an agent implemented in Soar that learns from instruction.</p>
-                                                    </div>
-                                                </div>
+					    					    @inproceedings{Mohan2012f,
+					    author = {Shiwali Mohan and James Kirk and John Laird},
+					    title = {A Computational Model of Situated Task Learning with Interactive Instruction},
+					    booktitle = {In Proceedings of the 17th International Conference on Cognitive Modeling},
+					    year = {2013},
+					    pdf = {./content/mohan_ICCM_2013.pdf},
+					    talk = {./content/mohan-iccm-talk.pdf},
+					    url = {http://iccm-conference.org/2013-proceedings/papers/0049/index.html},
+					    papertype = {cpaper},
+					    }
+					    					    @inproceedings{Mohan2012f,
+					    author = {Shiwali Mohan and Aaron Mininger and James Kirk and John Laird},
+					    title = {Acquiring Grounded Representations of Words with Situated Interactive Instruction},
+					    booktitle = {Advances in Cognitive Systems, 2},
+					    year = {2012},
+					    pdf = {./content/mohan_ACS_2012.pdf},
+					    papertype = {jpaper},
+					    url = {http://www.cogsys.org/pdf/paper-3-2-136.pdf},
+					    talk = {./content/acs-talk.pdf},
+}
+
+					    @inproceedings{Joshi2012a,
+					    author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
+					    title = {Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario},
+					    booktitle = {In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence},
+					    year = {2012},
+					    pdf = {./content/joshi_ICTAI_2012.pdf},
+					    url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6495169},
+					    papertype = {cpaper},}
+
+					    @inproceedings{Mohan2012e,
+author = {Shiwali Mohan* and Aaron Mininger* and James Kirk* and John Laird},
+title = {Learning Grounded Language through Situated Interactive Instruction},
+booktitle = {In Papers from Robots Learning Interactively from Human Teachers (AAAI Fall Symposium Series)},
+pdf = {./content/mohan_AAAIFS_2012.pdf},
+url = {http://aaai.org/ocs/index.php/FSS/FSS12/paper/view/5662},
+year = {2012},
+papertype = {wpaper},
+url = {http://www.aaai.org/ocs/index.php/FSS/FSS12/paper/view/5662},
+talk = {./content/aaaifs-talk.pdf},
+}
+
+@inproceedings{Joshi2012,
+author = {Mandar Joshi and Rakesh Khobragade and Saurabh Sarda and Umesh Deshpande and Shiwali Mohan},
+title = {Hierarchical Action Selection for Reinforcement Learning in Infinite Mario},
+booktitle = {In Proceedings of the 6th Starting Artificial Intelligence Research Symposium (co-located with ECAI)},
+year = {2012},
+pdf = {./content/joshi_STAIRS_2012.pdf},
+url = {http://plata.ar.media.kyoto-u.ac.jp/mori/research/Proceedings/ECAI2012/content/stairs/stairs201215.pdf},
+papertype = {wpaper},
+url =
+{http://books.google.com/books?hl=en&lr=&id=WOc8WSwcCjoC&oi=fnd&pg=PA162&dq=info:Zp20TtDieTIJ:scholar.google.com&ots=u-dG_96A95&sig=X1HmRu-UJj4UZ-8Y2n3YU-SO_eI},
+}
+
+@inproceedings{Mohan2012d,
+author = {John Laird and Keegan Kinkade and Shiwali Mohan and Joseph Xu},
+title = {Cognitive Robotics Using the Soar Cognitive Architecture},
+booktitle = {In Proceedings of the 8th International Cognitive Robotics Workshop},
+year = {2012},
+pdf = {./content/laird_AAAICogRob_2012.pdf},
+url ={http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5221},
+papertype = {wpaper},
+}
+
+@inproceedings{Mohan2012c,
+author = {Shiwali Mohan and John Laird},
+title = {Situated Comprehension of Imperative Sentences in Embodied, Cognitive Agents},
+booktitle = {Grounding Language for Physical Systems, AAAI
+Technical Report WS-12-07},
+year = {2012},
+pdf = {./content/mohan_AAAIGPS_2012.pdf},
+url = {http://aaai.org/ocs/index.php/WS/AAAIW12/paper/view/5245},
+papertype= {wpaper},
+}
+
+@inproceedings{Mohan2012b,
+author = {Shiwali Mohan and John Laird},
+title = {Exploring Mixed-Initiative Interaction for Learning with Situated Instruction in Cognitive Agents},
+booktitle = {Proceedings of the 26th AAAI Conference on Artificial Intelligence},
+year = {2012},
+pdf = {./content/mohan_AAAISA_2012.pdf},
+url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4834},
+papertype = {abstract},
+note = {\textit{(Extended Abstract)}},        
+}
+
+@inproceedings{Mohan2012a,
+author = {Shiwali Mohan and John Laird},
+title = {Learning Actions and Action Verbs from Human-Agent Interaction},
+booktitle = {17th AAAI/SIGART Doctoral Consortium},
+year = {2012},
+pdf = {./content/mohan_AAAIDC_2012.pdf},
+papertype = {abstract},
+url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/4856/5288},
+note = {\textit{(Extended Abstract)}},    
+talk = {./content/dc-r.pdf},
+}
 
 
-						<div class="item mix jpaper" data-year="2014">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.sciencedirect.com/science/article/pii/S2212683X14000164" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/laird_ICCS_2014.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
 
-                                                        <h4 class="pubtitle">A Case Study of Knowledge Integration Across Multiple Memories in Soar</h4>
-                                                        <div class="pubauthor">John E. Laird, <strong>Shiwali Mohan</strong></div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Biologically Inspired Cognitive Architectures, Volume 8, April 2014, Pages 93–99</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							  Online perception, behavior, and learning in complex domains require an intelligent agent to quickly and reliably access different types of knowledge. A cognitive architecture, therefore, must implement a diverse set of memories that are optimized for storing, accessing, and learning these different types of knowledge. In this paper, we describe a complex Soar agent that uses and learns multiple types of knowledge while interacting with a human in a real-world domain. Our hypothesis is that a diverse set of memories is required for the different types of knowledge. We first present the agent’s processing, highlighting the types of knowledge used for each phase. We then present Soar’s memories and identify which memory is used for each type of knowledge. We also analyze which properties of each memory make it appropriate for the knowledge it encodes. These include procedural, semantic, and episodic knowledge, all of which play critical roles in the agent’s ability to learn and extend its capabilities. We conclude with a summary of our analysis, and conclude that a diversity of memory systems and knowledge are useful for supporting general, integrated intelligence.
-							</p> 
-                                                    </div>
-                                                </div>
-						<div class="item mix apaper" data-year="2014">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.hripioneers.info/Proceedings/2014PioneersProceedings.pdf" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_HRIPioneers_2014.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+@inproceedings{Mohan2011a,
+author = {Shiwali Mohan and John Laird},
+title = {Towards Situated, Interactive, Instructable Agents in a Cognitive Architecture},
+booktitle = {Papers from the 2011 AAAI Fall Symposium Series},
+year = {2011},
+keywords = {cognition; Soar; learning with instruction; human agent collaboration; rule-based systems},
+abstract = {This paper discusses the challenge of designing instructable agents that can learn through interaction with a human expert. Learning through instruction is a powerful paradigm for acquiring knowledge because it limits the complexity of the learning task in a variety of ways. To support learning through instruction, the agent must be able to effectively communicate its lack of knowledge to the human, comprehend instructions, and apply them to the ongoing task. Weidentify some problems of concern when designing instructable agents. We propose an agent design that addresses some of these problems. We instantiate this design in the Soar cognitive architecture and analyze its capabilities on a learning task.},
+url = {http://www.aaai.org/ocs/index.php/FSS/FSS11/paper/view/4165},
+pdf = {./content/mohan_fss_2011.pdf},
+papertype = {cpaper},
+}
 
-                                                        <h4 class="pubtitle">Learning New Tasks with Situated Interactive Instruction</h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-default">Abstract</span> HRI Pioneers Workshop. February 2014.</div>
-                                                        
-                                                    </div>
-                                                </div>
 
-						<div class="item mix cpaper" data-year="2013">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.cogsys.org/papers/2013conference29.pdf" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_ACS_2013.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
 
-                                                        <h4 class="pubtitle">Towards an Indexical Model of Situated Language Comprehension for Real-World Cognitive Agents. </h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> In Proceedings of the Second Annual Conference on Advances in Cognitive Systems. December 2013.</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							  We propose a computational model of situated language comprehension based on the Indexical Hypothesis that generates meaning representations by translating amodal linguistic symbols to modal representations of beliefs, knowledge, and experience external to the linguistic system. The model incorporates multiple information sources including perceptions, domain knowledge, and short and long-term experiences during comprehension. We show that exploiting diverse information sources can alleviate ambiguities that arise from contextual use of under-specific referring expressions and unexpressed argument alternations of verbs. The model is being used for supporting linguistic interactions in Rosie, an agent implemented in Soar that learns from instruction.
-							</p> 
-                                                    </div>
-                                                </div>
+					    @inproceedings{Mohan2011b,
+author = {Shiwali Mohan and John Laird},
+title = {An Object-Oriented Approach to Reinforcement Learning in an Action Game},
+booktitle = {Proceedings of the Artificial Intelligence for Interactive Digital Entertainment Conference},
+keywords = {decision making; reinforcement learning; action games},
+abstract = {In this work, we look at the challenge of learning in an action game,Infinite Mario. Learning to play an action game can be divided into two distinct but related problems, learning an object-related behavior and selecting a primitive action. We propose a framework that allows for the use of reinforcement learning for both of these problems. We present promising results in some instances of the game and identify some problems that might affect learning.},
+url = {http://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/view/4069},
+series = {AIIDE},
+year = {2011},
+pdf = {./content/mohan_aiide_2011.pdf},
+papertype = {cpaper},
+}
 
-							<div class="item mix wpaper" data-year="2013">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://iccm-conference.org/2013-proceedings/papers/0049/index.html" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_ICCM_2013.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+					    @inproceedings{Mohan2010,
+					    author = {Shiwali Mohan and John Laird},
+					    title = {Relational Reinforcement Learning in Infinite Mario},
+					    booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence},
+					    abstract = {Relational representations in reinforcement learning allow for the use of structural information like the presence of objects and relationships between them in the description of value functions. Through this paper, we show that such representations allow for the inclusion of background knowledge that qualitatively describes a state and can be used to design agents that demonstrate learning behavior in domains with large state and actions spaces such as computer games.`},
+					    year = {2010},
+					    url = {http://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/view/1657},
+					    pdf = {./content/mohan.pdf},
+note = {\textit{(Extended Abstract)}},
+papertype = {abstract},
+}
 
-                                                        <h4 class="pubtitle">A Case Study of Knowledge Integration across Multiple Memories in Soar. In Papers from Integrated Cognition </h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, James R. Kirk, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-default">Symposium Paper</span> In Papers from the 2013 AAAI Fall Symposium Series on Integrated Cognition. November 2013</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
 
-                                                    </div>
-                                                </div>
-						
-						
-						<div class="item mix cpaper" data-year="2013">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://iccm-conference.org/2013-proceedings/papers/0049/index.html" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_ICCM_2013.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
 
-                                                        <h4 class="pubtitle">A Computational Model for Situated Task Learning with Interactive Instruction</h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, James R. Kirk, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span> In Proceedings of the 13th International Conference on Cognitive Modeling. July 2013</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							  Learning novel tasks is a complex cognitive activity requiring the learner to acquire diverse declarative and procedural knowledge. Prior ACT-R models of acquiring task knowledge from instruction focused on learning procedural knowledge from declarative instructions encoded in semantic memory. In this paper, we identify the requirements for designing computational models that learn task knowledge from situated task-oriented interactions with an expert and then describe and evaluate a model of learning from situated interactive instruction that is implemented in the Soar cognitive architecture.							</p> 
-                                                    </div>
-                                                </div>
+					    @techreport{Mohan2009,
+author = {Shiwali Mohan and John E. Laird},
+title = {Learning to Play Mario},
+NUMBER =        {CCA-TR-2009-03},
+booktitle = {Technical Report CCA-TR-2009-03 Center for
+Cognitive Architecture, University of Michigan, Ann Arbor, Michigan},
+INSTITUTION =   {Center for Cognitive Architecture, University of Michigan},
+ADDRESS =       {Ann Arbor, Michigan},
+ABSTRACT =      {Computer Games are interesting test beds for research in Artificial Intelligence and Machine Learning. Games usually have continuous state spaces, large action spaces and  are characterized by complex relationships between components. Without applying abstraction and generalizations, learning in computer games domain becomes infeasible. Through this work, we investigate some designs that facilitate tractable reinforcement learning in symbolic agents developed using Soar architecture operating in a complex domain, Infinite Mario. Object oriented representations of the environment greatly simplify otherwise complex state spaces. We also demonstrate that imposing hierarchy in problem structure greatly reduces the complexity of the tasks and aids in learning generalized policies that can be transferred across similar tasks.},
+year = {2009},
+url = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
+papertype = {treport},
+pdf = {http://sitemaker.umich.edu/SoarWeb/Publications/da.data/000000000000000000000000000000000000000003005536/Downloadpaper/filename},
+					    }
 
-						<div class="item mix wpaper" data-year="2012">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://www.hripioneers.info/Proceedings/2014PioneersProceedings.pdf" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/mohan_ACS_2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+					    @inproceedings{Mohan2008,
+author = {Niladri Chatterjee and Shiwali Mohan},
+title = {Discovering Word Senses from Text using Random Indexing},
+booktitle = {Proceedings of the 9th International Conference on Computational linguistics and Intelligent Text Processing},
+abstract = {Random Indexing is a novel technique for dimensionality reduction while creating Word Space model from a given text. This paper explores the possible application of Random Indexing in discovering word senses from the text. The words appearing in the text are plotted onto a multi-dimensional Word Space using Random Indexing. The geometric distance between words is used as an indicative of their semantic similarity. Soft Clustering by Committee algorithm (CBC) has been used to constellate similar words. The present work shows that the Word Space model can be used effectively to determine the similarity index required for clustering. The approach does not require parsers, lexicons or any other resources which are traditionally used in sense disambiguation of words. The proposed approach has been applied to TASA corpus and encouraging results have been obtained.},
+series = {CICLing},
+year = {2008},
+note = {\textbf{Best Paper Award}},
+url = {http://www.springerlink.com/content/xp70kw14w0054541/},
+pdf = {./content/mohan_cicling_2008.pdf},
+papertype = {cpaper},
+} 
 
-                                                        <h4 class="pubtitle">Acquiring Grounded Representations of Words with Situated Interactive Instruction</h4>
-                                                        <div class="pubauthor"><strong>Shiwali Mohan</strong>, Aaron H. Mininger, James R. Kirk, John E. Laird</div>
-                                                        <div class="pubcite"><span class="label label-success">Journal Paper</span> Advances in Cognitive Systems, Volume 2, 2012</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							  We present an approach for acquiring grounded representations of words from mixed-initiative, situated interactions with a human instructor. The work focuses on the acquisition of diverse types of knowledge including perceptual, semantic, and procedural knowledge along with learning grounded meanings. Interactive learning allows the agent to control its learning by requesting instructions about unknown concepts, making learning efficient. Our approach has been instantiated in Soar and has been evaluated on a table-top robotic arm capable of manipulating small objects.
-							</p> 
-                                                    </div>
-                                                </div>
-						
-						<div class="item mix cpaper" data-year="2012">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                            
-                                                            <a href="#" class="pubcollapse">
-                                                                <i class="icon-expand-alt"></i>
-                                                            </a>
-                                                            <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6495169" class="tooltips" title="External link" target="_blank">
-                                                                <i class="icon-external-link"></i>
-                                                            </a>
-                                                            <a href="./papers/joshi_ICTAI_2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                                <i class="icon-cloud-download"></i>
-                                                            </a>
-                                                            
-                                                        </div>
+					    @inproceedings{Mohan2007,
+author = {Niladri Chatterjee and Shiwali Mohan},
+title = {Extraction-Based Single-Document Summarization Using Random Indexing},
+booktitle ={Proceeding of the 19th IEEE International Conference on Tools with Artificial Intelligence},
+abstract = {This paper presents a summarization technique for text documents exploiting the semantic similarity between sentences to remove the redundancy from the text. Semantic similarity scores are computed by mapping the sentences on a semantic space using Random Indexing. Random Indexing, in comparison with other semantic space algorithms, presents a computationally efficient way of implicit dimensionality reduction. It involves inexpensive vector computations such as addition. It thus provides an efficient way to compute similarities between words, sentences and documents. Random Indexing has been used to compute the semantic similarity scores of sentences and graph-based ranking algorithms have been employed to produce an extract of the given text.},
+year = {2007},
+url ={http://www.computer.org/portal/web/csdl/doi/10.1109/ICTAI.2007.28},
+pdf ={./content/mohan_ictai.pdf},
+papertype = {cpaper},
+					    }
 
-                                                        <h4 class="pubtitle">Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario.</h4>
-                                                        <div class="pubauthor">Mandar Joshi, Rakesh Khobragade, Saurabh Sarda, Umesh Deshpande, <strong>Shiwali Mohan</strong>.</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span>In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence. 2012</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							</p> 
-                                                    </div>
-                                                </div>
+					    
 
-											<div class="item mix cpaper" data-year="2012">
-                                                    <div class="pubmain">
-                                                        <div class="pubassets">
-                                                          <a href="#" class="pubcollapse">
-                                                            <i class="icon-expand-alt"></i>
-                                                          </a>
-                                                          <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6495169" class="tooltips" title="External link" target="_blank">
-                                                            <i class="icon-external-link"></i>
-                                                          </a>
-                                                          <a href="./papers/joshi_ICTAI_2012.pdf" class="tooltips" title="Download" target="_blank">
-                                                            <i class="icon-cloud-download"></i>
-                                                          </a>
-                                                        </div>
 
-                                                        <h4 class="pubtitle">Object-Oriented Representation and Hierarchical Reinforcement Learning in Infinite Mario.</h4>
-                                                        <div class="pubauthor">Mandar Joshi, Rakesh Khobragade, Saurabh Sarda, Umesh Deshpande, <strong>Shiwali Mohan</strong>.</div>
-                                                        <div class="pubcite"><span class="label label-warning">Conference Paper</span>In Proceedings of the 24th IEEE International Conference on Tools with Artificial Intelligence. 2012</div>
-                                                        
-                                                    </div>
-                                                    <div class="pubdetails">
-                                                        <h4>Abstract</h4>
-                                                        <p>
-							</p> 
-                                                    </div>
-                                                </div>
-						
-                                            </div>
+					  </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
