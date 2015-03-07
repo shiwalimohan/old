@@ -208,5 +208,4 @@ function displayBibTex(element,id)
     $('#b2').click(function(){
        	$('div#bib-display').mixitup('filter','year:desc');
     });
-
 };
