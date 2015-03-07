@@ -513,8 +513,8 @@ ul.ul-dates-gray div.dates span:first-child,ul.ul-dates div.dates span:first-chi
 
 ul.ul-dates div.content,ul.ul-dates-gray div.content {
 	margin-left: 90px;
-	min-height: 70px;
-	padding-top: 10px;
+	min-height: 80px;
+	padding-top: 5px;
 }
 
 ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
