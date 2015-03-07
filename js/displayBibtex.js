@@ -1,7 +1,6 @@
 function displayBibTex(element,id)
 {
    
-    
     var hashLabel= {"jpaper":"label-success",
 		    "cpaper":"label-warning",
 		    "wpaper":"label-info",
