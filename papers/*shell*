@@ -446,4 +446,109 @@ bash-3.2$ git push origin HEAD:new-website
 Total 0 (delta 0), reused 0 (delta 0)
 To git@github.com:shiwalimohan/shiwalimohan.github.com.git
    e3dcaf2..6b852f7  HEAD -> new-website
+bash-3.2$ git add .
+bash-3.2$ git commit -m "removed carousel"
+[master 698d6db] removed carousel
+ 2 files changed, 449 insertions(+), 1 deletion(-)
+ create mode 100644 papers/*shell*
+bash-3.2$ cd ../
+bash-3.2$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+bash-3.2$ cd shiwalimohan.github.com/
+bash-3.2$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 3.91 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   6b852f7..698d6db  master -> master
+bash-3.2$ git add .
+bash-3.2$ git commit -m "fixed parsing error"
+[master 9266c16] fixed parsing error
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+bash-3.2$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:new-website
+
+To push to the branch of the same name on the remote, use
+
+    git push origin master
+
+bash-3.2$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   698d6db..9266c16  master -> master
+bash-3.2$ git pull
+remote: Counting objects: 12, done.        
+remote: Compressing objects: 100% (12/12), done.        
+remote: Total 12 (delta 7), reused 0 (delta 0), pack-reused 0        
+Unpacking objects: 100% (12/12), done.
+From github.com:shiwalimohan/shiwalimohan.github.com
+   6b852f7..7e3efac  new-website -> origin/new-website
+   9266c16..4d5cf0e  master     -> origin/master
+Already up-to-date!
+error: Terminal is dumb, but EDITOR unset
+Not committing merge; use 'git commit' to complete the merge.
+bash-3.2$ cp js/displayBibtex.js .
+bash-3.2$ git add .
+bash-3.2$ git commit -m "moved display bibtex"
+[master f76ed77] moved display bibtex
+bash-3.2$ git push origin master
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:shiwalimohan/shiwalimohan.github.com.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+bash-3.2$ git pull
+Already up-to-date.
+bash-3.2$ git checkout -b master
+fatal: A branch named 'master' already exists.
+bash-3.2$ git checkout mastr
+error: pathspec 'mastr' did not match any file(s) known to git.
+bash-3.2$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/new-website' by 3 commits.
+  (use "git push" to publish your local commits)
+bash-3.2$ git pull
+Already up-to-date.
+bash-3.2$ git pull
+error: Terminal is dumb, but EDITOR unset
+Not committing merge; use 'git commit' to complete the merge.
+bash-3.2$ git commit
+error: Terminal is dumb, but EDITOR unset
+Please supply the message using either -m or -F option.
+bash-3.2$ git commit -m "merged"
+[master 8171b97] merged
+bash-3.2$ git pull
+Already up-to-date.
+bash-3.2$ git push
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 565 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   4d5cf0e..8171b97  master -> master
+bash-3.2$ git add .
+bash-3.2$ git commit -m "moved bib"
+[master a893aa5] moved bib
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git push
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   8171b97..a893aa5  master -> master
 bash-3.2$ 
