@@ -551,4 +551,81 @@ Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 To git@github.com:shiwalimohan/shiwalimohan.github.com.git
    8171b97..a893aa5  master -> master
+bash-3.2$ git rm displayBibtex.js 
+error: the following file has local modifications:
+    displayBibtex.js
+(use --cached to keep the file, or -f to force removal)
+bash-3.2$ git rm displayBibtex.js -f
+rm 'displayBibtex.js'
+bash-3.2$ git add .
+bash-3.2$ git commit -m "move js back"
+[master 0db2def] move js back
+ 4 files changed, 130 insertions(+), 215 deletions(-)
+ delete mode 100644 displayBibtex.js
+ create mode 100644 temp.org
+bash-3.2$ git push
+Counting objects: 15, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 2.17 KiB | 0 bytes/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   a893aa5..0db2def  master -> master
+bash-3.2$ git rm temp.org 
+rm 'temp.org'
+bash-3.2$ git push
+Everything up-to-date
+bash-3.2$ git commit -m "removed temp"
+[master 8b85c3d] removed temp
+ 1 file changed, 22 deletions(-)
+ delete mode 100644 temp.org
+bash-3.2$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 228 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   0db2def..8b85c3d  master -> master
+bash-3.2$ git add. 
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+bash-3.2$ git add .
+bash-3.2$ git commit -m "fixed typo"
+[master cb7b6ad] fixed typo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git push
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   8b85c3d..cb7b6ad  master -> master
+bash-3.2$ git add .
+bash-3.2$ git commit -m "added interests"
+[master 9e9e7ae] added interests
+ 2 files changed, 13 insertions(+), 15 deletions(-)
+bash-3.2$ git push
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 734 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   cb7b6ad..9e9e7ae  master -> master
+bash-3.2$ git add .
+bash-3.2$ git commit -m "updated interests"
+[master 5653690] updated interests
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git push
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:shiwalimohan/shiwalimohan.github.com.git
+   9e9e7ae..5653690  master -> master
 bash-3.2$ 
