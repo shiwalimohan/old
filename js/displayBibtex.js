@@ -116,11 +116,13 @@ function displayBibTex(element,id)
         if(author.indexOf("Shiwali")!=-1){
 	    author = author.bold();
  	}
-	authors = authors+author+",";
-	author = bibtex.data[i]['author'][j+1]['first']+" "+bibtex.data[i]['author'][j+1]['last'];
-        if(author.indexOf("Shiwali")!=-1){
-	    author = author.bold();
- 	}
+	if (bibtex.data[i]['author'].length >= 2){
+	    authors = authors+author+",";
+	    author = bibtex.data[i]['author'][j+1]['first']+" "+bibtex.data[i]['author'][j+1]['last'];
+            if(author.indexOf("Shiwali")!=-1){
+		author = author.bold();
+ 	    }}
+
 	authors = authors+author+".";
 	//		pub.innerHTML = authors;
 
