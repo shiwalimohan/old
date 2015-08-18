@@ -3,7 +3,6 @@
 \#*
 \.*
 *.aux
-*.tex
 *.blg
 *.log
 *.bbl
