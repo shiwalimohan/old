@@ -40,7 +40,7 @@ function displayBibTex(element,id)
     	collapse.setAttribute("href", "#");
     	collapse.setAttribute("class","pubcollapse");
     	var iconCollapse = document.createElement("i");
-    	iconCollapse.setAttribute("class","icon-expand-alt");
+    	iconCollapse.setAttribute("class","fa fa-plus");
     	collapse.appendChild(iconCollapse);
     	assets.appendChild(collapse);
 
@@ -51,7 +51,7 @@ function displayBibTex(element,id)
 	    poster.setAttribute("title", "poster")
 	    poster.setAttribute("target", "_blank");
 	    var posterIcon = document.createElement("i");
-	    posterIcon.setAttribute("class","icon-sitemap");
+	    posterIcon.setAttribute("class","fa fa-sitemap");
 	    poster.appendChild(posterIcon);
 	    assets.appendChild(poster);
 	}
@@ -64,7 +64,7 @@ function displayBibTex(element,id)
 	    talk.setAttribute("title", "talk")
 	    talk.setAttribute("target", "_blank");
 	    var talkIcon = document.createElement("i");
-	    talkIcon.setAttribute("class","icon-sitemap");
+	    talkIcon.setAttribute("class","fa fa-sitemap");
 	    talk.appendChild(talkIcon);
 	    assets.appendChild(talk);
 	}
@@ -77,7 +77,7 @@ function displayBibTex(element,id)
 	    link.setAttribute("title", "external link"),
 	    link.setAttribute("target", "_blank");
 	    var linkIcon = document.createElement("i");
-	    linkIcon.setAttribute("class","icon-external-link");
+	    linkIcon.setAttribute("class","fa fa-external-link");
 	    link.appendChild(linkIcon);
 	    assets.appendChild(link);
 	}
@@ -90,7 +90,7 @@ function displayBibTex(element,id)
 	    download.setAttribute("title", "download")
 	    download.setAttribute("target", "_blank");
 	    var downloadIcon = document.createElement("i");
-	    downloadIcon.setAttribute("class","icon-cloud-download");
+	    downloadIcon.setAttribute("class","fa fa-cloud-download");
 	    download.appendChild(downloadIcon);
 	    assets.appendChild(download);
 	}
@@ -188,9 +188,9 @@ function displayBibTex(element,id)
 	    $item = $this.closest(".item");
 	
 	$item.find('div.pubdetails').slideToggle(function(){
-	    $this.children("i").toggleClass('icon-collapse-alt icon-expand-alt');
+	    $this.children("i").toggleClass('fa fa-collapse-alt fa fa-expand-alt');
 	},function(){
-	    $this.children("i").toggleClass('icon-expand-alt icon-collapse-alt');
+	    $this.children("i").toggleClass('fa fa-expand-alt fa fa-collapse-alt');
 	});
     });
     
