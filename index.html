@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link id="theme-style" rel="stylesheet" href="css/styles/blue.css">
+    <link rel="stylesheet" href="css/icons/academicons.css"/>
 
     <!--/CSS styles-->
     <!--Javascript files-->
@@ -114,8 +115,14 @@
               </li>
 	      <li class="external">
                 <a href="https://scholar.google.com/citations?hl=en&user=EYWzxPIAAAAJ" target="_blank">
-                  <div class="icon fa fa-google"></div>
+                  <div class="icon ai ai-google-scholar ai-3x"></div>
                   <div class="text">Google Scholar</div>
+                </a>
+              </li>
+	      <li class="external">
+                <a href="https://www.researchgate.net/profile/Shiwali_Mohan" target="_blank">
+                  <div class="icon ai ai-researchgate ai-3x"></div>
+                  <div class="text">ResearchGate</div>
                 </a>
               </li>
 	      <li class="external">
@@ -192,31 +199,32 @@
                       <li>
 		
                         <div class="dy col-sm-12 col-md-8">
-                          <span class="year">October 2016 </span>
+                          <span class="year">Feb 2017 </span>
                         </div>
                         <div class="description">
-                          <p class="waht">New Publication: IAAI 2017</p>  
-                          <p class="where">On Designing a Social Coach to Promote Regular Aerobic Exercise </p>
+                          <p class="waht">New Publication: HAAI 2017</p>  
+                          <p class="where">Health Behavior Coaching: A Motivating Domain for Human-Aware Artificial Intelligence Research</p>
                         </div>
 		
                       </li>
 		      <li>
                         <div class="dy">
-                          <span class="year">June 2016</span>
+                          <span class="year">Feb 2017</span>
                         </div>
                         <div class="description">
-                          <p class="waht">New Publication: EMBS 2016</p>
-                          <p class="where">Acceptability of a Team-based Mobile Health (mHealth) Application for Lifestyle Self-Management in Individuals with Chronic Illnesses.</p>
+			  <p class="waht">New Publication: IAAI 2017</p>  
+                          <p class="where">On Designing a Social Coach to Promote Regular Aerobic Exercise </p>
+                          
                         </div>
                       </li>
 		      <li>
                         <div class="dy">
-			  <span class="year">May 2016 </span>
+			  <span class="year">June 2016 </span>
                         </div>
                         <div class="description">
-                          <p class="waht">New Publication: ACS 2016</p>  
-                          <p class="where">Architectural Mechanisms for Mitigating Uncertainty during Long-Term Declarative Knowledge Access</p>
-                        </div>
+			  <p class="waht">New Publication: EMBS 2016</p>
+                          <p class="where">Acceptability of a Team-based Mobile Health (mHealth) Application for Lifestyle Self-Management in Individuals with Chronic Illnesses.</p>
+                               </div>
                       </li>
                     </ul>
 
@@ -389,7 +397,7 @@
                           <div class="col-sm-6 col-md-9">
                             <div class="meta">
                               <h3>Socio-cognitive Agents for Behavior Change</h3>
-			      <p><strong>Collaborators</strong>: Anusha Venkatakrishnan, Peter Pirolli, Danny Bobow, Ashwin Ram
+			      <p><strong>Collaborators</strong>: Anusha Venkatakrishnan, Peter Pirolli
 				</p>
                             </div>
                           </div>
@@ -410,10 +418,8 @@
                           </div>
                           <div class="col-sm-6 col-md-9">
                             <div class="meta">
-                              <h3>Xi</h3>
-                              <p>an artificial
-                                call
-                                center agent.</p>
+                              <h3>TransNet</h3>
+                              <p></p>
                             </div>
                           </div>
                         </div>
@@ -654,31 +660,25 @@
 		      </div>
 		      <div class="bib" id="bib_publi" style="display:
 							     none;">
+
+			@inproceedings{Mohan2017b,
+			author = {Shiwali Mohan and Anusha Venkatakrishnan and Danny Bobrow and Peter Pirolli},
+			title = {Health Behavior Coaching: A Motivating Domain for Human-Aware Artificial Intelligence Research},
+			booktitle = {In the Workshop on Human-Aware Artificial Intelligence, AAAI 2017},
+			year = {2017},
+			abstract = {Human-agent interaction has been studied for a while in AI research. However, very little attention has been paid to developing methods that are human-aware-that can model, reason about, and make decisions based on changes in human physiological, cognitive, and affec-tive states. We argue that health behavior coaching is a domain that requires an agent to be human-aware, in order to be effective and therefore, is a fruitful domain to pursue. We have delineated a set of desiderata for agents that can coach people to develop healthy behaviors. This set results from our ongoing work on developing AFYA (Mohan et al. 2017)-an interactive coach that resides in a smartphone app and coaches people exercise more. This paper describes each desiderata, the challenge it poses to AI research, and provides examples from our work demonstrating how it can be met.},
+			papertype = {cpaper},
+			pdf = {./content/health-behavior-coaching.pdf},
+			
+			}
 			@inproceedings{Mohan2017,
 			author = {Shiwali Mohan and Anusha Venkatakrishnan and Michael Silva and Peter Pirolli},
 			title = {On Designing a Social Coach to Promote Regular Aerobic Exercise.},
 			booktitle = {Proceedings of the 29th Annual Conference on Innovative Applications of Artificial Intelligence/AAAI},
 			year = {2017},
-			abstract = {Our research aims at developing interactive, social agents that
-can coach people to learn new tasks, skills, and habits. In this
-paper, we focus on coaching sedentary, overweight individuals
-to exercise regularly. We employ adaptive goal setting in
-which the coach generates, tracks, and revises personalized
-exercise goals for a trainee. The goals become incrementally
-more difficult as the trainee progresses through the training
-program. Our approach is model-based - the coach maintains
-a parameterized model of the trainee’s aerobic capability that
-drives its expectation of the trainee’s performance. The model
-is continually revised based on interactions with the trainee.
-The coach is embodied in a smartphone application which
-serves as a medium for coach-trainee interaction. We show
-that our approach can adapt the trainee program not only to
-several trainees with different capabilities but also to how a
-trainee’s capability improves as they begin to exercise more.
-Experts rate the goals selected by the coach better than other
-plausible goals, demonstrating that our approach is effective.},
+			abstract = {Our research aims at developing interactive, social agents that can coach people to learn new tasks, skills, and habits. In this paper, we focus on coaching sedentary, overweight individuals to exercise regularly. We employ adaptive goal setting in which the coach generates, tracks, and revises personalized exercise goals for a trainee. The goals become incrementally more difficult as the trainee progresses through the training program. Our approach is model-based - the coach maintains a parameterized model of the trainee’s aerobic capability that drives its expectation of the trainee’s performance. The model is continually revised based on interactions with the trainee. The coach is embodied in a smartphone application which serves as a medium for coach-trainee interaction. We show that our approach can adapt the trainee program not only to several trainees with different capabilities but also to how a trainee’s capability improves as they begin to exercise more. Experts rate the goals selected by the coach better than other plausible goals, demonstrating that our approach is effective.},
 			papertype = {cpaper},
-			
+			pdf = {./content/designing-social-coach.pdf},
 			}
 			@inproceedings{Li2016,
 			author = {Justin Li and Steven Jones and Shiwali Mohan and Nate Derbinksy},
