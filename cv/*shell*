@@ -1,0 +1,1787 @@
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 87--88
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 123--124
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--149
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 151--161
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1])
+Runaway argument?
+{Conference Proceedings \par \begin {enumerate}[label=\lbrack C\arabic \ETC.
+! File ended while scanning use of \textbf .
+<inserted text> 
+                \par 
+<*> cv.tex
+          
+? 
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+Output written on cv.pdf (1 page).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1])
+Runaway argument?
+{Conference Proceedings \par \begin {enumerate}[label=\lbrack C\arabic \ETC.
+! File ended while scanning use of \textbf .
+<inserted text> 
+                \par 
+<*> cv.tex
+          
+? 
+! Emergency stop.
+<inserted text> 
+                \par 
+<*> cv.tex
+          
+Output written on cv.pdf (1 page).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+! Undefined control sequence.
+<recently read> \tetbf 
+                       
+l.90                   \item \tetbf
+                                   {Shiwali Mohan}, Anusha Venkatakrishnan, ...
+
+? 
+
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 92--93
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 127--128
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 145--153
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+
+[4] )
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ 
+bash: parse_git_branch: command not found
+smohan@snapple cv $ 
+bash: parse_git_branch: command not found
+smohan@snapple cv $ kb
+bash: kb: command not found
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 93--94
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 127--128
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 145--153
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 92--93
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 126--127
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 144--152
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--164
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 92--93
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 126--127
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 144--152
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--164
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 92--93
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 126--127
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 144--152
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--164
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 93--94
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 128--129
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 146--154
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--166
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 142--150
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
+
+[4] )
+(see the transcript file for additional information)
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+! Misplaced alignment tab character &.
+<argument> \sc Invited Talks &
+                               Panels
+l.141 \section{\sc Invited Talks & Panels}
+                                          
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--161
+
+[4] )
+Output written on cv.pdf (4 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+! Misplaced alignment tab character &.
+<argument> \sc Invited Talks &
+                               Panels
+l.141 \section{\sc Invited Talks & Panels}
+                                          
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+
+[4] [5] )
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+! Misplaced alignment tab character &.
+<argument> \sc Invited Talks &
+                               Panels
+l.141 \section{\sc Invited Talks & Panels}
+                                          
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+
+[4] [5] )
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+! Misplaced alignment tab character &.
+<argument> \sc Invited Talks &
+                               Panels
+l.141 \section{\sc Invited Talks & Panels}
+                                          
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+
+[4] [5] )
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 150--160
+
+[4] [5] )
+(see the transcript file for additional information)
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
+
+[4] [5] )
+(see the transcript file for additional information)
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Overfull \hbox (0.13034pt too wide) in paragraph at lines 142--149
+\EU1/LinuxLibertineO(0)/m/it/10.95 Learning Hierarchical Tasks with Situated In
+teractive Instruction\EU1/LinuxLibertineO(0)/m/n/10.95 , USC Institute for Crea
+tive Tech-
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
+
+[4] [5] )
+(see the transcript file for additional information)
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ xelatex cv.tex
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./cv.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./res.cls
+Document Style `res' <26 Sep 89>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo))
+No auxiliary output files.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def))))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+No file cv.aux.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+Overfull \hbox (104.72377pt too wide) in paragraph at lines 24--30
+[][] 
+
+Overfull \hbox (1.80573pt too wide) in paragraph at lines 67--68
+\EU1/LinuxLibertineO(0)/m/n/10.95 Mitchell, \EU1/LinuxLibertineO(0)/bx/n/10.95 
+Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Michael Spranger, S Stevenson,
+ Andrea Stocco, Gregory Trafton.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def)
+[1]
+Overfull \hbox (3.57231pt too wide) in paragraph at lines 96--97
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Andrea L Hartzler, Anusha Venkatakrishnan, 
+\EU1/LinuxLibertineO(0)/bx/n/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.
+95 , Michael Silva, Paula Lozano,
+[2]
+Overfull \hbox (3.39436pt too wide) in paragraph at lines 130--131
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Peter Pirolli, \EU1/LinuxLibertineO(0)/bx/n
+/10.95 Shiwali Mohan\EU1/LinuxLibertineO(0)/m/n/10.95 , Rong Yang, Anusha Venka
+takrishnan, Michael Silva, Michael
+[3]
+Overfull \hbox (0.13034pt too wide) in paragraph at lines 142--149
+\EU1/LinuxLibertineO(0)/m/it/10.95 Learning Hierarchical Tasks with Situated In
+teractive Instruction\EU1/LinuxLibertineO(0)/m/n/10.95 , USC Institute for Crea
+tive Tech-
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--164
+
+[4] [5] )
+(see the transcript file for additional information)
+Output written on cv.pdf (5 pages).
+Transcript written on cv.log.
+bash: parse_git_branch: command not found
+smohan@snapple cv $ 

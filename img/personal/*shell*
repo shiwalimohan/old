@@ -1,0 +1,31 @@
+bash-3.2$ ls
+contact-bg-1.png	lab			personal-image.tiff
+contact-bg-2.png	personal		pointer.png
+gallery			personal-image.jpg	pubs
+bash-3.2$ rm personal-image.tiff 
+bash-3.2$ mv personal-image.jpg personal-image.tiff
+bash-3.2$ cd gallery/
+bash-3.2$ ls
+400x300.png	450x600.png	600x600.png	800x600.png	900x600.png
+bash-3.2$ cd ../personal/
+bash-3.2$ ls
+awards100x100.png		personal-big.png		personal-image.jpg.backup
+personal-big.jpg		personal-image.jpg		personal-image.tiff
+bash-3.2$ rm -rf personal-image.tiff 
+bash-3.2$ rm -rf *
+bash-3.2$ ls
+bash-3.2$ cd ../
+bash-3.2$ ls
+contact-bg-1.png	gallery			personal		pointer.png
+contact-bg-2.png	lab			personal-image.tiff	pubs
+bash-3.2$ cd personal/
+bash-3.2$ ls
+bash-3.2$ cd ../
+bash-3.2$ cp personal-image.tiff personal/
+bash-3.2$ cd personal/
+bash-3.2$ ls
+personal-image.tiff
+bash-3.2$ ls
+personal-image.tiff
+bash-3.2$ mv personal-image.tiff personal-image.jpg
+bash-3.2$ 
