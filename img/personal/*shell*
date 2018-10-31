@@ -28,4 +28,36 @@ personal-image.tiff
 bash-3.2$ ls
 personal-image.tiff
 bash-3.2$ mv personal-image.tiff personal-image.jpg
+bash-3.2$ pwd
+/Users/smohan/Misc/shiwalimohan.github.com/img/personal
+bash-3.2$ cd ../../
+bash-3.2$ ls
+CNAME		css		img		js
+content		cv		index.html	resume
+bash-3.2$ git add .
+bash-3.2$ git commit -m "website update"
+[master 48f22b5] website update
+ 15 files changed, 2050 insertions(+), 333 deletions(-)
+ create mode 100644 cv/*shell*
+ rewrite cv/ShiwaliMohanCV.pdf (98%)
+ create mode 100644 cv/ShiwaliMohanCV2017.pdf
+ rewrite cv/cv.pdf (97%)
+ rewrite cv/cv.tex (86%)
+ rewrite img/personal-image.tiff (71%)
+ create mode 100644 img/personal/*shell*
+ delete mode 100755 img/personal/awards100x100.png
+ delete mode 100644 img/personal/personal-big.jpg
+ delete mode 100644 img/personal/personal-big.png
+ rewrite img/personal/personal-image.jpg (71%)
+ delete mode 100644 img/personal/personal-image.jpg.backup
+ delete mode 100644 img/personal/personal-image.tiff
+bash-3.2$ git push
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 2.40 MiB | 192.00 KiB/s, done.
+Total 14 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.        
+To github.com:shiwalimohan/shiwalimohan.github.com.git
+   7026b2f..48f22b5  master -> master
 bash-3.2$ 
