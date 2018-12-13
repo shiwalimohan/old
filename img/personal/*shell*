@@ -60,4 +60,8 @@ Total 14 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas: 100% (5/5), completed with 5 local objects.        
 To github.com:shiwalimohan/shiwalimohan.github.com.git
    7026b2f..48f22b5  master -> master
+bash-3.2$ xelatex cv.tex
+bash: xelatex: command not found
+bash-3.2$ pdflatex cv.tex
+bash: pdflatex: command not found
 bash-3.2$ 
