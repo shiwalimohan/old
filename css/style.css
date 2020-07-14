@@ -30,7 +30,7 @@
 }
 
 body {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
 	background: #4D4D4D;
@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	width: 250px;
+	width: 300px;
 	background: #2b2b2b;
 	position: absolute;
 	left: 0;
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #main {
 	position: absolute;
-	left: 250px;
+	left: 300px;
 	right: 0;
 	top: 0;
 	bottom: 0;
@@ -169,14 +169,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .title h2 {
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: 300;
 	color: #fff;
 	margin: 20px 0 10px 0;
 }
 
 #profile .title h3 {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 300;
 	color: #aaa;
 	margin: 0px 0 10px 0;
@@ -204,7 +204,7 @@ ul#navigation li {
 
 ul#navigation li a {
 	color: #ccc;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 ul#navigation li:hover,ul#navigation li:focus {
@@ -258,9 +258,9 @@ ul#navigation li .icon {
 	width: 100%;
 	background: #202020;
 	border-top: 1px solid #1A1A1A;
-	width: 250px;
+	width: 300px;
 	z-index: 2;
-	height: 45px;
+	height: 50px;
 }
 
 .social-icons ul {
@@ -285,7 +285,7 @@ ul#navigation li .icon {
 }
 
 .social-icons i {
-	font-size: 16px;
+	font-size: 24px;
 }
 
 /* page specifics
@@ -439,7 +439,7 @@ color: white;
 }
 
 ul.ul-card li .dy span {
-	padding: 7px 10px;
+	padding: 7px 12px;
 	line-height: 30px;
 	margin: 0;
 }
@@ -452,17 +452,17 @@ ul.ul-card li .dy .year {
 	/*background-color: #03cc85;*/
 	-webkit-box-shadow: -3px 0px 7px -3px rgba(68, 68, 68, 0.5);
 	box-shadow: -3px 0px 7px -3px rgba(68, 68, 68, 0.5);
-	margin-left: -3px !important;
+	margin-left: -5px !important;
 }
 
 ul.ul-card li .description p {
-	font-size: 16px;
+	font-size: 20px;
 	margin: 0;
 }
 
 ul.ul-card li .description p.where {
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* ul-dates
@@ -480,7 +480,7 @@ ul.ul-dates li,ul.ul-dates-gray li {
 
 ul.ul-dates div.dates,ul.ul-dates-gray div.dates {
 	float: left;
-	width: 75px;
+	width: 90px;
 }
 
 ul.ul-dates div.dates span,ul.ul-dates-gray div.dates span {
@@ -512,19 +512,19 @@ ul.ul-dates-gray div.dates span:first-child,ul.ul-dates div.dates span:first-chi
 }
 
 ul.ul-dates div.content,ul.ul-dates-gray div.content {
-	margin-left: 90px;
+	margin-left: 100px;
 	min-height: 80px;
 	padding-top: 5px;
 }
 
 ul.ul-dates div.content h4,ul.ul-dates-gray div.content h4 {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 20px;
 	margin-top: 0;
 }
 
 ul.ul-dates div.content p,ul.ul-dates-gray div.content p {
-	font-size: 13px;
+	font-size: 16px;
 }
 
 /* ul-timeline
