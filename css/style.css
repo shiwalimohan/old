@@ -36,9 +36,9 @@ body {
 	background: #4D4D4D;
 }
 
+
 a,a:hover,a:focus {
-	text-decoration: none;
-	outline: 0;
+	color: #5353B4;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	-ms-user-select: none;
 	user-select: none;
 	width: 300px;
-	background: #2b2b2b;
+	background: #29295F;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -191,7 +191,7 @@ ul#navigation li {
 	display: block;
 	float: none;
 	clear: both;
-	background: #303030;
+	background: #242455;
 	border-top: 1px solid #373737;
 	border-bottom: 1px solid #2B2B2B;
 
@@ -208,7 +208,7 @@ ul#navigation li a {
 }
 
 ul#navigation li:hover,ul#navigation li:focus {
-	background: #363636;
+	background: #3E3E6F;
 }
 
 ul#navigation li:hover a,ul#navigation li:focus a {
@@ -228,7 +228,7 @@ ul#navigation li.currentmenu a {
 }*/
 
 ul#navigation li.currentmenu {
-	background: #363636;
+	background: #3E3E6F;
 	border-top: 1px solid #3d3d3d;
 	border-bottom: 1px solid #252525;
 }
@@ -256,7 +256,7 @@ ul#navigation li .icon {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background: #202020;
+	background: #1C1C42;
 	border-top: 1px solid #1A1A1A;
 	width: 300px;
 	z-index: 2;
