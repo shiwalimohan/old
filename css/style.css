@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	width: 300px;
+	width: 250px;
 	background: #29295F;
 	position: absolute;
 	left: 0;
@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 
 #main {
 	position: absolute;
-	left: 300px;
+	left: 250px;
 	right: 0;
 	top: 0;
 	bottom: 0;
@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	width: 200px;
 	margin: 0 auto;
 	height: 200px;
-	border-radius: 10%;
+	border-radius: 50%;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -139,14 +139,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .title h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 300;
 	color: #fff;
 	margin: 20px 0 10px 0;
 }
 
 #profile .title h3 {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 300;
 	color: #aaa;
 	margin: 0px 0 10px 0;
@@ -228,7 +228,7 @@ ul#navigation li .icon {
 	width: 100%;
 	background: #1C1C42;
 	border-top: 1px solid #1A1A1A;
-	width: 300px;
+	width: 250px;
 	z-index: 2;
 	height: 50px;
 }
