@@ -1,41 +1,11 @@
 /* General styles
  **************************************************/
- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 300;
-	src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
-}
-
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
-}
-
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 900;
-	src: local('Lato Black'), local('Lato-Black'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');
-}
-
-@font-face {
-	font-family: 'Lato';
-	font-style: italic;
-	font-weight: 400;
-	src: local('Lato Italic'), local('Lato-Italic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
-}
-
 body {
 	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
 	background: #4D4D4D;
 }
-
 
 a,a:hover,a:focus {
 	color: #5353B4;
@@ -50,7 +20,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 .mobilemenu {
 	position: fixed;
 	top: 0px;
-	left: 0;
+	left: 0px;
 	right: 0;
 	z-index: 1002;
 	font-size: 30px;
